@@ -1,0 +1,74 @@
+/* Hero-блок на главной */
+.hero {
+  text-align: center;
+  padding: 2.5rem 1rem 2rem;
+  margin: -0.6rem -0.8rem 1.5rem;
+  border-radius: 0.4rem;
+  background: linear-gradient(135deg, var(--md-primary-fg-color) 0%, #303f9f 100%);
+  color: var(--md-primary-bg-color);
+  animation: hero-fade-in 0.6s ease-out;
+}
+
+.hero h1 {
+  color: var(--md-primary-bg-color);
+  margin-top: 0;
+}
+
+.hero .md-button {
+  margin: 0.3rem;
+}
+
+.hero .md-button--primary {
+  background-color: var(--md-primary-bg-color);
+  color: var(--md-primary-fg-color);
+  border-color: var(--md-primary-bg-color);
+}
+
+.hero .md-button:not(.md-button--primary) {
+  color: var(--md-primary-bg-color);
+  border-color: var(--md-primary-bg-color);
+}
+
+.hero .md-button:hover {
+  transform: translateY(-2px);
+  transition: transform 0.2s ease;
+}
+
+@keyframes hero-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Плавное появление карточек разделов */
+.grid.cards > ul > li,
+.grid.cards > ol > li {
+  animation: card-fade-in 0.5s ease-out backwards;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.grid.cards > ul > li:hover,
+.grid.cards > ol > li:hover {
+  transform: translateY(-4px);
+}
+
+.grid.cards > ul > li:nth-child(1) { animation-delay: 0.05s; }
+.grid.cards > ul > li:nth-child(2) { animation-delay: 0.1s; }
+.grid.cards > ul > li:nth-child(3) { animation-delay: 0.15s; }
+.grid.cards > ul > li:nth-child(4) { animation-delay: 0.2s; }
+
+@keyframes card-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

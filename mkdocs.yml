@@ -22,13 +22,16 @@ theme:
         name: Светлая тема
   features:
     - navigation.instant
+    - navigation.instant.progress
     - navigation.tracking
     - navigation.top
     - navigation.footer
+    - header.autohide
     - search.suggest
     - search.highlight
     - content.code.copy
     - content.code.annotate
+    - content.tooltips
     - toc.follow
   icon:
     repo: fontawesome/brands/github
@@ -36,6 +39,9 @@ theme:
 repo_url: https://github.com/iamrlufe/sysadmin-notes
 repo_name: iamrlufe/sysadmin-notes
 edit_uri: edit/main/docs/
+
+extra_css:
+  - stylesheets/extra.css
 
 nav:
   - Главная: index.md
@@ -63,7 +69,11 @@ markdown_extensions:
       permalink: true
       toc_depth: 3
   - attr_list
+  - md_in_html
   - footnotes
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 extra:
   social:
