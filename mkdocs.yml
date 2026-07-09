@@ -26,6 +26,8 @@ theme:
     - navigation.tracking
     - navigation.top
     - navigation.footer
+    - navigation.sections
+    - navigation.indexes
     - header.autohide
     - search.suggest
     - search.highlight
@@ -45,9 +47,16 @@ extra_css:
 
 nav:
   - Главная: index.md
-  - Заметки:
-      - notes/example-note.md
-      - notes/MicrosoftExcel-1C.md
+  - Linux:
+      - notes/linux/example-note.md
+  - Windows и ПО:
+      - notes/windows/MicrosoftExcel-1C.md
+  - Сети:
+      - notes/network/index.md
+  - Мониторинг:
+      - notes/monitoring/index.md
+  - Файлы и утилиты:
+      - notes/files/index.md
 
 plugins:
   - search:
