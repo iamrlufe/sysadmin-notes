@@ -41,6 +41,7 @@ nav:
   - Главная: index.md
   - Заметки:
       - notes/example-note.md
+      - notes/MicrosoftExcel-1C.md
 
 plugins:
   - search:
