@@ -11,6 +11,12 @@ mkdocs serve
 
 Открыть http://127.0.0.1:8000
 
+Проверка перед пушем (та же строгая сборка, что и на Cloudflare):
+
+```bash
+mkdocs build --strict
+```
+
 ## Деплой на Cloudflare Pages
 
 ### 1. Создать репозиторий на GitHub
@@ -36,7 +42,7 @@ git push -u origin main
 2. Выбрать репозиторий `sysadmin-notes`.
 3. Настройки сборки:
    - Framework preset: None
-   - Build command: `pip install -r requirements.txt && mkdocs build`
+   - Build command: `pip install -r requirements.txt && mkdocs build --strict`
    - Build output directory: `site`
 4. Save and Deploy.
 
@@ -46,14 +52,44 @@ Cloudflare сам подберёт Python. Если сборка не найдё
 
 Свой домен подключается там же: Custom domains → Set up a domain.
 
+## Структура заметок
+
+Заметки лежат по разделам в `docs/notes/`:
+
+```text
+docs/
+├── index.md                 # главная
+├── tags.md                  # индекс тегов
+└── notes/
+    ├── linux/               # Linux
+    ├── windows/             # Windows и ПО
+    ├── network/             # Сети
+    ├── monitoring/          # Мониторинг
+    └── files/               # приложенные файлы и утилиты
+```
+
+В каждом разделе есть `index.md` — страница раздела со списком заметок.
+
 ## Как добавлять заметки
 
-1. Создать `docs/notes/имя-заметки.md`.
-2. Добавить строку в `nav` в `mkdocs.yml`:
+1. Создать файл в нужном разделе, например `docs/notes/linux/имя-заметки.md`.
+2. В начале файла указать теги:
+   ```yaml
+   ---
+   tags:
+     - Linux
+     - Диски
+   ---
+   ```
+3. Добавить файл в `nav` в `mkdocs.yml` в соответствующий раздел:
    ```yaml
    nav:
-     - Заметки:
-         - notes/example-note.md
-         - notes/имя-заметки.md
+     - Linux:
+         - notes/linux/index.md
+         - notes/linux/example-note.md
+         - notes/linux/имя-заметки.md
    ```
-3. `git add . && git commit -m "новая заметка" && git push`
+4. Добавить ссылку на заметку в `index.md` раздела.
+5. `git add . && git commit -m "новая заметка" && git push`
+
+Сборка идёт со `strict: true` — битая ссылка или файл, не попавший в `nav`, уронят деплой. Перед пушем можно проверить локально: `mkdocs build --strict`.
