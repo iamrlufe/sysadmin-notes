@@ -1,6 +1,6 @@
-site_name: Заметки сисадмина
-site_description: Проблемы и решения из повседневной работы системного администратора
-site_url: https://sysadmin-notes.pages.dev
+site_name: RLUFE.KZ
+site_description: "Практическая база знаний системного администратора: Windows Server, Linux, сети, мониторинг и инфраструктура"
+site_url: https://rlufe.kz
 
 # Битые ссылки и другие предупреждения роняют сборку, а не молча уходят в прод
 strict: true
