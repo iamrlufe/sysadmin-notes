@@ -58,6 +58,7 @@
   --md-primary-fg-color: #ffffff;
   --md-primary-bg-color: #172033;
   --md-accent-fg-color: #087f8c;
+  --md-typeset-a-color: #4051b5;
   --rlufe-surface: #ffffff;
   --rlufe-surface-strong: #ffffff;
 }
@@ -205,15 +206,15 @@ body {
 }
 
 .kb-hero__actions p {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  display: flex;
+  flex-wrap: wrap;
   gap: 0.55rem;
   margin: 0;
 }
 
 .kb-hero .md-button {
+  flex: 0 0 auto;
   margin: 0;
-  min-width: 0;
   padding-right: 0.75rem;
   padding-left: 0.75rem;
   border-radius: 0.45rem;
@@ -589,13 +590,13 @@ body {
     margin-top: 0.9rem;
   }
 
-  .kb-hero__actions > p {
-    grid-template-columns: 1fr;
+  .kb-hero__actions p {
+    flex-direction: column;
+    align-items: stretch;
     gap: 0.35rem;
   }
 
   .kb-hero__actions .md-button {
-    min-width: 0;
     padding: 0.55rem 0.7rem;
     text-align: center;
   }
