@@ -10,7 +10,7 @@ hide:
 
 <span class="kb-eyebrow">RLUFE.KZ / Sysadmin Knowledge Base</span>
 
-# Roman Lufer
+#  SysAdmin
 
 ## System Administrator Knowledge Base
 
