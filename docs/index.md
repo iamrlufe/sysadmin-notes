@@ -18,7 +18,7 @@ hide:
 Windows Server, Linux, Docker, MikroTik, VMware, 1С, SQL Server, Exchange и мониторинг.
 
 <div class="kb-hero__actions" markdown>
-[Начать читать](notes/windows/MicrosoftExcel-1C.md){ .md-button .md-button--primary }
+[Начать читать]({{ LATEST_NOTE_URL }}){ .md-button .md-button--primary }
 [Разделы](#sections){ .md-button }
 [GitHub](https://github.com/iamrlufe/sysadmin-notes){ .md-button }
 </div>
@@ -40,11 +40,11 @@ Windows Server, Linux, Docker, MikroTik, VMware, 1С, SQL Server, Exchange и м
 
 <section class="kb-stats" markdown>
 <div markdown>
-<strong>5</strong>
+<strong>{{ SECTIONS_COUNT }}</strong>
 <span>разделов</span>
 </div>
 <div markdown>
-<strong>2</strong>
+<strong>{{ NOTES_COUNT }}</strong>
 <span>готовые инструкции</span>
 </div>
 <div markdown>
@@ -116,17 +116,9 @@ Windows Server, Linux, Docker, MikroTik, VMware, 1С, SQL Server, Exchange и м
 ## Последние заметки
 
 <div class="kb-list" markdown>
-<a href="notes/windows/MicrosoftExcel-1C/" markdown>
-<span>Windows / 1С</span>
-<strong>Настройка DCOM для Microsoft Excel Application</strong>
-<em>Разрешения, Desktop-каталоги, проверка запуска Excel из службы 1С.</em>
-</a>
 
-<a href="notes/linux/example-note/" markdown>
-<span>Linux</span>
-<strong>Диск переполнен, а du не находит крупные файлы</strong>
-<em>Диагностика удаленных, но открытых файлов через lsof.</em>
-</a>
+{{ LATEST_NOTES }}
+
 </div>
 </div>
 

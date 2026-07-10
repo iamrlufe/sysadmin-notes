@@ -9,20 +9,18 @@ theme:
   name: material
   language: ru
   palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/weather-night
-        name: Тёмная тема
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
+    - scheme: slate
       primary: indigo
       accent: indigo
       toggle:
         icon: material/weather-sunny
         name: Светлая тема
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Тёмная тема
   features:
     - navigation.instant
     - navigation.instant.progress
@@ -44,6 +42,9 @@ theme:
 repo_url: https://github.com/iamrlufe/sysadmin-notes
 repo_name: iamrlufe/sysadmin-notes
 edit_uri: edit/main/docs/
+
+hooks:
+  - hooks/homepage_data.py
 
 extra_css:
   - stylesheets/extra.css

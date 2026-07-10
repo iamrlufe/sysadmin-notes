@@ -1,3 +1,8 @@
+---
+summary: Разрешения, Desktop-каталоги, проверка запуска Excel из службы 1С.
+section_label: Windows / 1С
+---
+
 # Настройка DCOM для Microsoft Excel Application (1С)
 
 Данная инструкция описывает настройку разрешений DCOM для компонента **Microsoft Excel Application**, используемого при автоматизации Microsoft Excel из **1С**.

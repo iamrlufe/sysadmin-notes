@@ -9,8 +9,11 @@
   --rlufe-amber: #f59e0b;
   --rlufe-red: #ef4444;
   --rlufe-violet: #8b5cf6;
+  --rlufe-blue: #4f9cf9;
   --rlufe-hero-bg:
-    linear-gradient(180deg, #ffffff 0%, #ffffff 100%);
+    radial-gradient(circle at 18% 12%, rgba(18, 181, 203, 0.1), transparent 32%),
+    radial-gradient(circle at 86% 24%, rgba(54, 179, 126, 0.08), transparent 36%),
+    linear-gradient(180deg, #ffffff 0%, #f7fafc 100%);
   --rlufe-hero-fg: #172033;
   --rlufe-hero-muted: #526173;
   --rlufe-hero-accent: #087f8c;
@@ -201,7 +204,7 @@ body {
   margin-top: 1.3rem;
 }
 
-.kb-hero__actions > p {
+.kb-hero__actions p {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 0.55rem;
@@ -420,7 +423,7 @@ body {
   font-weight: 700;
 }
 
-.kb-card--windows { --card-accent: #4f9cf9; }
+.kb-card--windows { --card-accent: var(--rlufe-blue); }
 .kb-card--linux { --card-accent: var(--rlufe-green); }
 .kb-card--network { --card-accent: var(--rlufe-cyan); }
 .kb-card--monitoring { --card-accent: var(--rlufe-amber); }
@@ -614,5 +617,30 @@ body {
 
   .kb-card {
     min-height: auto;
+  }
+}
+
+.kb-card:focus-visible,
+.kb-list a:focus-visible {
+  outline: 2px solid var(--card-accent, var(--rlufe-cyan));
+  outline-offset: 2px;
+}
+
+.kb-hero .md-button:focus-visible {
+  outline: 2px solid var(--rlufe-hero-accent);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .kb-card,
+  .kb-list a,
+  .kb-hero .md-button {
+    transition: none;
+  }
+
+  .kb-card:hover,
+  .kb-list a:hover,
+  .kb-hero .md-button:hover {
+    transform: none;
   }
 }
