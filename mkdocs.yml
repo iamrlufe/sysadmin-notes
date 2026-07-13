@@ -62,6 +62,7 @@ nav:
   - Windows и ПО:
       - notes/windows/index.md
       - notes/windows/MicrosoftExcel-1C.md
+      - notes/windows/lanPublic.md
   - Сети:
       - notes/network/index.md
       - notes/network/dh.md

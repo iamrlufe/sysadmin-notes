@@ -1,0 +1,87 @@
+{
+  "hooks/homepage_data.py": {
+    "mtime": 1783931153.893316,
+    "ast_hash": "db550d00eff2d2b3cd10aa36135fa5b8",
+    "semantic_hash": "db550d00eff2d2b3cd10aa36135fa5b8"
+  },
+  "CLAUDE.md": {
+    "mtime": 1783935639.4801953,
+    "ast_hash": "82efb97a359f5c7290bf2513d14686be",
+    "semantic_hash": "82efb97a359f5c7290bf2513d14686be"
+  },
+  "README.md": {
+    "mtime": 1783924741.4106152,
+    "ast_hash": "f130a5e72850c9bc7b984e609e3e5b57",
+    "semantic_hash": "f130a5e72850c9bc7b984e609e3e5b57"
+  },
+  "docs/index.md": {
+    "mtime": 1783931090.0980608,
+    "ast_hash": "8cd0084d0eb40ea1c506818fdd9cd0f3",
+    "semantic_hash": "8cd0084d0eb40ea1c506818fdd9cd0f3"
+  },
+  "docs/notes/files/index.md": {
+    "mtime": 1783605528.7878823,
+    "ast_hash": "5b1f3c444358766b8029075ff0b7acc5",
+    "semantic_hash": "5b1f3c444358766b8029075ff0b7acc5"
+  },
+  "docs/notes/linux/atUtility.md": {
+    "mtime": 1783925152.2634623,
+    "ast_hash": "bad3667aeabb22f4da3a14936f6b32aa",
+    "semantic_hash": "bad3667aeabb22f4da3a14936f6b32aa"
+  },
+  "docs/notes/linux/example-note.md": {
+    "mtime": 1783925158.722792,
+    "ast_hash": "f45f2341895eff9267f4c088fb39535a",
+    "semantic_hash": "f45f2341895eff9267f4c088fb39535a"
+  },
+  "docs/notes/linux/index.md": {
+    "mtime": 1783933760.8794074,
+    "ast_hash": "8a5dbdc7b05e6ec20a2f4ac6d42f3ade",
+    "semantic_hash": "8a5dbdc7b05e6ec20a2f4ac6d42f3ade"
+  },
+  "docs/notes/linux/queueAsterisk.md": {
+    "mtime": 1783933686.2547848,
+    "ast_hash": "4f8120acda9a7c6043f1f93dfcdb115f",
+    "semantic_hash": "4f8120acda9a7c6043f1f93dfcdb115f"
+  },
+  "docs/notes/monitoring/index.md": {
+    "mtime": 1783605525.4803712,
+    "ast_hash": "4831fc9af05b2f865067bb517cad09d9",
+    "semantic_hash": "4831fc9af05b2f865067bb517cad09d9"
+  },
+  "docs/notes/network/dh.md": {
+    "mtime": 1783925149.9388566,
+    "ast_hash": "55eefcf8b4e632c00f54a01b1515664a",
+    "semantic_hash": "55eefcf8b4e632c00f54a01b1515664a"
+  },
+  "docs/notes/network/index.md": {
+    "mtime": 1783924451.431695,
+    "ast_hash": "3acf82154b384bbc21737ae55055db7a",
+    "semantic_hash": "3acf82154b384bbc21737ae55055db7a"
+  },
+  "docs/notes/windows/MicrosoftExcel-1C.md": {
+    "mtime": 1783925160.6114275,
+    "ast_hash": "9030d4d1edc34b81b5fc9579b1e76dfd",
+    "semantic_hash": "9030d4d1edc34b81b5fc9579b1e76dfd"
+  },
+  "docs/notes/windows/index.md": {
+    "mtime": 1783580514.0,
+    "ast_hash": "7e4f9c4b536aef3cbe0b3b0bb3457d33",
+    "semantic_hash": "7e4f9c4b536aef3cbe0b3b0bb3457d33"
+  },
+  "docs/tags.md": {
+    "mtime": 1783580518.0,
+    "ast_hash": "3608ed43f8d77eb49b90f73e60dcbc93",
+    "semantic_hash": "3608ed43f8d77eb49b90f73e60dcbc93"
+  },
+  "mkdocs.yml": {
+    "mtime": 1783933760.879417,
+    "ast_hash": "45c86f965038ee0896b8bf6a7860c0c5",
+    "semantic_hash": "45c86f965038ee0896b8bf6a7860c0c5"
+  },
+  "requirements.txt": {
+    "mtime": 1783925140.7667053,
+    "ast_hash": "d1c9e625e96a4c1f51376ef48d4b178f",
+    "semantic_hash": "d1c9e625e96a4c1f51376ef48d4b178f"
+  }
+}
