@@ -58,6 +58,7 @@ nav:
       - notes/linux/index.md
       - notes/linux/example-note.md
       - notes/linux/atUtility.md
+      - notes/linux/queueAsterisk.md
   - Windows и ПО:
       - notes/windows/index.md
       - notes/windows/MicrosoftExcel-1C.md
