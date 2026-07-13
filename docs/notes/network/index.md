@@ -2,6 +2,6 @@
 
 Заметки про DNS, firewall, VPN и маршрутизацию.
 
-Пока здесь пусто — первая заметка появится в этом разделе.
+## Заметки раздела
 
-- [ Различия DH Group Mikrotik vs ScreenOS](dh.md)
+- [Различия DH Group: MikroTik vs Juniper ScreenOS](dh.md)

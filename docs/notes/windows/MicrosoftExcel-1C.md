@@ -1,6 +1,11 @@
 ---
+tags:
+  - Windows
+  - 1С
+  - DCOM
 summary: Разрешения, Desktop-каталоги, проверка запуска Excel из службы 1С.
 section_label: Windows / 1С
+date: 2026-07-10T08:43:09+08:00
 ---
 
 # Настройка DCOM для Microsoft Excel Application (1С)

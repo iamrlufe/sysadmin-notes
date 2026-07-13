@@ -38,25 +38,6 @@ Windows Server, Linux, Docker, MikroTik, VMware, 1С, SQL Server, Exchange и м
 </div>
 </section>
 
-<section class="kb-stats" markdown>
-<div markdown>
-<strong>{{ SECTIONS_COUNT }}</strong>
-<span>разделов</span>
-</div>
-<div markdown>
-<strong>{{ NOTES_COUNT }}</strong>
-<span>готовые инструкции</span>
-</div>
-<div markdown>
-<strong>RU</strong>
-<span>практическая база</span>
-</div>
-<div markdown>
-<strong>GitHub</strong>
-<span>деплой через Cloudflare</span>
-</div>
-</section>
-
 <section id="sections" class="kb-section" markdown>
 
 ## Разделы базы знаний

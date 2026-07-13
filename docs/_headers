@@ -1,0 +1,11 @@
+# Заголовки безопасности для Cloudflare Pages.
+# Файл копируется MkDocs из docs/ в site/, откуда его читает Cloudflare.
+# CSP подобрана под Material for MkDocs: инлайн-скрипты темы (переключение
+# палитры), Google Fonts и запрос статистики репозитория к api.github.com.
+
+/*
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self' https://api.github.com; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'self'

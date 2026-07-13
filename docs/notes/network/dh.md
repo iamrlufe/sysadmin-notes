@@ -1,3 +1,13 @@
+---
+tags:
+  - Сети
+  - VPN
+  - MikroTik
+summary: Таблица соответствия DH-групп между MikroTik RouterOS и Juniper SSG (ScreenOS) при настройке IPsec VPN.
+section_label: Сети
+date: 2026-07-13T13:10:41+08:00
+---
+
 # Сопоставление групп Diffie-Hellman в MikroTik и Juniper SSG
 
 При настройке IPsec VPN между **MikroTik RouterOS** и **Juniper SSG (ScreenOS)** можно столкнуться с разными названиями групп Diffie-Hellman.
