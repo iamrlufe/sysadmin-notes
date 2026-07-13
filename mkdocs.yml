@@ -8,6 +8,9 @@ strict: true
 theme:
   name: material
   language: ru
+  font:
+    text: Roboto
+    code: JetBrains Mono
   palette:
     - scheme: slate
       primary: indigo

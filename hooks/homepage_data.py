@@ -147,11 +147,13 @@ def on_page_markdown(markdown, page, config, files):
 
     latest_html = "\n\n".join(
         '<a href="{url}" markdown>\n'
+        "<time>{date}</time>\n"
         "<span>{section_label}</span>\n"
         "<strong>{title}</strong>\n"
         "<em>{summary}</em>\n"
         "</a>".format(
             url=html.escape(note["url"], quote=True),
+            date=datetime.date.fromtimestamp(note["mtime"]).isoformat(),
             section_label=html.escape(note["section_label"]),
             title=html.escape(note["title"]),
             summary=html.escape(note["summary"]),
