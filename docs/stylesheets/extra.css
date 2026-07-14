@@ -91,6 +91,24 @@ body {
   color: #172033;
 }
 
+/* Название сайта в шапке — моноширинное, как метка терминала */
+.md-header__topic:first-child {
+  font-family: var(--kb-mono);
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+/* Зелёный акцент на ссылках футера */
+.md-footer__link:hover,
+.md-footer__link:focus {
+  color: #4ade80;
+  opacity: 1;
+}
+
+.md-footer-meta .md-social__link:hover svg {
+  fill: #4ade80;
+}
+
 .md-main__inner {
   margin-top: 0;
 }
@@ -260,6 +278,73 @@ body {
   background: var(--term-green);
   vertical-align: -0.15rem;
   animation: kb-blink 1.1s steps(1) infinite;
+}
+
+/* --- Интерактивный режим терминала (включает terminal.js) --- */
+
+.kb-cmd--live {
+  display: flex;
+  align-items: baseline;
+  gap: 0.35rem;
+}
+
+.kb-term__body[data-kb-live] .kb-cmd--live .kb-cursor {
+  display: none;
+}
+
+.kb-term__input {
+  flex: 1;
+  min-width: 8rem;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  background: transparent;
+  color: var(--term-heading);
+  caret-color: var(--term-green);
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.kb-term__input::placeholder {
+  color: var(--term-faint);
+  opacity: 1;
+}
+
+.kb-term__entry {
+  margin: 0.3rem 0;
+}
+
+.kb-term .kb-term__out pre {
+  margin: 0.2rem 0 0.6rem;
+  padding: 0 0 0 1.2rem;
+  border: 0;
+  background: transparent;
+  color: var(--term-fg);
+  font-family: inherit;
+  font-size: inherit;
+  line-height: 1.7;
+  white-space: pre-wrap;
+}
+
+.kb-term__row {
+  margin: 0 0 0.1rem;
+  padding-left: 1.2rem;
+}
+
+.kb-term .kb-term__out a {
+  color: var(--term-blue);
+  text-decoration: none;
+}
+
+.kb-term .kb-term__out a:hover {
+  color: var(--term-green);
+  text-decoration: underline;
+}
+
+.kb-term__desc {
+  color: var(--term-muted);
 }
 
 @keyframes kb-blink {
@@ -452,6 +537,100 @@ body {
   font-size: 0.62rem;
 }
 
+/* ============================================================
+   Страницы разделов — в стиле терминальной главной
+   ============================================================ */
+
+.md-typeset .kb-sec-page h1 {
+  margin-bottom: 0.6rem;
+  color: var(--md-default-fg-color);
+  font-family: var(--kb-mono);
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.md-typeset .kb-sec-page h1::before {
+  content: "$ cd ./";
+  color: var(--kb-accent);
+  font-weight: 500;
+}
+
+.md-typeset .kb-sec-page > p {
+  max-width: 40rem;
+  color: var(--md-default-fg-color--light);
+  font-family: var(--kb-mono);
+  font-size: 0.72rem;
+  line-height: 1.7;
+}
+
+.md-typeset .kb-sec-page h2 {
+  margin: 1.8rem 0 0.4rem;
+  color: var(--md-default-fg-color);
+  font-family: var(--kb-mono);
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+
+.md-typeset .kb-sec-page h2::before {
+  content: "$ ls -la ./";
+  color: var(--kb-accent);
+  font-weight: 500;
+}
+
+.md-typeset .kb-sec-page ul {
+  display: grid;
+  gap: 0.5rem;
+  margin: 1rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.md-typeset .kb-sec-page ul li {
+  margin: 0;
+}
+
+.md-typeset .kb-sec-page ul li a {
+  display: block;
+  padding: 0.7rem 0.95rem;
+  border: 1px solid var(--rlufe-border);
+  border-radius: var(--rlufe-radius);
+  background: var(--rlufe-surface);
+  box-shadow: var(--rlufe-shadow-soft);
+  color: var(--md-default-fg-color);
+  font-family: var(--kb-mono);
+  font-size: 0.78rem;
+  font-weight: 600;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.md-typeset .kb-sec-page ul li a::before {
+  display: block;
+  margin-bottom: 0.15rem;
+  color: var(--md-default-fg-color--lighter);
+  content: "-rw-r--r--";
+  font-size: 0.6rem;
+  font-weight: 400;
+}
+
+.md-typeset .kb-sec-page ul li a:hover,
+.md-typeset .kb-sec-page ul li a:focus {
+  transform: translateY(-2px);
+  border-color: var(--kb-accent);
+  color: var(--kb-accent);
+}
+
+.md-typeset .kb-sec-page ul li a:focus-visible {
+  outline: 2px solid var(--kb-accent);
+  outline-offset: 2px;
+}
+
+.md-typeset .kb-sec-page .kb-empty {
+  margin-top: 1.2rem;
+  color: var(--md-default-fg-color--lighter);
+  font-family: var(--kb-mono);
+  font-size: 0.72rem;
+}
+
 /* --- Адаптив --- */
 
 @media screen and (max-width: 60em) {
@@ -501,12 +680,14 @@ body {
 
   .kb-dir,
   .kb-log a,
-  .kb-term .md-button {
+  .kb-term .md-button,
+  .md-typeset .kb-sec-page ul li a {
     transition: none;
   }
 
   .kb-dir:hover,
-  .kb-log a:hover {
+  .kb-log a:hover,
+  .md-typeset .kb-sec-page ul li a:hover {
     transform: none;
   }
 }
