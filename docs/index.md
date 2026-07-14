@@ -26,7 +26,7 @@ hide:
 [git clone](https://github.com/iamrlufe/sysadmin-notes){ .md-button }
 </div>
 
-<p class="kb-cmd"><span class="kb-prompt">➜</span> <span class="kb-path">~/sysadmin-notes</span> <span class="kb-faint">$</span> <span class="kb-cursor"></span></p>
+<p class="kb-cmd kb-cmd--live"><span class="kb-prompt">➜</span> <span class="kb-path">~/sysadmin-notes</span> <span class="kb-faint">$</span> <span class="kb-cursor"></span></p>
 
 </div>
 </section>

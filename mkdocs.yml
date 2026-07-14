@@ -52,6 +52,9 @@ hooks:
 extra_css:
   - stylesheets/extra.css
 
+extra_javascript:
+  - javascripts/terminal.js
+
 nav:
   - Главная: index.md
   - Linux:
