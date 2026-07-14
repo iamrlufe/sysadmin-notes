@@ -56,26 +56,6 @@
   },
   "nodes": [
     {
-      "label": "terminal.js",
-      "file_type": "code",
-      "source_file": "docs/javascripts/terminal.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "docs_javascripts_terminal",
-      "community": 26,
-      "norm_label": "terminal.js"
-    },
-    {
-      "label": "init()",
-      "file_type": "code",
-      "source_file": "docs/javascripts/terminal.js",
-      "source_location": "L28",
-      "_origin": "ast",
-      "id": "docs_javascripts_terminal_init",
-      "community": 26,
-      "norm_label": "init()"
-    },
-    {
       "label": "homepage_data.py",
       "file_type": "code",
       "source_file": "hooks/homepage_data.py",
@@ -2096,16 +2076,6 @@
     }
   ],
   "links": [
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/javascripts/terminal.js",
-      "source_location": "L28",
-      "weight": 1.0,
-      "source": "docs_javascripts_terminal",
-      "target": "docs_javascripts_terminal_init",
-      "confidence_score": 1.0
-    },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",

@@ -24,6 +24,5 @@
   "22": "lsof +L1 diagnostics for deleted-but-open files",
   "23": "SIP / PJSIP registration status check",
   "24": "state_interface hint for Asterisk agent state tracking",
-  "25": "Note Authoring Workflow",
-  "26": "terminal.js"
+  "25": "Note Authoring Workflow"
 }

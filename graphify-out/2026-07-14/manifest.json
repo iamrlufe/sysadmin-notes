@@ -15,8 +15,8 @@
     "semantic_hash": "f130a5e72850c9bc7b984e609e3e5b57"
   },
   "docs/index.md": {
-    "mtime": 1784032997.0188584,
-    "ast_hash": "5c7e8b2ab6a0ea88ac4a9a281e8a4286",
+    "mtime": 1784032346.068879,
+    "ast_hash": "8cd0084d0eb40ea1c506818fdd9cd0f3",
     "semantic_hash": ""
   },
   "docs/notes/files/index.md": {
@@ -75,8 +75,8 @@
     "semantic_hash": "3608ed43f8d77eb49b90f73e60dcbc93"
   },
   "mkdocs.yml": {
-    "mtime": 1784032998.4892263,
-    "ast_hash": "ea3c4abcfb1f99a1480bb520a51af773",
+    "mtime": 1784031419.9144711,
+    "ast_hash": "644f5d129039c8d9b58d9ee8eae0085e",
     "semantic_hash": ""
   },
   "requirements.txt": {
@@ -92,11 +92,6 @@
   "docs/notes/windows/lanPublic.md": {
     "mtime": 1783946740.4030063,
     "ast_hash": "758876fbb3ecc809bf70696388d99c94",
-    "semantic_hash": ""
-  },
-  "docs/javascripts/terminal.js": {
-    "mtime": 1784032994.2815378,
-    "ast_hash": "27346e9826a4f90c4a2ef7af2f4ee330",
     "semantic_hash": ""
   }
 }

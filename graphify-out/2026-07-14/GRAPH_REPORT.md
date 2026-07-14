@@ -1,11 +1,11 @@
 # Graph Report - sysadmin-notes  (2026-07-14)
 
 ## Corpus Check
-- 18 files · ~8,282 words
+- 17 files · ~7,544 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 195 nodes · 178 edges · 27 communities (14 shown, 13 thin omitted)
+- 193 nodes · 177 edges · 26 communities (13 shown, 13 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 1 edges (avg confidence: 0.95)
 - Token cost: 0 input · 0 output
 
@@ -74,7 +74,7 @@
 - **Notes aggregated by the Material tags plugin into the tags page** — docs_tags_tags_index, docs_notes_linux_atutility_at_deferred_execution, docs_notes_linux_example_note_deleted_open_files, docs_notes_network_dh_dh_group_mapping, docs_notes_windows_microsoftexcel_1c_dcom_excel_setup [INFERRED 0.95]
 - **Site section index pages forming the knowledge base navigation** — docs_index_homepage, docs_notes_linux_index_linux_section, docs_notes_windows_index_windows_section, docs_notes_network_index_network_section, docs_notes_monitoring_index_monitoring_section, docs_notes_files_index_files_section, docs_tags_tags_index [EXTRACTED 1.00]
 
-## Communities (27 total, 13 thin omitted)
+## Communities (26 total, 13 thin omitted)
 
 ### Community 0 - "Хук главной страницы"
 Cohesion: 0.33
@@ -137,9 +137,9 @@ Nodes (4): База знаний системного администратор
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `29. Команды-шпаргалка` connect `29. Команды-шпаргалка` to `debugIpsec.md`?**
-  _High betweenness centrality (0.045) - this node is a cross-community bridge._
+  _High betweenness centrality (0.046) - this node is a cross-community bridge._
 - **Why does `Диагностика и управление агентами очереди Asterisk` connect `Диагностика и управление агентами очереди Asterisk` to `Диск переполнен, а du не находит крупные файлы`, `Разбор параметров`?**
-  _High betweenness centrality (0.035) - this node is a cross-community bridge._
+  _High betweenness centrality (0.036) - this node is a cross-community bridge._
 - **What connects `graphify`, `Локальный запуск`, `1. Создать репозиторий на GitHub` to the rest of the system?**
   _141 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Структура сайта` be split into smaller, more focused modules?**
