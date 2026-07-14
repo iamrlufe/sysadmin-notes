@@ -66,6 +66,7 @@ nav:
   - Сети:
       - notes/network/index.md
       - notes/network/dh.md
+      - notes/network/debugIpsec.md
   - Мониторинг:
       - notes/monitoring/index.md
   - Файлы и утилиты:
