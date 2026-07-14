@@ -64,6 +64,13 @@
   --kb-link: #0369a1;
   --kb-badge: #92620c;
   --kb-badge-border: rgba(146, 98, 12, 0.35);
+
+  /* Футер в светлой теме — светлый, а не дефолтный тёмный Material */
+  --md-footer-bg-color: #f6f8fb;
+  --md-footer-bg-color--dark: #eef1f5;
+  --md-footer-fg-color: #172033;
+  --md-footer-fg-color--light: #526173;
+  --md-footer-fg-color--lighter: #718096;
 }
 
 body {
@@ -98,15 +105,26 @@ body {
   letter-spacing: 0.02em;
 }
 
-/* Зелёный акцент на ссылках футера */
+/* Зелёный акцент на ссылках футера (цвет адаптируется к теме) */
 .md-footer__link:hover,
 .md-footer__link:focus {
-  color: #4ade80;
+  color: var(--kb-accent);
   opacity: 1;
 }
 
 .md-footer-meta .md-social__link:hover svg {
-  fill: #4ade80;
+  fill: var(--kb-accent);
+}
+
+/* Зелёный акцент в шапке: кнопки и ссылка на GitHub-репозиторий */
+.md-header__button:hover {
+  color: var(--kb-accent);
+  opacity: 1;
+}
+
+.md-header__source .md-source:hover {
+  color: var(--kb-accent);
+  opacity: 1;
 }
 
 .md-main__inner {
