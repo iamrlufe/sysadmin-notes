@@ -39,6 +39,7 @@
     input.spellcheck = false;
     input.setAttribute("aria-label", "Терминал: введите команду, например help");
     live.insertBefore(input, live.querySelector(".kb-cursor"));
+    input.focus({ preventScroll: true });
 
     var history = [];
     var hIdx = -1;
