@@ -307,7 +307,7 @@ body {
 }
 
 .kb-term__body[data-kb-live] .kb-cmd--live .kb-cursor {
-  display: none;
+  margin-left: 0.15rem;
 }
 
 .kb-term__input {
