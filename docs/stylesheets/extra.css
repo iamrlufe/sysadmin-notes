@@ -555,6 +555,64 @@ body {
   font-size: 0.62rem;
 }
 
+/* --- Змейка (/snake/) --- */
+
+.kb-term--snake {
+  max-width: 34rem;
+  margin: 1rem auto 2.2rem;
+}
+
+.kb-snake {
+  overflow-x: auto;
+  margin-top: 0.8rem;
+}
+
+.kb-snake pre {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--term-faint);
+  font-family: inherit;
+  font-size: 0.82rem;
+  line-height: 1.12;
+  white-space: pre;
+}
+
+.kb-snake__body {
+  color: var(--term-green);
+}
+
+.kb-snake__food {
+  color: #fbbf24;
+}
+
+#kb-snake-score {
+  margin: 0.5rem 0 0;
+  color: var(--term-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+#kb-snake-msg {
+  min-height: 1.2rem;
+  margin: 0.15rem 0 0;
+  color: var(--term-green);
+}
+
+.kb-snake__hint {
+  margin: 0.7rem 0 0;
+  color: var(--term-faint);
+  font-size: 0.66rem;
+}
+
+.kb-snake__hint a {
+  color: var(--term-blue);
+}
+
+.kb-snake__hint a:hover {
+  color: var(--term-green);
+}
+
 /* ============================================================
    Страницы разделов — в стиле терминальной главной
    ============================================================ */

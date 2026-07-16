@@ -122,6 +122,7 @@
           "  pwd           где мы",
           "  whoami        кто здесь",
           "  contact       контакты",
+          "  snake         змейка прямо в терминале",
           "  clear         очистить вывод",
           "",
           "История команд — стрелками ↑/↓."
@@ -173,6 +174,10 @@
           { label: "github.com/iamrlufe", url: "https://github.com/iamrlufe" },
           { label: "rlufe.kz", url: "/" }
         ]);
+      },
+      snake: function () {
+        textOut(["Запускаю ./snake …"]);
+        window.location.href = "snake/";
       },
       sudo: function () {
         textOut(["roman is not in the sudoers file. This incident will be reported."]);

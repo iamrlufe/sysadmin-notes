@@ -54,6 +54,7 @@ extra_css:
 
 extra_javascript:
   - javascripts/terminal.js
+  - javascripts/snake.js
 
 nav:
   - Главная: index.md
