@@ -20,8 +20,8 @@
     "semantic_hash": ""
   },
   "docs/notes/files/index.md": {
-    "mtime": 1784724064.155282,
-    "ast_hash": "2eaddd81f267287a953d9cabc049f85f",
+    "mtime": 1784725918.6535923,
+    "ast_hash": "2c7b175bf98053b1bac05cd95ee63271",
     "semantic_hash": ""
   },
   "docs/notes/linux/atUtility.md": {
@@ -75,8 +75,8 @@
     "semantic_hash": "3608ed43f8d77eb49b90f73e60dcbc93"
   },
   "mkdocs.yml": {
-    "mtime": 1784724056.615034,
-    "ast_hash": "1649da9ddf3a5738d44853156f4725ef",
+    "mtime": 1784725909.224745,
+    "ast_hash": "1e61ea8a6365498c2027761b999440cf",
     "semantic_hash": ""
   },
   "requirements.txt": {
@@ -127,6 +127,11 @@
   "docs/notes/files/restoreDbOverwriteFromBak.md": {
     "mtime": 1784724052.2284546,
     "ast_hash": "244b0812d5d2ab376d6f0de4102a6af2",
+    "semantic_hash": ""
+  },
+  "docs/notes/files/uploadBackupsToFtp.md": {
+    "mtime": 1784725904.5064557,
+    "ast_hash": "5c7e61de106a0f8a74224e13afc662a2",
     "semantic_hash": ""
   }
 }

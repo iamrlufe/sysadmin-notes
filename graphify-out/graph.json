@@ -696,6 +696,156 @@
       "norm_label": "\u043e\u0441\u043e\u0431\u0435\u043d\u043d\u043e\u0441\u0442\u0438 \u0438 \u043f\u043e\u0434\u0432\u043e\u0434\u043d\u044b\u0435 \u043a\u0430\u043c\u043d\u0438"
     },
     {
+      "label": "uploadBackupsToFtp.md",
+      "file_type": "document",
+      "source_file": "docs/notes/files/uploadBackupsToFtp.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_notes_files_uploadbackupstoftp",
+      "community": 15,
+      "norm_label": "uploadbackupstoftp.md"
+    },
+    {
+      "label": "\u0412\u044b\u0433\u0440\u0443\u0437\u043a\u0430 \u0431\u044d\u043a\u0430\u043f\u043e\u0432 SQL Server \u043d\u0430 FTP \u0447\u0435\u0440\u0435\u0437 WinSCP (FULL/DIFF)",
+      "file_type": "document",
+      "source_file": "docs/notes/files/uploadBackupsToFtp.md",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "docs_notes_files_uploadbackupstoftp_\u0432\u044b\u0433\u0440\u0443\u0437\u043a\u0430_\u0431\u044d\u043a\u0430\u043f\u043e\u0432_sql_server_\u043d\u0430_ftp_\u0447\u0435\u0440\u0435\u0437_winscp_full_diff",
+      "community": 15,
+      "norm_label": "\u0432\u044b\u0433\u0440\u0443\u0437\u043a\u0430 \u0431\u044d\u043a\u0430\u043f\u043e\u0432 sql server \u043d\u0430 ftp \u0447\u0435\u0440\u0435\u0437 winscp (full/diff)"
+    },
+    {
+      "label": "\u041a\u0430\u043a \u044d\u0442\u043e \u0443\u0441\u0442\u0440\u043e\u0435\u043d\u043e",
+      "file_type": "document",
+      "source_file": "docs/notes/files/uploadBackupsToFtp.md",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "docs_notes_files_uploadbackupstoftp_\u043a\u0430\u043a_\u044d\u0442\u043e_\u0443\u0441\u0442\u0440\u043e\u0435\u043d\u043e",
+      "community": 15,
+      "norm_label": "\u043a\u0430\u043a \u044d\u0442\u043e \u0443\u0441\u0442\u0440\u043e\u0435\u043d\u043e"
+    },
+    {
+      "label": "\u0422\u0440\u0438 \u0444\u0430\u0439\u043b\u0430, \u043e\u0434\u043d\u0430 \u043b\u043e\u0433\u0438\u043a\u0430",
+      "file_type": "document",
+      "source_file": "docs/notes/files/uploadBackupsToFtp.md",
+      "source_location": "L30",
+      "_origin": "ast",
+      "id": "docs_notes_files_uploadbackupstoftp_\u0442\u0440\u0438_\u0444\u0430\u0439\u043b\u0430_\u043e\u0434\u043d\u0430_\u043b\u043e\u0433\u0438\u043a\u0430",
+      "community": 15,
+      "norm_label": "\u0442\u0440\u0438 \u0444\u0430\u0438\u043b\u0430, \u043e\u0434\u043d\u0430 \u043b\u043e\u0433\u0438\u043a\u0430"
+    },
+    {
+      "label": "\u041e\u0436\u0438\u0434\u0430\u0435\u043c\u0430\u044f \u0441\u0442\u0440\u0443\u043a\u0442\u0443\u0440\u0430 \u043a\u0430\u0442\u0430\u043b\u043e\u0433\u043e\u0432",
+      "file_type": "document",
+      "source_file": "docs/notes/files/uploadBackupsToFtp.md",
+      "source_location": "L39",
+      "_origin": "ast",
+      "id": "docs_notes_files_uploadbackupstoftp_\u043e\u0436\u0438\u0434\u0430\u0435\u043c\u0430\u044f_\u0441\u0442\u0440\u0443\u043a\u0442\u0443\u0440\u0430_\u043a\u0430\u0442\u0430\u043b\u043e\u0433\u043e\u0432",
+      "community": 15,
+      "norm_label": "\u043e\u0436\u0438\u0434\u0430\u0435\u043c\u0430\u044f \u0441\u0442\u0440\u0443\u043a\u0442\u0443\u0440\u0430 \u043a\u0430\u0442\u0430\u043b\u043e\u0433\u043e\u0432"
+    },
+    {
+      "label": "\u041f\u043e\u0438\u0441\u043a \u043d\u0443\u0436\u043d\u044b\u0445 \u043f\u0430\u043f\u043e\u043a",
+      "file_type": "document",
+      "source_file": "docs/notes/files/uploadBackupsToFtp.md",
+      "source_location": "L57",
+      "_origin": "ast",
+      "id": "docs_notes_files_uploadbackupstoftp_\u043f\u043e\u0438\u0441\u043a_\u043d\u0443\u0436\u043d\u044b\u0445_\u043f\u0430\u043f\u043e\u043a",
+      "community": 15,
+      "norm_label": "\u043f\u043e\u0438\u0441\u043a \u043d\u0443\u0436\u043d\u044b\u0445 \u043f\u0430\u043f\u043e\u043a"
+    },
+    {
+      "label": "\u041e\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u0438\u0435 \u0431\u0430\u0437\u044b \u0438 \u0441\u0430\u043c\u043e\u0433\u043e \u0441\u0432\u0435\u0436\u0435\u0433\u043e \u0444\u0430\u0439\u043b\u0430",
+      "file_type": "document",
+      "source_file": "docs/notes/files/uploadBackupsToFtp.md",
+      "source_location": "L65",
+      "_origin": "ast",
+      "id": "docs_notes_files_uploadbackupstoftp_\u043e\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u0438\u0435_\u0431\u0430\u0437\u044b_\u0438_\u0441\u0430\u043c\u043e\u0433\u043e_\u0441\u0432\u0435\u0436\u0435\u0433\u043e_\u0444\u0430\u0439\u043b\u0430",
+      "community": 15,
+      "norm_label": "\u043e\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u0438\u0435 \u0431\u0430\u0437\u044b \u0438 \u0441\u0430\u043c\u043e\u0433\u043e \u0441\u0432\u0435\u0436\u0435\u0433\u043e \u0444\u0430\u0438\u043b\u0430"
+    },
+    {
+      "label": "\u0417\u0430\u0449\u0438\u0442\u0430 \u043e\u0442 \u0430\u043f\u043b\u043e\u0430\u0434\u0430 \u043d\u0435\u0434\u043e\u043f\u0438\u0441\u0430\u043d\u043d\u043e\u0433\u043e \u0444\u0430\u0439\u043b\u0430",
+      "file_type": "document",
+      "source_file": "docs/notes/files/uploadBackupsToFtp.md",
+      "source_location": "L74",
+      "_origin": "ast",
+      "id": "docs_notes_files_uploadbackupstoftp_\u0437\u0430\u0449\u0438\u0442\u0430_\u043e\u0442_\u0430\u043f\u043b\u043e\u0430\u0434\u0430_\u043d\u0435\u0434\u043e\u043f\u0438\u0441\u0430\u043d\u043d\u043e\u0433\u043e_\u0444\u0430\u0439\u043b\u0430",
+      "community": 15,
+      "norm_label": "\u0437\u0430\u0449\u0438\u0442\u0430 \u043e\u0442 \u0430\u043f\u043b\u043e\u0430\u0434\u0430 \u043d\u0435\u0434\u043e\u043f\u0438\u0441\u0430\u043d\u043d\u043e\u0433\u043e \u0444\u0430\u0438\u043b\u0430"
+    },
+    {
+      "label": "\u0421\u0431\u043e\u0440\u043a\u0430 \u0438 \u0437\u0430\u043f\u0443\u0441\u043a \u0441\u0446\u0435\u043d\u0430\u0440\u0438\u044f WinSCP",
+      "file_type": "document",
+      "source_file": "docs/notes/files/uploadBackupsToFtp.md",
+      "source_location": "L83",
+      "_origin": "ast",
+      "id": "docs_notes_files_uploadbackupstoftp_\u0441\u0431\u043e\u0440\u043a\u0430_\u0438_\u0437\u0430\u043f\u0443\u0441\u043a_\u0441\u0446\u0435\u043d\u0430\u0440\u0438\u044f_winscp",
+      "community": 15,
+      "norm_label": "\u0441\u0431\u043e\u0440\u043a\u0430 \u0438 \u0437\u0430\u043f\u0443\u0441\u043a \u0441\u0446\u0435\u043d\u0430\u0440\u0438\u044f winscp"
+    },
+    {
+      "label": "\u041a\u0430\u043a \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c",
+      "file_type": "document",
+      "source_file": "docs/notes/files/uploadBackupsToFtp.md",
+      "source_location": "L106",
+      "_origin": "ast",
+      "id": "docs_notes_files_uploadbackupstoftp_\u043a\u0430\u043a_\u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c",
+      "community": 15,
+      "norm_label": "\u043a\u0430\u043a \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c"
+    },
+    {
+      "label": "\u041f\u043e\u043b\u043d\u044b\u0435 \u0441\u043a\u0440\u0438\u043f\u0442\u044b",
+      "file_type": "document",
+      "source_file": "docs/notes/files/uploadBackupsToFtp.md",
+      "source_location": "L116",
+      "_origin": "ast",
+      "id": "docs_notes_files_uploadbackupstoftp_\u043f\u043e\u043b\u043d\u044b\u0435_\u0441\u043a\u0440\u0438\u043f\u0442\u044b",
+      "community": 15,
+      "norm_label": "\u043f\u043e\u043b\u043d\u044b\u0435 \u0441\u043a\u0440\u0438\u043f\u0442\u044b"
+    },
+    {
+      "label": "upload_common.cmd",
+      "file_type": "document",
+      "source_file": "docs/notes/files/uploadBackupsToFtp.md",
+      "source_location": "L118",
+      "_origin": "ast",
+      "id": "docs_notes_files_uploadbackupstoftp_upload_common_cmd",
+      "community": 15,
+      "norm_label": "upload_common.cmd"
+    },
+    {
+      "label": "upload_full.cmd",
+      "file_type": "document",
+      "source_file": "docs/notes/files/uploadBackupsToFtp.md",
+      "source_location": "L267",
+      "_origin": "ast",
+      "id": "docs_notes_files_uploadbackupstoftp_upload_full_cmd",
+      "community": 15,
+      "norm_label": "upload_full.cmd"
+    },
+    {
+      "label": "upload_diff.cmd",
+      "file_type": "document",
+      "source_file": "docs/notes/files/uploadBackupsToFtp.md",
+      "source_location": "L291",
+      "_origin": "ast",
+      "id": "docs_notes_files_uploadbackupstoftp_upload_diff_cmd",
+      "community": 15,
+      "norm_label": "upload_diff.cmd"
+    },
+    {
+      "label": "\u041e\u0441\u043e\u0431\u0435\u043d\u043d\u043e\u0441\u0442\u0438 \u0438 \u043f\u043e\u0434\u0432\u043e\u0434\u043d\u044b\u0435 \u043a\u0430\u043c\u043d\u0438",
+      "file_type": "document",
+      "source_file": "docs/notes/files/uploadBackupsToFtp.md",
+      "source_location": "L315",
+      "_origin": "ast",
+      "id": "docs_notes_files_uploadbackupstoftp_\u043e\u0441\u043e\u0431\u0435\u043d\u043d\u043e\u0441\u0442\u0438_\u0438_\u043f\u043e\u0434\u0432\u043e\u0434\u043d\u044b\u0435_\u043a\u0430\u043c\u043d\u0438",
+      "community": 15,
+      "norm_label": "\u043e\u0441\u043e\u0431\u0435\u043d\u043d\u043e\u0441\u0442\u0438 \u0438 \u043f\u043e\u0434\u0432\u043e\u0434\u043d\u044b\u0435 \u043a\u0430\u043c\u043d\u0438"
+    },
+    {
       "label": "atUtility.md",
       "file_type": "document",
       "source_file": "docs/notes/linux/atUtility.md",
@@ -2332,7 +2482,7 @@
       "source_location": "L106",
       "_origin": "ast",
       "id": "docs_notes_windows_srvinfodebug1c_2_\u043f\u0435\u0440\u0435\u043d\u043e\u0441_\u043a\u0430\u0442\u0430\u043b\u043e\u0433\u0430_srvinfo",
-      "community": 29,
+      "community": 27,
       "norm_label": "2. \u043f\u0435\u0440\u0435\u043d\u043e\u0441 \u043a\u0430\u0442\u0430\u043b\u043e\u0433\u0430 `srvinfo`"
     },
     {
@@ -2342,7 +2492,7 @@
       "source_location": "L108",
       "_origin": "ast",
       "id": "docs_notes_windows_srvinfodebug1c_\u0447\u0442\u043e_\u0442\u0430\u043a\u043e\u0435_srvinfo",
-      "community": 29,
+      "community": 27,
       "norm_label": "\u0447\u0442\u043e \u0442\u0430\u043a\u043e\u0435 `srvinfo`"
     },
     {
@@ -2352,7 +2502,7 @@
       "source_location": "L124",
       "_origin": "ast",
       "id": "docs_notes_windows_srvinfodebug1c_\u0448\u0430\u0433_1_\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0438\u0442\u044c_\u0441\u043b\u0443\u0436\u0431\u0443",
-      "community": 29,
+      "community": 27,
       "norm_label": "\u0448\u0430\u0433 1. \u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0438\u0442\u044c \u0441\u043b\u0443\u0436\u0431\u0443"
     },
     {
@@ -2362,7 +2512,7 @@
       "source_location": "L130",
       "_origin": "ast",
       "id": "docs_notes_windows_srvinfodebug1c_\u0448\u0430\u0433_2_\u0441\u043e\u0437\u0434\u0430\u0442\u044c_\u043d\u043e\u0432\u044b\u0439_\u043a\u0430\u0442\u0430\u043b\u043e\u0433",
-      "community": 29,
+      "community": 27,
       "norm_label": "\u0448\u0430\u0433 2. \u0441\u043e\u0437\u0434\u0430\u0442\u044c \u043d\u043e\u0432\u044b\u0438 \u043a\u0430\u0442\u0430\u043b\u043e\u0433"
     },
     {
@@ -2372,7 +2522,7 @@
       "source_location": "L144",
       "_origin": "ast",
       "id": "docs_notes_windows_srvinfodebug1c_\u0448\u0430\u0433_3_\u0441\u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u0442\u044c_\u0441\u043e\u0434\u0435\u0440\u0436\u0438\u043c\u043e\u0435",
-      "community": 29,
+      "community": 27,
       "norm_label": "\u0448\u0430\u0433 3. \u0441\u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0441\u043e\u0434\u0435\u0440\u0436\u0438\u043c\u043e\u0435"
     },
     {
@@ -2382,7 +2532,7 @@
       "source_location": "L164",
       "_origin": "ast",
       "id": "docs_notes_windows_srvinfodebug1c_\u0448\u0430\u0433_4_\u0438\u0437\u043c\u0435\u043d\u0438\u0442\u044c_\u043f\u0430\u0440\u0430\u043c\u0435\u0442\u0440_d",
-      "community": 29,
+      "community": 27,
       "norm_label": "\u0448\u0430\u0433 4. \u0438\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u043f\u0430\u0440\u0430\u043c\u0435\u0442\u0440 `-d`"
     },
     {
@@ -2392,7 +2542,7 @@
       "source_location": "L174",
       "_origin": "ast",
       "id": "docs_notes_windows_srvinfodebug1c_\u0431\u044b\u043b\u043e",
-      "community": 29,
+      "community": 27,
       "norm_label": "\u0431\u044b\u043b\u043e"
     },
     {
@@ -2402,7 +2552,7 @@
       "source_location": "L180",
       "_origin": "ast",
       "id": "docs_notes_windows_srvinfodebug1c_\u0441\u0442\u0430\u043b\u043e",
-      "community": 29,
+      "community": 27,
       "norm_label": "\u0441\u0442\u0430\u043b\u043e"
     },
     {
@@ -2412,7 +2562,7 @@
       "source_location": "L198",
       "_origin": "ast",
       "id": "docs_notes_windows_srvinfodebug1c_\u0448\u0430\u0433_5_\u0437\u0430\u043f\u0443\u0441\u0442\u0438\u0442\u044c_\u0441\u043b\u0443\u0436\u0431\u0443",
-      "community": 29,
+      "community": 27,
       "norm_label": "\u0448\u0430\u0433 5. \u0437\u0430\u043f\u0443\u0441\u0442\u0438\u0442\u044c \u0441\u043b\u0443\u0436\u0431\u0443"
     },
     {
@@ -2422,7 +2572,7 @@
       "source_location": "L204",
       "_origin": "ast",
       "id": "docs_notes_windows_srvinfodebug1c_\u0448\u0430\u0433_6_\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430",
-      "community": 29,
+      "community": 27,
       "norm_label": "\u0448\u0430\u0433 6. \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430"
     },
     {
@@ -3203,6 +3353,16 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/notes/files/index.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "docs_notes_files_index",
+      "target": "docs_notes_files_uploadbackupstoftp",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/notes/files/index.md",
@@ -3490,6 +3650,146 @@
       "weight": 1.0,
       "source": "docs_notes_files_restoredboverwritefrombak_\u043f\u0440\u0438\u043d\u0446\u0438\u043f_\u0440\u0430\u0431\u043e\u0442\u044b",
       "target": "docs_notes_files_restoredboverwritefrombak_9_\u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u0438\u0435",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/notes/files/uploadBackupsToFtp.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "docs_notes_files_uploadbackupstoftp",
+      "target": "docs_notes_files_uploadbackupstoftp_\u0432\u044b\u0433\u0440\u0443\u0437\u043a\u0430_\u0431\u044d\u043a\u0430\u043f\u043e\u0432_sql_server_\u043d\u0430_ftp_\u0447\u0435\u0440\u0435\u0437_winscp_full_diff",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/notes/files/uploadBackupsToFtp.md",
+      "source_location": "L106",
+      "weight": 1.0,
+      "source": "docs_notes_files_uploadbackupstoftp_\u0432\u044b\u0433\u0440\u0443\u0437\u043a\u0430_\u0431\u044d\u043a\u0430\u043f\u043e\u0432_sql_server_\u043d\u0430_ftp_\u0447\u0435\u0440\u0435\u0437_winscp_full_diff",
+      "target": "docs_notes_files_uploadbackupstoftp_\u043a\u0430\u043a_\u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/notes/files/uploadBackupsToFtp.md",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "docs_notes_files_uploadbackupstoftp_\u0432\u044b\u0433\u0440\u0443\u0437\u043a\u0430_\u0431\u044d\u043a\u0430\u043f\u043e\u0432_sql_server_\u043d\u0430_ftp_\u0447\u0435\u0440\u0435\u0437_winscp_full_diff",
+      "target": "docs_notes_files_uploadbackupstoftp_\u043a\u0430\u043a_\u044d\u0442\u043e_\u0443\u0441\u0442\u0440\u043e\u0435\u043d\u043e",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/notes/files/uploadBackupsToFtp.md",
+      "source_location": "L315",
+      "weight": 1.0,
+      "source": "docs_notes_files_uploadbackupstoftp_\u0432\u044b\u0433\u0440\u0443\u0437\u043a\u0430_\u0431\u044d\u043a\u0430\u043f\u043e\u0432_sql_server_\u043d\u0430_ftp_\u0447\u0435\u0440\u0435\u0437_winscp_full_diff",
+      "target": "docs_notes_files_uploadbackupstoftp_\u043e\u0441\u043e\u0431\u0435\u043d\u043d\u043e\u0441\u0442\u0438_\u0438_\u043f\u043e\u0434\u0432\u043e\u0434\u043d\u044b\u0435_\u043a\u0430\u043c\u043d\u0438",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/notes/files/uploadBackupsToFtp.md",
+      "source_location": "L116",
+      "weight": 1.0,
+      "source": "docs_notes_files_uploadbackupstoftp_\u0432\u044b\u0433\u0440\u0443\u0437\u043a\u0430_\u0431\u044d\u043a\u0430\u043f\u043e\u0432_sql_server_\u043d\u0430_ftp_\u0447\u0435\u0440\u0435\u0437_winscp_full_diff",
+      "target": "docs_notes_files_uploadbackupstoftp_\u043f\u043e\u043b\u043d\u044b\u0435_\u0441\u043a\u0440\u0438\u043f\u0442\u044b",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/notes/files/uploadBackupsToFtp.md",
+      "source_location": "L74",
+      "weight": 1.0,
+      "source": "docs_notes_files_uploadbackupstoftp_\u043a\u0430\u043a_\u044d\u0442\u043e_\u0443\u0441\u0442\u0440\u043e\u0435\u043d\u043e",
+      "target": "docs_notes_files_uploadbackupstoftp_\u0437\u0430\u0449\u0438\u0442\u0430_\u043e\u0442_\u0430\u043f\u043b\u043e\u0430\u0434\u0430_\u043d\u0435\u0434\u043e\u043f\u0438\u0441\u0430\u043d\u043d\u043e\u0433\u043e_\u0444\u0430\u0439\u043b\u0430",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/notes/files/uploadBackupsToFtp.md",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "docs_notes_files_uploadbackupstoftp_\u043a\u0430\u043a_\u044d\u0442\u043e_\u0443\u0441\u0442\u0440\u043e\u0435\u043d\u043e",
+      "target": "docs_notes_files_uploadbackupstoftp_\u043e\u0436\u0438\u0434\u0430\u0435\u043c\u0430\u044f_\u0441\u0442\u0440\u0443\u043a\u0442\u0443\u0440\u0430_\u043a\u0430\u0442\u0430\u043b\u043e\u0433\u043e\u0432",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/notes/files/uploadBackupsToFtp.md",
+      "source_location": "L65",
+      "weight": 1.0,
+      "source": "docs_notes_files_uploadbackupstoftp_\u043a\u0430\u043a_\u044d\u0442\u043e_\u0443\u0441\u0442\u0440\u043e\u0435\u043d\u043e",
+      "target": "docs_notes_files_uploadbackupstoftp_\u043e\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u0438\u0435_\u0431\u0430\u0437\u044b_\u0438_\u0441\u0430\u043c\u043e\u0433\u043e_\u0441\u0432\u0435\u0436\u0435\u0433\u043e_\u0444\u0430\u0439\u043b\u0430",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/notes/files/uploadBackupsToFtp.md",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "docs_notes_files_uploadbackupstoftp_\u043a\u0430\u043a_\u044d\u0442\u043e_\u0443\u0441\u0442\u0440\u043e\u0435\u043d\u043e",
+      "target": "docs_notes_files_uploadbackupstoftp_\u043f\u043e\u0438\u0441\u043a_\u043d\u0443\u0436\u043d\u044b\u0445_\u043f\u0430\u043f\u043e\u043a",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/notes/files/uploadBackupsToFtp.md",
+      "source_location": "L83",
+      "weight": 1.0,
+      "source": "docs_notes_files_uploadbackupstoftp_\u043a\u0430\u043a_\u044d\u0442\u043e_\u0443\u0441\u0442\u0440\u043e\u0435\u043d\u043e",
+      "target": "docs_notes_files_uploadbackupstoftp_\u0441\u0431\u043e\u0440\u043a\u0430_\u0438_\u0437\u0430\u043f\u0443\u0441\u043a_\u0441\u0446\u0435\u043d\u0430\u0440\u0438\u044f_winscp",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/notes/files/uploadBackupsToFtp.md",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "docs_notes_files_uploadbackupstoftp_\u043a\u0430\u043a_\u044d\u0442\u043e_\u0443\u0441\u0442\u0440\u043e\u0435\u043d\u043e",
+      "target": "docs_notes_files_uploadbackupstoftp_\u0442\u0440\u0438_\u0444\u0430\u0439\u043b\u0430_\u043e\u0434\u043d\u0430_\u043b\u043e\u0433\u0438\u043a\u0430",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/notes/files/uploadBackupsToFtp.md",
+      "source_location": "L118",
+      "weight": 1.0,
+      "source": "docs_notes_files_uploadbackupstoftp_\u043f\u043e\u043b\u043d\u044b\u0435_\u0441\u043a\u0440\u0438\u043f\u0442\u044b",
+      "target": "docs_notes_files_uploadbackupstoftp_upload_common_cmd",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/notes/files/uploadBackupsToFtp.md",
+      "source_location": "L291",
+      "weight": 1.0,
+      "source": "docs_notes_files_uploadbackupstoftp_\u043f\u043e\u043b\u043d\u044b\u0435_\u0441\u043a\u0440\u0438\u043f\u0442\u044b",
+      "target": "docs_notes_files_uploadbackupstoftp_upload_diff_cmd",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/notes/files/uploadBackupsToFtp.md",
+      "source_location": "L267",
+      "weight": 1.0,
+      "source": "docs_notes_files_uploadbackupstoftp_\u043f\u043e\u043b\u043d\u044b\u0435_\u0441\u043a\u0440\u0438\u043f\u0442\u044b",
+      "target": "docs_notes_files_uploadbackupstoftp_upload_full_cmd",
       "confidence_score": 1.0
     },
     {
@@ -5464,5 +5764,5 @@
       "source_file": "mkdocs.yml"
     }
   ],
-  "built_at_commit": "46b22ab557d0a5ddbeb7caf2b935cbda90697e39"
+  "built_at_commit": "520be6bafc2c22d7f4ca3b985613405e09620031"
 }
