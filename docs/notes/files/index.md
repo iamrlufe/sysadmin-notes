@@ -11,5 +11,6 @@ title: Файлы и утилиты
 ## заметки
 
 - [Массовое восстановление баз SQL Server из каталога с .bak](restoreDbFromBak.md)
+- [Восстановление баз SQL Server из .bak с перезаписью существующих](restoreDbOverwriteFromBak.md)
 
 </div>
