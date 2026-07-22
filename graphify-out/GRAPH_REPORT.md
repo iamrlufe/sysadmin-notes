@@ -1,16 +1,16 @@
 # Graph Report - sysadmin-notes  (2026-07-23)
 
 ## Corpus Check
-- 27 files · ~18,552 words
+- 28 files · ~19,371 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 309 nodes · 291 edges · 33 communities (21 shown, 12 thin omitted)
+- 318 nodes · 300 edges · 33 communities (21 shown, 12 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 1 edges (avg confidence: 0.95)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `3f4b210a`
+- Built from commit: `9c0bfff3`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -97,8 +97,8 @@ Cohesion: 0.12
 Nodes (16): 29. Команды-шпаргалка, Включить IPsec Debug, Отключить IPsec Debug, Проверить Active Peers, Проверить Firewall, Проверить Identity, Проверить Installed SA, Проверить Logging (+8 more)
 
 ### Community 9 - "Сопоставление групп Diffie-Hellman в MikroTik и Juniper SSG"
-Cohesion: 0.12
-Nodes (14): PFS и Phase 2 в MikroTik, Phase 1 — IKE, Phase 2 — IPsec / PFS, Быстрая шпаргалка, Важное различие: Phase 1 и Phase 2, Где настраивается DH Group в Juniper SSG, Где настраивается DH Group в MikroTik, Итог (+6 more)
+Cohesion: 0.08
+Nodes (22): PFS и Phase 2 в MikroTik, Phase 1 — IKE, Phase 2 — IPsec / PFS, Быстрая шпаргалка, Важное различие: Phase 1 и Phase 2, Где настраивается DH Group в Juniper SSG, Где настраивается DH Group в MikroTik, Итог (+14 more)
 
 ### Community 10 - "Windows Server 2016 определяет доменную сеть как Public"
 Cohesion: 0.12
@@ -153,7 +153,7 @@ Cohesion: 0.22
 Nodes (8): Автозагрузка программы на Windows Server (2016–2025), Какой способ выбрать, Особенности и подводные камни, Способ 1. Папка «Автозагрузка» (запуск при входе пользователя), Способ 2. Планировщик заданий (рекомендуется для серверов), Способ 3. Превращение программы в службу Windows, Через NSSM (Non-Sucking Service Manager), Через встроенную утилиту `sc`
 
 ## Knowledge Gaps
-- **220 isolated node(s):** `graphify`, `Локальный запуск`, `1. Создать репозиторий на GitHub`, `2. Подключить Cloudflare Pages`, `Структура заметок` (+215 more)
+- **226 isolated node(s):** `graphify`, `Локальный запуск`, `1. Создать репозиторий на GitHub`, `2. Подключить Cloudflare Pages`, `Структура заметок` (+221 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **12 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -161,13 +161,13 @@ Nodes (8): Автозагрузка программы на Windows Server (2016
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Диагностика и отладка IPsec в MikroTik RouterOS` connect `debugIpsec.md` to `29. Команды-шпаргалка`, `Сопоставление групп Diffie-Hellman в MikroTik и Juniper SSG`?**
-  _High betweenness centrality (0.037) - this node is a cross-community bridge._
+  _High betweenness centrality (0.044) - this node is a cross-community bridge._
 - **Why does `Инструкция: включение отладки и смена пути каталога `srvinfo` сервера 1С:Предприятие` connect `Инструкция: включение отладки и смена пути каталога `srvinfo` сервера 1С:Предприятие` to `Windows Server 2016 определяет доменную сеть как Public`?**
-  _High betweenness centrality (0.028) - this node is a cross-community bridge._
+  _High betweenness centrality (0.027) - this node is a cross-community bridge._
 - **Why does `Диагностика и управление агентами очереди Asterisk` connect `Диагностика и управление агентами очереди Asterisk` to `Диск переполнен, а du не находит крупные файлы`?**
-  _High betweenness centrality (0.021) - this node is a cross-community bridge._
+  _High betweenness centrality (0.020) - this node is a cross-community bridge._
 - **What connects `graphify`, `Локальный запуск`, `1. Создать репозиторий на GitHub` to the rest of the system?**
-  _220 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _226 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Структура сайта` be split into smaller, more focused modules?**
   _Cohesion score 0.125 - nodes in this community are weakly interconnected._
 - **Should `debugIpsec.md` be split into smaller, more focused modules?**

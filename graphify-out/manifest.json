@@ -55,8 +55,8 @@
     "semantic_hash": "55eefcf8b4e632c00f54a01b1515664a"
   },
   "docs/notes/network/index.md": {
-    "mtime": 1784032518.1536155,
-    "ast_hash": "5631853a0920ace65ce582e68732a9c4",
+    "mtime": 1784762781.1336217,
+    "ast_hash": "ef3503b5e038c487af4f8987325c5c47",
     "semantic_hash": ""
   },
   "docs/notes/windows/MicrosoftExcel-1C.md": {
@@ -75,8 +75,8 @@
     "semantic_hash": "3608ed43f8d77eb49b90f73e60dcbc93"
   },
   "mkdocs.yml": {
-    "mtime": 1784761518.7239614,
-    "ast_hash": "3d0e44b4f7de79ed16d17d8f25db2039",
+    "mtime": 1784762777.217135,
+    "ast_hash": "360098ee8c7abeacd748db942f9a1f51",
     "semantic_hash": ""
   },
   "requirements.txt": {
@@ -142,6 +142,11 @@
   "docs/notes/windows/autostartWindowsServer.md": {
     "mtime": 1784761513.412398,
     "ast_hash": "b0514ff2924c169d9e1ec3dc92f3a5ed",
+    "semantic_hash": ""
+  },
+  "docs/notes/network/mikrotikOpenDnsResolver.md": {
+    "mtime": 1784762764.213488,
+    "ast_hash": "52e6dcb555c44f25474fab07e407d882",
     "semantic_hash": ""
   }
 }
