@@ -7,7 +7,9 @@
 
 Порядок "последних" определяется (по убыванию приоритета):
 1. полем `date` во front matter (надёжно при любом способе сборки);
-2. датой последнего git-коммита файла;
+2. датой первого git-коммита, добавившего файл (дата публикации, а не
+   последующих правок — иначе исправление опечатки поднимало бы старую
+   заметку в "последние");
 3. mtime файла (например, при сборке вне репозитория или из shallow-клона
    даты git могут быть недоступны/одинаковы).
 """
@@ -51,22 +53,36 @@ def _frontmatter_date(value) -> float | None:
     return None
 
 
-def _git_last_modified(path: Path) -> float | None:
+def _git_first_commit_dates(repo_root: Path) -> dict[str, float]:
+    """Дата первого коммита для каждого файла репозитория (создание, не правки).
+
+    Один проход по всей истории вместо отдельного `git log` на каждую
+    заметку — так и быстрее, и не зависит от переименований/`--follow`
+    для каждого файла по отдельности.
+    """
     try:
         result = subprocess.run(
-            ["git", "log", "-1", "--format=%ct", "--", path.name],
+            ["git", "log", "--reverse", "--name-status", "--format=\x01%ct"],
             capture_output=True,
             text=True,
-            cwd=path.parent,
-            timeout=5,
+            cwd=repo_root,
+            timeout=20,
             check=True,
         )
-        timestamp = result.stdout.strip()
-        if timestamp:
-            return float(timestamp)
-    except (subprocess.SubprocessError, OSError, ValueError):
-        pass
-    return None
+    except (subprocess.SubprocessError, OSError):
+        return {}
+
+    dates: dict[str, float] = {}
+    commit_ts: float | None = None
+    for line in result.stdout.splitlines():
+        if line.startswith("\x01"):
+            commit_ts = float(line[1:])
+            continue
+        if not line or commit_ts is None:
+            continue
+        path = line.split("\t")[-1]
+        dates.setdefault(path, commit_ts)
+    return dates
 
 
 def _first_paragraph(content: str) -> str:
@@ -100,6 +116,8 @@ def _first_paragraph(content: str) -> str:
 
 def on_files(files, config):
     notes = []
+    repo_root = Path(config["docs_dir"]).parent
+    first_commit_dates = _git_first_commit_dates(repo_root)
 
     for file in files.documentation_pages():
         parts = Path(file.src_uri).parts
@@ -115,9 +133,10 @@ def on_files(files, config):
         section_label = data.get("section_label") or SECTION_LABELS.get(parts[1], parts[1].title())
 
         src_path = Path(file.abs_src_path)
+        git_path = f"{Path(config['docs_dir']).name}/{file.src_uri}"
         mtime = (
             _frontmatter_date(data.get("date"))
-            or _git_last_modified(src_path)
+            or first_commit_dates.get(git_path)
             or src_path.stat().st_mtime
         )
 
