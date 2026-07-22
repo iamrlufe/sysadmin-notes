@@ -1,7 +1,7 @@
 {
   "hooks/homepage_data.py": {
-    "mtime": 1784761385.3884342,
-    "ast_hash": "8ff719bbbd01a79722ab80551f01276d",
+    "mtime": 1784762205.3493023,
+    "ast_hash": "4dedb81478677f3b7638d2a10136a898",
     "semantic_hash": ""
   },
   "CLAUDE.md": {
@@ -10,8 +10,8 @@
     "semantic_hash": "82efb97a359f5c7290bf2513d14686be"
   },
   "README.md": {
-    "mtime": 1784722349.10785,
-    "ast_hash": "0cd819be3d3fdf50fee3ebbea48d38fe",
+    "mtime": 1784762182.1917374,
+    "ast_hash": "d8d6217b243ded4708153e731ff1ab3a",
     "semantic_hash": ""
   },
   "docs/index.md": {
