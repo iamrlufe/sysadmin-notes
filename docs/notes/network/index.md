@@ -12,5 +12,6 @@ title: Сети
 
 - [Различия DH Group: MikroTik vs Juniper ScreenOS](dh.md)
 - [Debug Ipsec MikroTik](debugIpsec.md)
+- [MikroTik как открытый DNS-резолвер (Allow Remote Requests) — причина и исправление](mikrotikOpenDnsResolver.md)
 
 </div>
