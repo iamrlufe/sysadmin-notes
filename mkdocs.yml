@@ -79,6 +79,7 @@ nav:
       - notes/files/index.md
       - notes/files/restoreDbFromBak.md
       - notes/files/restoreDbOverwriteFromBak.md
+      - notes/files/uploadBackupsToFtp.md
   - Теги: tags.md
 
 plugins:
