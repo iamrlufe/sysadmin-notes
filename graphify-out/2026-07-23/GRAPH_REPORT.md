@@ -1,16 +1,16 @@
-# Graph Report - sysadmin-notes  (2026-07-23)
+# Graph Report - sysadmin-notes  (2026-07-22)
 
 ## Corpus Check
-- 26 files · ~17,245 words
+- 25 files · ~16,581 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 299 nodes · 281 edges · 32 communities (20 shown, 12 thin omitted)
+- 287 nodes · 269 edges · 31 communities (19 shown, 12 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 1 edges (avg confidence: 0.95)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `777fd48b`
+- Built from commit: `520be6ba`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -43,7 +43,6 @@
 - Note Authoring Workflow
 - Инструкция: включение отладки и смена пути каталога `srvinfo` сервера 1С:Предприятие
 - Назначение прав глобального администратора в Zimbra 8.8.12 (CLI)
-- Сброс и уменьшение размера tempdb в MS SQL Server
 
 ## God Nodes (most connected - your core abstractions)
 1. `Диагностика и отладка IPsec в MikroTik RouterOS` - 33 edges
@@ -77,7 +76,7 @@
 - **Notes aggregated by the Material tags plugin into the tags page** — docs_tags_tags_index, docs_notes_linux_atutility_at_deferred_execution, docs_notes_linux_example_note_deleted_open_files, docs_notes_network_dh_dh_group_mapping, docs_notes_windows_microsoftexcel_1c_dcom_excel_setup [INFERRED 0.95]
 - **Site section index pages forming the knowledge base navigation** — docs_index_homepage, docs_notes_linux_index_linux_section, docs_notes_windows_index_windows_section, docs_notes_network_index_network_section, docs_notes_monitoring_index_monitoring_section, docs_notes_files_index_files_section, docs_tags_tags_index [EXTRACTED 1.00]
 
-## Communities (32 total, 12 thin omitted)
+## Communities (31 total, 12 thin omitted)
 
 ### Community 0 - "Хук главной страницы"
 Cohesion: 0.24
@@ -116,8 +115,8 @@ Cohesion: 0.09
 Nodes (17): RHEL / CentOS / Rocky Linux / AlmaLinux, Ubuntu / Debian, Важно, Выполнение команды через 4 часа, Другие примеры, Отложенный запуск команды в Linux с помощью `at`, Просмотр запланированных заданий, Просмотр команды задания (+9 more)
 
 ### Community 14 - "Отложенный запуск команды в Linux с помощью `at`"
-Cohesion: 0.12
-Nodes (17): 10. Обработка ошибок, 11. Итоги, 1. Предохранитель на входе, 2. Список файлов и фильтрация, 3. Определение действия для каждой базы, 4. Проверки, блокирующие restore, 5. Состав бэкапа и целевые пути файлов, 6. Проверка коллизий (+9 more)
+Cohesion: 0.09
+Nodes (19): заметки, Файлы и утилиты, 10. Обработка ошибок, 11. Итоги, 1. Предохранитель на входе, 2. Список файлов и фильтрация, 3. Определение действия для каждой базы, 4. Проверки, блокирующие restore (+11 more)
 
 ### Community 15 - "Как это устроено"
 Cohesion: 0.13
@@ -132,8 +131,8 @@ Cohesion: 0.40
 Nodes (4): База знаний системного администратора, как-пополнять.txt, последние-заметки.log, разделы
 
 ### Community 19 - "index.md"
-Cohesion: 0.12
-Nodes (13): заметки, Файлы и утилиты, 1. Получение списка файлов, 2. Пропуск существующих баз, 3. Разбор состава backup-файла, 4. Генерация MOVE для каждого файла, 5. Два режима: отчёт и выполнение, 6. Проверка свободного места (+5 more)
+Cohesion: 0.18
+Nodes (11): 1. Получение списка файлов, 2. Пропуск существующих баз, 3. Разбор состава backup-файла, 4. Генерация MOVE для каждого файла, 5. Два режима: отчёт и выполнение, 6. Проверка свободного места, Как использовать, Массовое восстановление баз SQL Server из каталога с .bak (+3 more)
 
 ### Community 27 - "Инструкция: включение отладки и смена пути каталога `srvinfo` сервера 1С:Предприятие"
 Cohesion: 0.08
@@ -143,12 +142,8 @@ Nodes (24): 1. Включение серверной отладки, 2. Пере
 Cohesion: 0.14
 Nodes (14): Версия, Возможные ошибки, Вход в административную панель, Итог, Команда не найдена, Назначение прав глобального администратора в Zimbra 8.8.12 (CLI), Назначение существующего пользователя глобальным администратором, Не открывается консоль администратора (+6 more)
 
-### Community 29 - "Сброс и уменьшение размера tempdb в MS SQL Server"
-Cohesion: 0.17
-Nodes (11): Авторасширение (Auto-Growth), Диагностика: как найти «виновника» разрастания, Несколько файлов данных tempdb, Особенности и подводные камни, Сброс и уменьшение размера tempdb в MS SQL Server, Способ 1. Перезапуск службы SQL Server (самый надёжный), Способ 2. Уменьшение размера «на лету» (без перезапуска), Способ 3. Изменение начального (исходного) размера (+3 more)
-
 ## Knowledge Gaps
-- **214 isolated node(s):** `graphify`, `Локальный запуск`, `1. Создать репозиторий на GitHub`, `2. Подключить Cloudflare Pages`, `Структура заметок` (+209 more)
+- **206 isolated node(s):** `graphify`, `Локальный запуск`, `1. Создать репозиторий на GitHub`, `2. Подключить Cloudflare Pages`, `Структура заметок` (+201 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **12 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -156,13 +151,13 @@ Nodes (11): Авторасширение (Auto-Growth), Диагностика: 
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Диагностика и отладка IPsec в MikroTik RouterOS` connect `debugIpsec.md` to `29. Команды-шпаргалка`, `Сопоставление групп Diffie-Hellman в MikroTik и Juniper SSG`?**
-  _High betweenness centrality (0.040) - this node is a cross-community bridge._
-- **Why does `Инструкция: включение отладки и смена пути каталога `srvinfo` сервера 1С:Предприятие` connect `Инструкция: включение отладки и смена пути каталога `srvinfo` сервера 1С:Предприятие` to `Windows Server 2016 определяет доменную сеть как Public`?**
-  _High betweenness centrality (0.026) - this node is a cross-community bridge._
+  _High betweenness centrality (0.043) - this node is a cross-community bridge._
 - **Why does `Диагностика и управление агентами очереди Asterisk` connect `Диагностика и управление агентами очереди Asterisk` to `Диск переполнен, а du не находит крупные файлы`?**
-  _High betweenness centrality (0.022) - this node is a cross-community bridge._
+  _High betweenness centrality (0.024) - this node is a cross-community bridge._
+- **Why does `Инструкция: включение отладки и смена пути каталога `srvinfo` сервера 1С:Предприятие` connect `Инструкция: включение отладки и смена пути каталога `srvinfo` сервера 1С:Предприятие` to `Windows Server 2016 определяет доменную сеть как Public`?**
+  _High betweenness centrality (0.021) - this node is a cross-community bridge._
 - **What connects `graphify`, `Локальный запуск`, `1. Создать репозиторий на GitHub` to the rest of the system?**
-  _214 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _206 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Структура сайта` be split into smaller, more focused modules?**
   _Cohesion score 0.125 - nodes in this community are weakly interconnected._
 - **Should `debugIpsec.md` be split into smaller, more focused modules?**
