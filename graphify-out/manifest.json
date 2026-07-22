@@ -1,7 +1,7 @@
 {
   "hooks/homepage_data.py": {
-    "mtime": 1784724974.390772,
-    "ast_hash": "b172c4c830fe110b06f7dd3f3aec4eff",
+    "mtime": 1784761385.3884342,
+    "ast_hash": "8ff719bbbd01a79722ab80551f01276d",
     "semantic_hash": ""
   },
   "CLAUDE.md": {
@@ -65,8 +65,8 @@
     "semantic_hash": "9030d4d1edc34b81b5fc9579b1e76dfd"
   },
   "docs/notes/windows/index.md": {
-    "mtime": 1784760101.930027,
-    "ast_hash": "3285dd10ce1b4a0beae7e12d9642a0f9",
+    "mtime": 1784761523.5047069,
+    "ast_hash": "79c52c6b09b4b0af1a0802cdd6768bbc",
     "semantic_hash": ""
   },
   "docs/tags.md": {
@@ -75,8 +75,8 @@
     "semantic_hash": "3608ed43f8d77eb49b90f73e60dcbc93"
   },
   "mkdocs.yml": {
-    "mtime": 1784760097.90202,
-    "ast_hash": "22a7ed17ba35f108fca1f1e3be61bf5e",
+    "mtime": 1784761518.7239614,
+    "ast_hash": "3d0e44b4f7de79ed16d17d8f25db2039",
     "semantic_hash": ""
   },
   "requirements.txt": {
@@ -137,6 +137,11 @@
   "docs/notes/windows/shrinkTempdb.md": {
     "mtime": 1784760093.3403568,
     "ast_hash": "ad18cd0c146108f1a415aff047f1c87b",
+    "semantic_hash": ""
+  },
+  "docs/notes/windows/autostartWindowsServer.md": {
+    "mtime": 1784761513.412398,
+    "ast_hash": "b0514ff2924c169d9e1ec3dc92f3a5ed",
     "semantic_hash": ""
   }
 }
