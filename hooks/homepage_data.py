@@ -12,6 +12,10 @@
    заметку в "последние");
 3. mtime файла (например, при сборке вне репозитория или из shallow-клона
    даты git могут быть недоступны/одинаковы).
+
+Та же дата подставляется в списки заметок на страницах разделов
+(`docs/notes/*/index.md`) — атрибутом `data-date` у ссылки, который
+рисует CSS в стиле вывода `ls -la` (см. `extra.css`).
 """
 
 import datetime
@@ -38,6 +42,8 @@ TITLE_RE = re.compile(r"^#\s+(.+)$", re.MULTILINE)
 FENCE_RE = re.compile(r"^(```|~~~)")
 MD_LINK_RE = re.compile(r"\[([^\]]*)\]\([^)]*\)")
 MD_MARKUP_RE = re.compile(r"[*_`]+")
+SECTION_INDEX_RE = re.compile(r"^notes/([^/]+)/index\.md$")
+NOTE_LINK_RE = re.compile(r"(\[[^\]]+\]\()([^)\s]+\.md)(\))")
 
 
 def _frontmatter_date(value) -> float | None:
@@ -146,17 +152,46 @@ def on_files(files, config):
                 "summary": summary,
                 "section_label": section_label,
                 "url": file.url,
+                "src_uri": file.src_uri,
                 "mtime": mtime,
             }
         )
 
     notes.sort(key=lambda note: note["mtime"], reverse=True)
     config["rlufe_latest_notes"] = notes[:LATEST_COUNT]
+    config["rlufe_note_dates"] = {note["src_uri"]: note["mtime"] for note in notes}
 
     return files
 
 
+def _inject_section_note_dates(markdown: str, section: str, config) -> str:
+    """Проставляет `{: data-date="..." }` каждой ссылке на заметку в списке раздела.
+
+    Дата рисуется CSS-ом (`content: "-rw-r--r--  " attr(data-date)` в
+    extra.css) — здесь только данные, разметку список заметок сохраняет
+    свою обычную markdown-форму `- [Название](файл.md)`.
+    """
+    note_dates = config.get("rlufe_note_dates", {})
+
+    def _add_date(match: re.Match) -> str:
+        link_target = match.group(2)
+        if link_target == "index.md" or link_target.startswith(("http:", "https:")):
+            return match.group(0)
+        note_src_uri = f"notes/{section}/{link_target}"
+        mtime = note_dates.get(note_src_uri)
+        if mtime is None:
+            return match.group(0)
+        date_str = datetime.date.fromtimestamp(mtime).isoformat()
+        return f'{match.group(1)}{link_target}{match.group(3)}{{: data-date="{date_str}" }}'
+
+    return NOTE_LINK_RE.sub(_add_date, markdown)
+
+
 def on_page_markdown(markdown, page, config, files):
+    section_match = SECTION_INDEX_RE.match(page.file.src_uri)
+    if section_match:
+        return _inject_section_note_dates(markdown, section_match.group(1), config)
+
     if page.file.src_uri != "index.md":
         return markdown
 

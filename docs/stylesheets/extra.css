@@ -683,7 +683,7 @@ body {
   display: block;
   margin-bottom: 0.15rem;
   color: var(--md-default-fg-color--lighter);
-  content: "-rw-r--r--";
+  content: "-rw-r--r--  " attr(data-date);
   font-size: 0.6rem;
   font-weight: 400;
 }
