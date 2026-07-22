@@ -13,5 +13,6 @@ title: Windows и ПО
 - [Настройка DCOM для Microsoft Excel Application (1С)](MicrosoftExcel-1C.md)
 - [Windows Server 2016 определяет доменную сеть как Public](lanPublic.md)
 - [Отладка сервера 1С и перенос каталога srvinfo](srvinfoDebug1C.md)
+- [Сброс и уменьшение размера tempdb в MS SQL Server](shrinkTempdb.md)
 
 </div>

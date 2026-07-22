@@ -69,6 +69,7 @@ nav:
       - notes/windows/MicrosoftExcel-1C.md
       - notes/windows/lanPublic.md
       - notes/windows/srvinfoDebug1C.md
+      - notes/windows/shrinkTempdb.md
   - Сети:
       - notes/network/index.md
       - notes/network/dh.md
