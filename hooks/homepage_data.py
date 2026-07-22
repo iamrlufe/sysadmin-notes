@@ -16,6 +16,12 @@
 Та же дата подставляется в списки заметок на страницах разделов
 (`docs/notes/*/index.md`) — атрибутом `data-date` у ссылки, который
 рисует CSS в стиле вывода `ls -la` (см. `extra.css`).
+
+Даты везде считаются в фиксированном поясе SITE_TZ, а не в локальном
+времени сборочной машины: Cloudflare Pages собирает сайт в UTC, и без
+явного пояса коммит, сделанный поздним вечером/ночью по местному
+времени автора, при конвертации в UTC мог показывать дату на день
+раньше.
 """
 
 import datetime
@@ -28,6 +34,10 @@ from mkdocs.utils import meta
 
 LATEST_COUNT = 3
 SUMMARY_MAX_LEN = 180
+
+# Пояс автора заметок (Казахстан) — не полагаемся на локальное время
+# сборочной машины (Cloudflare Pages собирает в UTC).
+SITE_TZ = datetime.timezone(datetime.timedelta(hours=8))
 
 # Подписи разделов для заметок без section_label во front matter.
 SECTION_LABELS = {
@@ -47,15 +57,20 @@ NOTE_LINK_RE = re.compile(r"(\[[^\]]+\]\()([^)\s]+\.md)(\))")
 
 
 def _frontmatter_date(value) -> float | None:
+    """Наивные даты/время из front matter считаются заданными в SITE_TZ."""
     if isinstance(value, datetime.datetime):
-        return value.timestamp()
+        dt = value if value.tzinfo else value.replace(tzinfo=SITE_TZ)
+        return dt.timestamp()
     if isinstance(value, datetime.date):
-        return datetime.datetime.combine(value, datetime.time()).timestamp()
+        return datetime.datetime.combine(value, datetime.time(), tzinfo=SITE_TZ).timestamp()
     if isinstance(value, str):
         try:
-            return datetime.datetime.fromisoformat(value).timestamp()
+            dt = datetime.datetime.fromisoformat(value)
         except ValueError:
             return None
+        if not dt.tzinfo:
+            dt = dt.replace(tzinfo=SITE_TZ)
+        return dt.timestamp()
     return None
 
 
@@ -181,7 +196,7 @@ def _inject_section_note_dates(markdown: str, section: str, config) -> str:
         mtime = note_dates.get(note_src_uri)
         if mtime is None:
             return match.group(0)
-        date_str = datetime.date.fromtimestamp(mtime).isoformat()
+        date_str = datetime.datetime.fromtimestamp(mtime, tz=SITE_TZ).date().isoformat()
         return f'{match.group(1)}{link_target}{match.group(3)}{{: data-date="{date_str}" }}'
 
     return NOTE_LINK_RE.sub(_add_date, markdown)
@@ -207,7 +222,7 @@ def on_page_markdown(markdown, page, config, files):
         "<em>{summary}</em>\n"
         "</a>".format(
             url=html.escape(note["url"], quote=True),
-            date=datetime.date.fromtimestamp(note["mtime"]).isoformat(),
+            date=datetime.datetime.fromtimestamp(note["mtime"], tz=SITE_TZ).date().isoformat(),
             section_label=html.escape(note["section_label"]),
             title=html.escape(note["title"]),
             summary=html.escape(note["summary"]),
