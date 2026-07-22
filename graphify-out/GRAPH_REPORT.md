@@ -1,16 +1,16 @@
 # Graph Report - sysadmin-notes  (2026-07-22)
 
 ## Corpus Check
-- 23 files · ~12,174 words
+- 24 files · ~15,185 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 252 nodes · 233 edges · 31 communities (19 shown, 12 thin omitted)
+- 270 nodes · 251 edges · 31 communities (19 shown, 12 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 1 edges (avg confidence: 0.95)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `783570c6`
+- Built from commit: `15cb1d41`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -48,13 +48,13 @@
 1. `Диагностика и отладка IPsec в MikroTik RouterOS` - 33 edges
 2. `29. Команды-шпаргалка` - 16 edges
 3. `MkDocs Material site configuration (RLUFE.KZ)` - 14 edges
-4. `Назначение прав глобального администратора в Zimbra 8.8.12 (CLI)` - 11 edges
-5. `Windows Server 2016 определяет доменную сеть как Public` - 11 edges
-6. `Сопоставление групп Diffie-Hellman в MikroTik и Juniper SSG` - 10 edges
-7. `Настройка DCOM для Microsoft Excel Application (1С)` - 10 edges
-8. `Диагностика и управление агентами очереди Asterisk` - 9 edges
-9. `Отложенный запуск команды в Linux с помощью `at`` - 8 edges
-10. `2. Перенос каталога `srvinfo`` - 8 edges
+4. `Принцип работы` - 12 edges
+5. `Назначение прав глобального администратора в Zimbra 8.8.12 (CLI)` - 11 edges
+6. `Windows Server 2016 определяет доменную сеть как Public` - 11 edges
+7. `Сопоставление групп Diffie-Hellman в MikroTik и Juniper SSG` - 10 edges
+8. `Настройка DCOM для Microsoft Excel Application (1С)` - 10 edges
+9. `Диагностика и управление агентами очереди Asterisk` - 9 edges
+10. `Отложенный запуск команды в Linux с помощью `at`` - 8 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `MkDocs Material site configuration (RLUFE.KZ)` --references--> `Homepage (terminal-styled knowledge base index)`  [EXTRACTED]
@@ -87,16 +87,16 @@ Cohesion: 0.12
 Nodes (16): Homepage (terminal-styled knowledge base index), Latest Notes Block ({{ LATEST_NOTES }} / {{ LATEST_NOTE_URL }} placeholders), Files and Utilities Section Index, Deferred one-time command execution in Linux with at, Disk full but du finds no large files (deleted-but-open files), Linux Section Index, Asterisk queue agent diagnostics and management, Monitoring Section Index (Zabbix, Prometheus, alerts) (+8 more)
 
 ### Community 7 - "debugIpsec.md"
-Cohesion: 0.05
-Nodes (34): 10. Проверка IPsec Identity, 11. Проверка IPsec Profile, 12. Проверка IPsec Proposal, 13. Проверка IPsec Policy, 14. Проверка Active Peers, 15. Проверка Installed SA, 16. Принудительный запуск IPsec-туннеля, 17. Перезапуск IPsec SA (+26 more)
+Cohesion: 0.06
+Nodes (32): 10. Проверка IPsec Identity, 11. Проверка IPsec Profile, 12. Проверка IPsec Proposal, 13. Проверка IPsec Policy, 14. Проверка Active Peers, 15. Проверка Installed SA, 16. Принудительный запуск IPsec-туннеля, 17. Перезапуск IPsec SA (+24 more)
 
 ### Community 8 - "29. Команды-шпаргалка"
 Cohesion: 0.12
 Nodes (16): 29. Команды-шпаргалка, Включить IPsec Debug, Отключить IPsec Debug, Проверить Active Peers, Проверить Firewall, Проверить Identity, Проверить Installed SA, Проверить Logging (+8 more)
 
 ### Community 9 - "Сопоставление групп Diffie-Hellman в MikroTik и Juniper SSG"
-Cohesion: 0.17
-Nodes (12): PFS и Phase 2 в MikroTik, Phase 1 — IKE, Phase 2 — IPsec / PFS, Быстрая шпаргалка, Важное различие: Phase 1 и Phase 2, Где настраивается DH Group в Juniper SSG, Где настраивается DH Group в MikroTik, Итог (+4 more)
+Cohesion: 0.12
+Nodes (14): PFS и Phase 2 в MikroTik, Phase 1 — IKE, Phase 2 — IPsec / PFS, Быстрая шпаргалка, Важное различие: Phase 1 и Phase 2, Где настраивается DH Group в Juniper SSG, Где настраивается DH Group в MikroTik, Итог (+6 more)
 
 ### Community 10 - "Windows Server 2016 определяет доменную сеть как Public"
 Cohesion: 0.12
@@ -111,12 +111,12 @@ Cohesion: 0.17
 Nodes (12): 1. Открытие служб компонентов, 2. Если Microsoft Excel Application отсутствует, 3. Настройка разрешений Launch and Activation, 4. Настройка Access Permissions, 5. Проверка каталогов Desktop, 6. Настройка прав на каталоги, Microsoft Excel Application отсутствует, Возможные проблемы (+4 more)
 
 ### Community 13 - "Диск переполнен, а du не находит крупные файлы"
-Cohesion: 0.17
-Nodes (7): Диск переполнен, а du не находит крупные файлы, Как избежать в будущем, Причина, Проблема, Решение, Linux, заметки
+Cohesion: 0.09
+Nodes (17): RHEL / CentOS / Rocky Linux / AlmaLinux, Ubuntu / Debian, Важно, Выполнение команды через 4 часа, Другие примеры, Отложенный запуск команды в Linux с помощью `at`, Просмотр запланированных заданий, Просмотр команды задания (+9 more)
 
 ### Community 14 - "Отложенный запуск команды в Linux с помощью `at`"
-Cohesion: 0.20
-Nodes (10): RHEL / CentOS / Rocky Linux / AlmaLinux, Ubuntu / Debian, Важно, Выполнение команды через 4 часа, Другие примеры, Отложенный запуск команды в Linux с помощью `at`, Просмотр запланированных заданий, Просмотр команды задания (+2 more)
+Cohesion: 0.09
+Nodes (19): заметки, Файлы и утилиты, 10. Обработка ошибок, 11. Итоги, 1. Предохранитель на входе, 2. Список файлов и фильтрация, 3. Определение действия для каждой базы, 4. Проверки, блокирующие restore (+11 more)
 
 ### Community 16 - "sysadmin-notes"
 Cohesion: 0.25
@@ -127,8 +127,8 @@ Cohesion: 0.40
 Nodes (4): База знаний системного администратора, как-пополнять.txt, последние-заметки.log, разделы
 
 ### Community 19 - "index.md"
-Cohesion: 0.13
-Nodes (13): заметки, Файлы и утилиты, 1. Получение списка файлов, 2. Пропуск существующих баз, 3. Разбор состава backup-файла, 4. Генерация MOVE для каждого файла, 5. Два режима: отчёт и выполнение, 6. Проверка свободного места (+5 more)
+Cohesion: 0.18
+Nodes (11): 1. Получение списка файлов, 2. Пропуск существующих баз, 3. Разбор состава backup-файла, 4. Генерация MOVE для каждого файла, 5. Два режима: отчёт и выполнение, 6. Проверка свободного места, Как использовать, Массовое восстановление баз SQL Server из каталога с .bak (+3 more)
 
 ### Community 27 - "Инструкция: включение отладки и смена пути каталога `srvinfo` сервера 1С:Предприятие"
 Cohesion: 0.14
@@ -143,24 +143,24 @@ Cohesion: 0.20
 Nodes (10): 2. Перенос каталога `srvinfo`, Было, Стало, Что такое `srvinfo`, Шаг 1. Остановить службу, Шаг 2. Создать новый каталог, Шаг 3. Скопировать содержимое, Шаг 4. Изменить параметр `-d` (+2 more)
 
 ## Knowledge Gaps
-- **180 isolated node(s):** `graphify`, `Локальный запуск`, `1. Создать репозиторий на GitHub`, `2. Подключить Cloudflare Pages`, `Структура заметок` (+175 more)
+- **195 isolated node(s):** `graphify`, `Локальный запуск`, `1. Создать репозиторий на GitHub`, `2. Подключить Cloudflare Pages`, `Структура заметок` (+190 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **12 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Диагностика и отладка IPsec в MikroTik RouterOS` connect `debugIpsec.md` to `29. Команды-шпаргалка`?**
-  _High betweenness centrality (0.056) - this node is a cross-community bridge._
+- **Why does `Диагностика и отладка IPsec в MikroTik RouterOS` connect `debugIpsec.md` to `29. Команды-шпаргалка`, `Сопоставление групп Diffie-Hellman в MikroTik и Juniper SSG`?**
+  _High betweenness centrality (0.049) - this node is a cross-community bridge._
 - **Why does `Диагностика и управление агентами очереди Asterisk` connect `Диагностика и управление агентами очереди Asterisk` to `Диск переполнен, а du не находит крупные файлы`?**
-  _High betweenness centrality (0.031) - this node is a cross-community bridge._
-- **Why does `Инструкция: включение отладки и смена пути каталога `srvinfo` сервера 1С:Предприятие` connect `Инструкция: включение отладки и смена пути каталога `srvinfo` сервера 1С:Предприятие` to `Windows Server 2016 определяет доменную сеть как Public`, `2. Перенос каталога `srvinfo``?**
   _High betweenness centrality (0.027) - this node is a cross-community bridge._
+- **Why does `Инструкция: включение отладки и смена пути каталога `srvinfo` сервера 1С:Предприятие` connect `Инструкция: включение отладки и смена пути каталога `srvinfo` сервера 1С:Предприятие` to `Windows Server 2016 определяет доменную сеть как Public`, `2. Перенос каталога `srvinfo``?**
+  _High betweenness centrality (0.024) - this node is a cross-community bridge._
 - **What connects `graphify`, `Локальный запуск`, `1. Создать репозиторий на GitHub` to the rest of the system?**
-  _180 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _195 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Структура сайта` be split into smaller, more focused modules?**
   _Cohesion score 0.125 - nodes in this community are weakly interconnected._
 - **Should `debugIpsec.md` be split into smaller, more focused modules?**
-  _Cohesion score 0.05405405405405406 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.0625 - nodes in this community are weakly interconnected._
 - **Should `29. Команды-шпаргалка` be split into smaller, more focused modules?**
   _Cohesion score 0.125 - nodes in this community are weakly interconnected._
