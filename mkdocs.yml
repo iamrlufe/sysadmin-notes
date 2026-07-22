@@ -77,6 +77,7 @@ nav:
       - notes/monitoring/index.md
   - Файлы и утилиты:
       - notes/files/index.md
+      - notes/files/restoreDbFromBak.md
   - Теги: tags.md
 
 plugins:
