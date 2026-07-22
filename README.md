@@ -42,11 +42,18 @@ git push -u origin main
 2. Выбрать репозиторий `sysadmin-notes`.
 3. Настройки сборки:
    - Framework preset: None
-   - Build command: `pip install -r requirements.txt && mkdocs build --strict`
+   - Build command: `git fetch --unshallow && pip install -r requirements.txt && mkdocs build --strict`
    - Build output directory: `site`
 4. Save and Deploy.
 
 Cloudflare сам подберёт Python. Если сборка не найдёт Python — добавить в настройках переменную окружения `PYTHON_VERSION` = `3.12`.
+
+`git fetch --unshallow` в начале команды обязателен: Cloudflare Pages по
+умолчанию делает shallow-клон (усечённая история), а
+`hooks/homepage_data.py` определяет дату публикации заметки по первому
+git-коммиту, добавившему файл — без полной истории старые заметки
+могут получить дату последнего доступного (по факту неверного,
+слишком свежего) коммита в усечённой истории.
 
 После первого деплоя сайт будет доступен на `sysadmin-notes-xxx.pages.dev`. При каждом `git push` в `main` Cloudflare пересобирает сайт автоматически.
 
