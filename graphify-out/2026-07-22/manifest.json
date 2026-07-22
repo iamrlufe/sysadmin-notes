@@ -20,8 +20,8 @@
     "semantic_hash": ""
   },
   "docs/notes/files/index.md": {
-    "mtime": 1784032518.1610098,
-    "ast_hash": "06a9dd1e76df743b8ad3d5a2e7af5bb6",
+    "mtime": 1784721108.5165358,
+    "ast_hash": "a50f358c3736608dad355373bcd5fdf4",
     "semantic_hash": ""
   },
   "docs/notes/linux/atUtility.md": {
@@ -75,8 +75,8 @@
     "semantic_hash": "3608ed43f8d77eb49b90f73e60dcbc93"
   },
   "mkdocs.yml": {
-    "mtime": 1784700414.2234468,
-    "ast_hash": "773c85dd8c9c0dfe8bb9afe5f28d3456",
+    "mtime": 1784721106.8474212,
+    "ast_hash": "28447193ed84c188cf2d9b8403373e21",
     "semantic_hash": ""
   },
   "requirements.txt": {
@@ -117,6 +117,11 @@
   "docs/snake.md": {
     "mtime": 1784190138.085621,
     "ast_hash": "30c1e811c0ab369a5b320dfe34dc1b1b",
+    "semantic_hash": ""
+  },
+  "docs/notes/files/restoreDbFromBak.md": {
+    "mtime": 1784721101.1620917,
+    "ast_hash": "407caeaa2db2fea136eba62f8473863d",
     "semantic_hash": ""
   }
 }

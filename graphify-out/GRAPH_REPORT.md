@@ -1,16 +1,16 @@
 # Graph Report - sysadmin-notes  (2026-07-22)
 
 ## Corpus Check
-- 23 files · ~12,080 words
+- 23 files · ~12,174 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 251 nodes · 232 edges · 31 communities (19 shown, 12 thin omitted)
+- 252 nodes · 233 edges · 31 communities (19 shown, 12 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 1 edges (avg confidence: 0.95)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `d30e1f5f`
+- Built from commit: `783570c6`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -79,8 +79,8 @@
 ## Communities (31 total, 12 thin omitted)
 
 ### Community 0 - "Хук главной страницы"
-Cohesion: 0.33
-Nodes (7): _first_paragraph(), _frontmatter_date(), _git_last_modified(), on_files(), Собирает список последних заметок для главной страницы (docs/index.md).  В выбор, Первый обычный абзац заметки: без заголовков, кода и таблиц., Path
+Cohesion: 0.29
+Nodes (8): _first_paragraph(), _frontmatter_date(), _git_first_commit_dates(), on_files(), Собирает список последних заметок для главной страницы (docs/index.md).  В выбор, Дата первого коммита для каждого файла репозитория (создание, не правки).      О, Первый обычный абзац заметки: без заголовков, кода и таблиц., Path
 
 ### Community 3 - "Структура сайта"
 Cohesion: 0.12
@@ -151,9 +151,9 @@ Nodes (10): 2. Перенос каталога `srvinfo`, Было, Стало, 
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Диагностика и отладка IPsec в MikroTik RouterOS` connect `debugIpsec.md` to `29. Команды-шпаргалка`?**
-  _High betweenness centrality (0.057) - this node is a cross-community bridge._
+  _High betweenness centrality (0.056) - this node is a cross-community bridge._
 - **Why does `Диагностика и управление агентами очереди Asterisk` connect `Диагностика и управление агентами очереди Asterisk` to `Диск переполнен, а du не находит крупные файлы`?**
-  _High betweenness centrality (0.032) - this node is a cross-community bridge._
+  _High betweenness centrality (0.031) - this node is a cross-community bridge._
 - **Why does `Инструкция: включение отладки и смена пути каталога `srvinfo` сервера 1С:Предприятие` connect `Инструкция: включение отладки и смена пути каталога `srvinfo` сервера 1С:Предприятие` to `Windows Server 2016 определяет доменную сеть как Public`, `2. Перенос каталога `srvinfo``?**
   _High betweenness centrality (0.027) - this node is a cross-community bridge._
 - **What connects `graphify`, `Локальный запуск`, `1. Создать репозиторий на GitHub` to the rest of the system?**
