@@ -1,7 +1,7 @@
 {
   "hooks/homepage_data.py": {
-    "mtime": 1784762205.3493023,
-    "ast_hash": "4dedb81478677f3b7638d2a10136a898",
+    "mtime": 1784931716.4029353,
+    "ast_hash": "7797e706548d6eab476bd7e98a235bdf",
     "semantic_hash": ""
   },
   "CLAUDE.md": {
@@ -10,8 +10,8 @@
     "semantic_hash": "82efb97a359f5c7290bf2513d14686be"
   },
   "README.md": {
-    "mtime": 1784762182.1917374,
-    "ast_hash": "d8d6217b243ded4708153e731ff1ab3a",
+    "mtime": 1784932122.8678985,
+    "ast_hash": "6037e5f2faa47bd12e73ddfa01d03dad",
     "semantic_hash": ""
   },
   "docs/index.md": {
@@ -20,8 +20,8 @@
     "semantic_hash": ""
   },
   "docs/notes/files/index.md": {
-    "mtime": 1784725918.6535923,
-    "ast_hash": "2c7b175bf98053b1bac05cd95ee63271",
+    "mtime": 1784845388.9961524,
+    "ast_hash": "a168f7a36731550d6b045d8f9065d09d",
     "semantic_hash": ""
   },
   "docs/notes/linux/atUtility.md": {
@@ -75,8 +75,8 @@
     "semantic_hash": "3608ed43f8d77eb49b90f73e60dcbc93"
   },
   "mkdocs.yml": {
-    "mtime": 1784762777.217135,
-    "ast_hash": "360098ee8c7abeacd748db942f9a1f51",
+    "mtime": 1784845387.126523,
+    "ast_hash": "6a1ddc8a84f8cf6ee81bbdba782589fb",
     "semantic_hash": ""
   },
   "requirements.txt": {
@@ -147,6 +147,11 @@
   "docs/notes/network/mikrotikOpenDnsResolver.md": {
     "mtime": 1784762764.213488,
     "ast_hash": "52e6dcb555c44f25474fab07e407d882",
+    "semantic_hash": ""
+  },
+  "docs/notes/files/sqlReindexStats.md": {
+    "mtime": 1784845379.0774374,
+    "ast_hash": "5e2adaa978e8b5be47bb01cd08d3f91e",
     "semantic_hash": ""
   }
 }
