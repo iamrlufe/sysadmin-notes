@@ -28,14 +28,18 @@
 
 import datetime
 import html
+import logging
 import re
 import subprocess
 from pathlib import Path
 
 from mkdocs.utils import meta
 
+log = logging.getLogger("mkdocs.hooks.homepage_data")
+
 LATEST_COUNT = 3
 SUMMARY_MAX_LEN = 180
+GIT_LOG_TIMEOUT = 60
 
 # Пояс автора заметок (Казахстан) — не полагаемся на локальное время
 # сборочной машины (Cloudflare Pages собирает в UTC).
@@ -57,6 +61,9 @@ MD_MARKUP_RE = re.compile(r"[*_`]+")
 SECTION_INDEX_RE = re.compile(r"^notes/([^/]+)/index\.md$")
 NOTE_LINK_RE = re.compile(r"(\[[^\]]+\]\()([^)\s]+\.md)(\))")
 
+# Даты коммитов на один прогон mkdocs (важно для `mkdocs serve`).
+_GIT_DATES_CACHE: dict[str, dict[str, float]] = {}
+
 
 def _frontmatter_date(value) -> float | None:
     """Наивные даты/время из front matter считаются заданными в SITE_TZ."""
@@ -76,12 +83,18 @@ def _frontmatter_date(value) -> float | None:
     return None
 
 
-def _git_first_commit_dates(repo_root: Path) -> dict[str, float]:
-    """Дата первого коммита для каждого файла репозитория (создание, не правки).
+def _git_first_commit_dates(repo_root: Path, docs_dirname: str) -> dict[str, float]:
+    """Дата первого коммита для каждой заметки (создание, не правки).
 
-    Один проход по всей истории вместо отдельного `git log` на каждую
+    Один проход по истории вместо отдельного `git log` на каждую
     заметку — так и быстрее, и не зависит от переименований/`--follow`
     для каждого файла по отдельности.
+
+    Проход ограничен каталогом заметок (`docs_dirname`): коммиты, которые
+    его не трогают, git пропускает целиком, не читая их деревья. В этом
+    репозитории такие коммиты — большинство (обновления `graphify-out/`),
+    и на холодном клоне, как на Cloudflare Pages, чтение их объектов
+    занимало десятки секунд впустую.
     """
     if (repo_root / ".git" / "shallow").exists():
         # На shallow-клоне (например, Cloudflare Pages без `git fetch
@@ -94,14 +107,36 @@ def _git_first_commit_dates(repo_root: Path) -> dict[str, float]:
         return {}
     try:
         result = subprocess.run(
-            ["git", "log", "--reverse", "--name-status", "--format=\x01%ct"],
+            [
+                "git",
+                # Без этого git отдаёт не-ASCII пути C-эскейпами
+                # ("docs/notes/linux/\320\270\320\274\321\217.md"), они не
+                # совпадают с src_uri, и заметка с кириллицей в имени файла
+                # молча теряет дату публикации, уезжая на mtime.
+                "-c",
+                "core.quotepath=false",
+                "log",
+                "--reverse",
+                "--name-status",
+                # Переименование и так даёт дату по новому пути, а
+                # детектор сходств заставляет git читать содержимое файлов.
+                "--no-renames",
+                "--format=\x01%ct",
+                "--",
+                docs_dirname,
+            ],
             capture_output=True,
             text=True,
             cwd=repo_root,
-            timeout=20,
+            timeout=GIT_LOG_TIMEOUT,
             check=True,
         )
-    except (subprocess.SubprocessError, OSError):
+    except (subprocess.SubprocessError, OSError) as exc:
+        # Молчаливый откат на mtime — это неверные даты на всём сайте
+        # (на сборщике mtime равен времени checkout, то есть «сегодня»),
+        # поэтому о провале нужно узнавать из лога сборки, а не из
+        # съехавшего блока «Последние заметки».
+        log.warning("Не удалось получить даты коммитов из git (%s), даты берутся из mtime", exc)
         return {}
 
     dates: dict[str, float] = {}
@@ -148,8 +183,16 @@ def _first_paragraph(content: str) -> str:
 
 def on_files(files, config):
     notes = []
-    repo_root = Path(config["docs_dir"]).parent
-    first_commit_dates = _git_first_commit_dates(repo_root)
+    docs_dir = Path(config["docs_dir"])
+    repo_root = docs_dir.parent
+
+    # `mkdocs serve` вызывает on_files на каждую правку любого файла, а
+    # история коммитов между пересборками не меняется — незачем гонять
+    # `git log` заново на каждое сохранение.
+    cache_key = str(repo_root)
+    if cache_key not in _GIT_DATES_CACHE:
+        _GIT_DATES_CACHE[cache_key] = _git_first_commit_dates(repo_root, docs_dir.name)
+    first_commit_dates = _GIT_DATES_CACHE[cache_key]
 
     for file in files.documentation_pages():
         parts = Path(file.src_uri).parts
@@ -164,13 +207,12 @@ def on_files(files, config):
         summary = data.get("summary") or _first_paragraph(content)
         section_label = data.get("section_label") or SECTION_LABELS.get(parts[1], parts[1].title())
 
-        src_path = Path(file.abs_src_path)
-        git_path = f"{Path(config['docs_dir']).name}/{file.src_uri}"
-        mtime = (
-            _frontmatter_date(data.get("date"))
-            or first_commit_dates.get(git_path)
-            or src_path.stat().st_mtime
-        )
+        git_path = f"{docs_dir.name}/{file.src_uri}"
+        mtime = _frontmatter_date(data.get("date"))
+        if mtime is None:
+            mtime = first_commit_dates.get(git_path)
+        if mtime is None:
+            mtime = Path(file.abs_src_path).stat().st_mtime
 
         notes.append(
             {
