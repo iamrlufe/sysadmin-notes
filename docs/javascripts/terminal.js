@@ -123,6 +123,7 @@
           "  whoami        кто здесь",
           "  contact       контакты",
           "  snake         змейка прямо в терминале",
+          "  tetris        тетрис в отдельном окне",
           "  clear         очистить вывод",
           "",
           "История команд — стрелками ↑/↓."
@@ -178,6 +179,14 @@
       snake: function () {
         textOut(["Запускаю ./snake …"]);
         window.location.href = "snake/";
+      },
+      tetris: function () {
+        if (window.kbTetris) {
+          textOut(["Запускаю ./tetris …"]);
+          window.kbTetris.open();
+        } else {
+          textOut(["tetris: не удалось загрузить игру."]);
+        }
       },
       sudo: function () {
         textOut(["roman is not in the sudoers file. This incident will be reported."]);

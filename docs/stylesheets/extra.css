@@ -614,6 +614,170 @@ body {
 }
 
 /* ============================================================
+   Модалка с тетрисом
+   ============================================================ */
+
+.kb-modal {
+  position: fixed;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  inset: 0;
+  /* Модалка висит в <body>, а не внутри .home-page, откуда терминал
+     наследует моноширинный шрифт, — без этого поле разъезжается. */
+  font-family: var(--kb-mono);
+}
+
+/* Атрибут hidden сам по себе проигрывает display: flex выше */
+.kb-modal[hidden] {
+  display: none;
+}
+
+.kb-modal__backdrop {
+  position: absolute;
+  background: rgba(4, 10, 7, 0.78);
+  inset: 0;
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+}
+
+body.kb-modal-open {
+  overflow: hidden;
+}
+
+.kb-term--modal {
+  position: relative;
+  max-width: 24rem;
+  max-height: calc(100vh - 2rem);
+  margin: 0;
+  overflow-y: auto;
+  animation: kb-modal-in 0.18s ease-out;
+}
+
+@keyframes kb-modal-in {
+  from { opacity: 0; transform: translateY(0.5rem); }
+  to { opacity: 1; transform: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .kb-term--modal { animation: none; }
+}
+
+/* Фокус ставится программно при открытии — рамка вокруг всего окна тут
+   только шумит, видимый фокус нужен на кнопках внутри. */
+.kb-term--modal:focus {
+  outline: none;
+}
+
+.kb-modal__close {
+  margin-left: auto;
+  padding: 0 0.2rem;
+  border: 0;
+  background: none;
+  color: var(--term-faint);
+  cursor: pointer;
+  font-family: var(--kb-mono);
+  font-size: 0.72rem;
+  line-height: 1;
+}
+
+.kb-modal__close:hover {
+  color: var(--term-green);
+}
+
+.kb-modal__close:focus-visible {
+  outline: 2px solid var(--term-green);
+  outline-offset: 2px;
+}
+
+.kb-tetris {
+  display: flex;
+  gap: 0.9rem;
+  align-items: flex-start;
+  margin-top: 0.7rem;
+}
+
+.kb-tetris pre {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--term-faint);
+  font-family: inherit;
+  font-size: 0.72rem;
+  line-height: 1.08;
+  white-space: pre;
+}
+
+.kb-tetris__side {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.kb-tetris__label {
+  margin: 0 0 0.25rem;
+  color: var(--term-faint);
+  font-size: 0.62rem;
+}
+
+.kb-tetris__stat {
+  margin: 0.9rem 0 0;
+  color: var(--term-muted);
+  font-size: 0.68rem;
+  line-height: 1.55;
+  white-space: pre;
+  font-variant-numeric: tabular-nums;
+}
+
+.kb-tetris__msg {
+  min-height: 1.2rem;
+  margin: 0.6rem 0 0;
+  color: var(--term-green);
+  font-size: 0.7rem;
+}
+
+/* Фигуры — один зелёный, но разнесённый по светлоте: цветными их делать
+   незачем, а различать на глаз надо. */
+.kb-tet--i { color: #ecfdf5; }
+.kb-tet--o { color: #a7f3d0; }
+.kb-tet--t { color: #4ade80; }
+.kb-tet--s { color: #34d399; }
+.kb-tet--z { color: #10b981; }
+.kb-tet--j { color: #6ee7b7; }
+.kb-tet--l { color: #047857; }
+.kb-tet--ghost { color: #1f3b2c; }
+
+.kb-tetris__pad {
+  display: none;
+  gap: 0.4rem;
+  margin-top: 0.7rem;
+}
+
+.kb-tetris__pad button {
+  flex: 1 1 0;
+  padding: 0.5rem 0;
+  border: 1px solid var(--term-border);
+  border-radius: var(--rlufe-radius);
+  background: var(--term-bar);
+  color: var(--term-green);
+  cursor: pointer;
+  font-family: var(--kb-mono);
+  font-size: 0.8rem;
+}
+
+.kb-tetris__pad button:active {
+  background: rgba(74, 222, 128, 0.14);
+}
+
+/* Экранные кнопки нужны там, где нет клавиатуры. Одного (hover: none)
+   мало: ноутбуки с сенсорным экраном отвечают на него по-разному. */
+@media (hover: none), (pointer: coarse) {
+  .kb-tetris__pad { display: flex; }
+}
+
+/* ============================================================
    Страницы разделов — в стиле терминальной главной
    ============================================================ */
 
