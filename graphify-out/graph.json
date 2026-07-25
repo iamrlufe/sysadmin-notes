@@ -96,6 +96,106 @@
       "norm_label": "init()"
     },
     {
+      "label": "tetris.js",
+      "file_type": "code",
+      "source_file": "docs/javascripts/tetris.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_javascripts_tetris",
+      "community": 34,
+      "norm_label": "tetris.js"
+    },
+    {
+      "label": "storageKey()",
+      "file_type": "code",
+      "source_file": "docs/javascripts/tetris.js",
+      "source_location": "L48",
+      "_origin": "ast",
+      "id": "docs_javascripts_tetris_storagekey",
+      "community": 34,
+      "norm_label": "storagekey()"
+    },
+    {
+      "label": "localGet()",
+      "file_type": "code",
+      "source_file": "docs/javascripts/tetris.js",
+      "source_location": "L53",
+      "_origin": "ast",
+      "id": "docs_javascripts_tetris_localget",
+      "community": 34,
+      "norm_label": "localget()"
+    },
+    {
+      "label": "localSet()",
+      "file_type": "code",
+      "source_file": "docs/javascripts/tetris.js",
+      "source_location": "L62",
+      "_origin": "ast",
+      "id": "docs_javascripts_tetris_localset",
+      "community": 34,
+      "norm_label": "localset()"
+    },
+    {
+      "label": "cookieGet()",
+      "file_type": "code",
+      "source_file": "docs/javascripts/tetris.js",
+      "source_location": "L71",
+      "_origin": "ast",
+      "id": "docs_javascripts_tetris_cookieget",
+      "community": 34,
+      "norm_label": "cookieget()"
+    },
+    {
+      "label": "cookieSet()",
+      "file_type": "code",
+      "source_file": "docs/javascripts/tetris.js",
+      "source_location": "L82",
+      "_origin": "ast",
+      "id": "docs_javascripts_tetris_cookieset",
+      "community": 34,
+      "norm_label": "cookieset()"
+    },
+    {
+      "label": "readFlag()",
+      "file_type": "code",
+      "source_file": "docs/javascripts/tetris.js",
+      "source_location": "L88",
+      "_origin": "ast",
+      "id": "docs_javascripts_tetris_readflag",
+      "community": 34,
+      "norm_label": "readflag()"
+    },
+    {
+      "label": "writeFlag()",
+      "file_type": "code",
+      "source_file": "docs/javascripts/tetris.js",
+      "source_location": "L93",
+      "_origin": "ast",
+      "id": "docs_javascripts_tetris_writeflag",
+      "community": 34,
+      "norm_label": "writeflag()"
+    },
+    {
+      "label": "buildModal()",
+      "file_type": "code",
+      "source_file": "docs/javascripts/tetris.js",
+      "source_location": "L99",
+      "_origin": "ast",
+      "id": "docs_javascripts_tetris_buildmodal",
+      "community": 34,
+      "norm_label": "buildmodal()"
+    },
+    {
+      "label": "init()",
+      "file_type": "code",
+      "source_file": "docs/javascripts/tetris.js",
+      "source_location": "L143",
+      "_origin": "ast",
+      "id": "docs_javascripts_tetris_init",
+      "community": 34,
+      "norm_label": "init()"
+    },
+    {
       "label": "homepage_data.py",
       "file_type": "code",
       "source_file": "hooks/homepage_data.py",
@@ -2122,7 +2222,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "docs_notes_network_dh_\u0441\u043e\u043f\u043e\u0441\u0442\u0430\u0432\u043b\u0435\u043d\u0438\u0435_\u0433\u0440\u0443\u043f\u043f_diffie_hellman_\u0432_mikrotik_\u0438_juniper_ssg",
-      "community": 33,
+      "community": 9,
       "norm_label": "\u0441\u043e\u043f\u043e\u0441\u0442\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u0433\u0440\u0443\u043f\u043f diffie-hellman \u0432 mikrotik \u0438 juniper ssg"
     },
     {
@@ -2132,7 +2232,7 @@
       "source_location": "L29",
       "_origin": "ast",
       "id": "docs_notes_network_dh_\u0442\u0430\u0431\u043b\u0438\u0446\u0430_\u0441\u043e\u043e\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0438\u044f_dh_\u0433\u0440\u0443\u043f\u043f",
-      "community": 33,
+      "community": 9,
       "norm_label": "\u0442\u0430\u0431\u043b\u0438\u0446\u0430 \u0441\u043e\u043e\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0438\u044f dh-\u0433\u0440\u0443\u043f\u043f"
     },
     {
@@ -2142,7 +2242,7 @@
       "source_location": "L46",
       "_origin": "ast",
       "id": "docs_notes_network_dh_\u0431\u044b\u0441\u0442\u0440\u0430\u044f_\u0448\u043f\u0430\u0440\u0433\u0430\u043b\u043a\u0430",
-      "community": 33,
+      "community": 9,
       "norm_label": "\u0431\u044b\u0441\u0442\u0440\u0430\u044f \u0448\u043f\u0430\u0440\u0433\u0430\u043b\u043a\u0430"
     },
     {
@@ -2152,7 +2252,7 @@
       "source_location": "L65",
       "_origin": "ast",
       "id": "docs_notes_network_dh_\u0433\u0434\u0435_\u043d\u0430\u0441\u0442\u0440\u0430\u0438\u0432\u0430\u0435\u0442\u0441\u044f_dh_group_\u0432_mikrotik",
-      "community": 33,
+      "community": 9,
       "norm_label": "\u0433\u0434\u0435 \u043d\u0430\u0441\u0442\u0440\u0430\u0438\u0432\u0430\u0435\u0442\u0441\u044f dh group \u0432 mikrotik"
     },
     {
@@ -2162,7 +2262,7 @@
       "source_location": "L97",
       "_origin": "ast",
       "id": "docs_notes_network_dh_pfs_\u0438_phase_2_\u0432_mikrotik",
-      "community": 33,
+      "community": 9,
       "norm_label": "pfs \u0438 phase 2 \u0432 mikrotik"
     },
     {
@@ -2172,7 +2272,7 @@
       "source_location": "L133",
       "_origin": "ast",
       "id": "docs_notes_network_dh_\u0433\u0434\u0435_\u043d\u0430\u0441\u0442\u0440\u0430\u0438\u0432\u0430\u0435\u0442\u0441\u044f_dh_group_\u0432_juniper_ssg",
-      "community": 33,
+      "community": 9,
       "norm_label": "\u0433\u0434\u0435 \u043d\u0430\u0441\u0442\u0440\u0430\u0438\u0432\u0430\u0435\u0442\u0441\u044f dh group \u0432 juniper ssg"
     },
     {
@@ -2182,7 +2282,7 @@
       "source_location": "L174",
       "_origin": "ast",
       "id": "docs_notes_network_dh_\u0432\u0430\u0436\u043d\u043e\u0435_\u0440\u0430\u0437\u043b\u0438\u0447\u0438\u0435_phase_1_\u0438_phase_2",
-      "community": 33,
+      "community": 9,
       "norm_label": "\u0432\u0430\u0436\u043d\u043e\u0435 \u0440\u0430\u0437\u043b\u0438\u0447\u0438\u0435: phase 1 \u0438 phase 2"
     },
     {
@@ -2192,7 +2292,7 @@
       "source_location": "L178",
       "_origin": "ast",
       "id": "docs_notes_network_dh_phase_1_ike",
-      "community": 33,
+      "community": 9,
       "norm_label": "phase 1 \u2014 ike"
     },
     {
@@ -2202,7 +2302,7 @@
       "source_location": "L202",
       "_origin": "ast",
       "id": "docs_notes_network_dh_phase_2_ipsec_pfs",
-      "community": 33,
+      "community": 9,
       "norm_label": "phase 2 \u2014 ipsec / pfs"
     },
     {
@@ -2212,7 +2312,7 @@
       "source_location": "L237",
       "_origin": "ast",
       "id": "docs_notes_network_dh_\u043f\u0440\u0438\u043c\u0435\u0440_\u043d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0438_mikrotik_\u0434\u043b\u044f_juniper_group_14",
-      "community": 33,
+      "community": 9,
       "norm_label": "\u043f\u0440\u0438\u043c\u0435\u0440 \u043d\u0430\u0441\u0442\u0440\u043e\u0438\u043a\u0438 mikrotik \u0434\u043b\u044f juniper group 14"
     },
     {
@@ -2222,7 +2322,7 @@
       "source_location": "L274",
       "_origin": "ast",
       "id": "docs_notes_network_dh_\u0447\u0442\u043e_\u043f\u0440\u043e\u0432\u0435\u0440\u0438\u0442\u044c_\u0435\u0441\u043b\u0438_vpn_\u043d\u0435_\u043f\u043e\u0434\u043d\u0438\u043c\u0430\u0435\u0442\u0441\u044f",
-      "community": 33,
+      "community": 9,
       "norm_label": "\u0447\u0442\u043e \u043f\u0440\u043e\u0432\u0435\u0440\u0438\u0442\u044c, \u0435\u0441\u043b\u0438 vpn \u043d\u0435 \u043f\u043e\u0434\u043d\u0438\u043c\u0430\u0435\u0442\u0441\u044f"
     },
     {
@@ -2232,7 +2332,7 @@
       "source_location": "L307",
       "_origin": "ast",
       "id": "docs_notes_network_dh_\u0438\u0442\u043e\u0433",
-      "community": 33,
+      "community": 9,
       "norm_label": "\u0438\u0442\u043e\u0433"
     },
     {
@@ -2852,7 +2952,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "docs_notes_windows_srvinfodebug1c",
-      "community": 27,
+      "community": 10,
       "norm_label": "srvinfodebug1c.md"
     },
     {
@@ -3494,6 +3594,206 @@
       "weight": 1.0,
       "source": "docs_javascripts_terminal",
       "target": "docs_javascripts_terminal_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/javascripts/tetris.js",
+      "source_location": "L99",
+      "weight": 1.0,
+      "source": "docs_javascripts_tetris",
+      "target": "docs_javascripts_tetris_buildmodal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/javascripts/tetris.js",
+      "source_location": "L71",
+      "weight": 1.0,
+      "source": "docs_javascripts_tetris",
+      "target": "docs_javascripts_tetris_cookieget",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/javascripts/tetris.js",
+      "source_location": "L82",
+      "weight": 1.0,
+      "source": "docs_javascripts_tetris",
+      "target": "docs_javascripts_tetris_cookieset",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/javascripts/tetris.js",
+      "source_location": "L143",
+      "weight": 1.0,
+      "source": "docs_javascripts_tetris",
+      "target": "docs_javascripts_tetris_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/javascripts/tetris.js",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "docs_javascripts_tetris",
+      "target": "docs_javascripts_tetris_localget",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/javascripts/tetris.js",
+      "source_location": "L62",
+      "weight": 1.0,
+      "source": "docs_javascripts_tetris",
+      "target": "docs_javascripts_tetris_localset",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/javascripts/tetris.js",
+      "source_location": "L88",
+      "weight": 1.0,
+      "source": "docs_javascripts_tetris",
+      "target": "docs_javascripts_tetris_readflag",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/javascripts/tetris.js",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "docs_javascripts_tetris",
+      "target": "docs_javascripts_tetris_storagekey",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/javascripts/tetris.js",
+      "source_location": "L93",
+      "weight": 1.0,
+      "source": "docs_javascripts_tetris",
+      "target": "docs_javascripts_tetris_writeflag",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/javascripts/tetris.js",
+      "source_location": "L72",
+      "weight": 1.0,
+      "source": "docs_javascripts_tetris_cookieget",
+      "target": "docs_javascripts_tetris_storagekey",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/javascripts/tetris.js",
+      "source_location": "L83",
+      "weight": 1.0,
+      "source": "docs_javascripts_tetris_cookieset",
+      "target": "docs_javascripts_tetris_storagekey",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/javascripts/tetris.js",
+      "source_location": "L55",
+      "weight": 1.0,
+      "source": "docs_javascripts_tetris_localget",
+      "target": "docs_javascripts_tetris_storagekey",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/javascripts/tetris.js",
+      "source_location": "L64",
+      "weight": 1.0,
+      "source": "docs_javascripts_tetris_localset",
+      "target": "docs_javascripts_tetris_storagekey",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/javascripts/tetris.js",
+      "source_location": "L89",
+      "weight": 1.0,
+      "source": "docs_javascripts_tetris_readflag",
+      "target": "docs_javascripts_tetris_localget",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/javascripts/tetris.js",
+      "source_location": "L94",
+      "weight": 1.0,
+      "source": "docs_javascripts_tetris_writeflag",
+      "target": "docs_javascripts_tetris_localset",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/javascripts/tetris.js",
+      "source_location": "L90",
+      "weight": 1.0,
+      "source": "docs_javascripts_tetris_readflag",
+      "target": "docs_javascripts_tetris_cookieget",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/javascripts/tetris.js",
+      "source_location": "L94",
+      "weight": 1.0,
+      "source": "docs_javascripts_tetris_writeflag",
+      "target": "docs_javascripts_tetris_cookieset",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/javascripts/tetris.js",
+      "source_location": "L156",
+      "weight": 1.0,
+      "source": "docs_javascripts_tetris_init",
+      "target": "docs_javascripts_tetris_readflag",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/javascripts/tetris.js",
+      "source_location": "L146",
+      "weight": 1.0,
+      "source": "docs_javascripts_tetris_init",
+      "target": "docs_javascripts_tetris_buildmodal",
       "confidence_score": 1.0
     },
     {
@@ -6684,5 +6984,5 @@
       "source_file": "mkdocs.yml"
     }
   ],
-  "built_at_commit": "cd24b3eb9ef36632ae49fed6676c64b7ed60ebca"
+  "built_at_commit": "b989823a4cb8a644a895ab71ea3aed177e188314"
 }

@@ -1,16 +1,16 @@
 # Graph Report - sysadmin-notes  (2026-07-25)
 
 ## Corpus Check
-- 29 files · ~20,875 words
+- 30 files · ~22,935 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 333 nodes · 315 edges · 34 communities (22 shown, 12 thin omitted)
+- 343 nodes · 334 edges · 34 communities (22 shown, 12 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 1 edges (avg confidence: 0.95)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `cd24b3eb`
+- Built from commit: `b989823a`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -45,7 +45,7 @@
 - Назначение прав глобального администратора в Zimbra 8.8.12 (CLI)
 - Сброс и уменьшение размера tempdb в MS SQL Server
 - Автозагрузка программы на Windows Server (2016–2025)
-- Сопоставление групп Diffie-Hellman в MikroTik и Juniper SSG
+- tetris.js
 
 ## God Nodes (most connected - your core abstractions)
 1. `Диагностика и отладка IPsec в MikroTik RouterOS` - 33 edges
@@ -98,8 +98,8 @@ Cohesion: 0.12
 Nodes (16): 29. Команды-шпаргалка, Включить IPsec Debug, Отключить IPsec Debug, Проверить Active Peers, Проверить Firewall, Проверить Identity, Проверить Installed SA, Проверить Logging (+8 more)
 
 ### Community 9 - "Сопоставление групп Diffie-Hellman в MikroTik и Juniper SSG"
-Cohesion: 0.14
-Nodes (10): заметки, Сети, MikroTik как открытый DNS-резолвер (Allow Remote Requests) — причина и исправление, Вариант 1. Оставить галочку включённой, но закрыть доступ через Firewall (рекомендуется), Вариант 2. Выключить галочку и раздавать DNS напрямую через DHCP, Как проверить, что резолвер сейчас открыт, Особенности и подводные камни, Почему «гонит сеть» при включённой галочке (+2 more)
+Cohesion: 0.08
+Nodes (22): PFS и Phase 2 в MikroTik, Phase 1 — IKE, Phase 2 — IPsec / PFS, Быстрая шпаргалка, Важное различие: Phase 1 и Phase 2, Где настраивается DH Group в Juniper SSG, Где настраивается DH Group в MikroTik, Итог (+14 more)
 
 ### Community 10 - "Windows Server 2016 определяет доменную сеть как Public"
 Cohesion: 0.08
@@ -153,9 +153,9 @@ Nodes (11): Авторасширение (Auto-Growth), Диагностика: 
 Cohesion: 0.15
 Nodes (13): Вариант А — быстрый, по всей базе, Вариант Б — точный, с полным сканированием и прогрессом, Вариант В — точечно, одна таблица, Общие правила безопасности, Реиндексация и обновление статистики MS SQL Server (1С), Шаг 0. Подготовка — редакция и окно обслуживания, Шаг 1. Проверить, не идёт ли сейчас бэкап, Шаг 2. Найти проблемные индексы (фрагментация) (+5 more)
 
-### Community 33 - "Сопоставление групп Diffie-Hellman в MikroTik и Juniper SSG"
-Cohesion: 0.17
-Nodes (12): PFS и Phase 2 в MikroTik, Phase 1 — IKE, Phase 2 — IPsec / PFS, Быстрая шпаргалка, Важное различие: Phase 1 и Phase 2, Где настраивается DH Group в Juniper SSG, Где настраивается DH Group в MikroTik, Итог (+4 more)
+### Community 34 - "tetris.js"
+Cohesion: 0.42
+Nodes (9): buildModal(), cookieGet(), cookieSet(), init(), localGet(), localSet(), readFlag(), storageKey() (+1 more)
 
 ## Knowledge Gaps
 - **238 isolated node(s):** `graphify`, `Локальный запуск`, `1. Создать репозиторий на GitHub`, `2. Подключить Cloudflare Pages`, `Если push стал долгим` (+233 more)
@@ -166,9 +166,11 @@ Nodes (12): PFS и Phase 2 в MikroTik, Phase 1 — IKE, Phase 2 — IPsec / PFS
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Диагностика и отладка IPsec в MikroTik RouterOS` connect `debugIpsec.md` to `29. Команды-шпаргалка`, `Сопоставление групп Diffie-Hellman в MikroTik и Juniper SSG`?**
-  _High betweenness centrality (0.040) - this node is a cross-community bridge._
+  _High betweenness centrality (0.037) - this node is a cross-community bridge._
+- **Why does `Инструкция: включение отладки и смена пути каталога `srvinfo` сервера 1С:Предприятие` connect `Инструкция: включение отладки и смена пути каталога `srvinfo` сервера 1С:Предприятие` to `Windows Server 2016 определяет доменную сеть как Public`?**
+  _High betweenness centrality (0.023) - this node is a cross-community bridge._
 - **Why does `Диагностика и управление агентами очереди Asterisk` connect `Диагностика и управление агентами очереди Asterisk` to `Диск переполнен, а du не находит крупные файлы`?**
-  _High betweenness centrality (0.018) - this node is a cross-community bridge._
+  _High betweenness centrality (0.017) - this node is a cross-community bridge._
 - **What connects `graphify`, `Локальный запуск`, `1. Создать репозиторий на GitHub` to the rest of the system?**
   _238 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Структура сайта` be split into smaller, more focused modules?**
@@ -177,5 +179,3 @@ _Questions this graph is uniquely positioned to answer:_
   _Cohesion score 0.0625 - nodes in this community are weakly interconnected._
 - **Should `29. Команды-шпаргалка` be split into smaller, more focused modules?**
   _Cohesion score 0.125 - nodes in this community are weakly interconnected._
-- **Should `Сопоставление групп Diffie-Hellman в MikroTik и Juniper SSG` be split into smaller, more focused modules?**
-  _Cohesion score 0.14285714285714285 - nodes in this community are weakly interconnected._
