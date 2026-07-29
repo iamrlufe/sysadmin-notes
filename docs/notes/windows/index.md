@@ -15,5 +15,6 @@ title: Windows и ПО
 - [Отладка сервера 1С и перенос каталога srvinfo](srvinfoDebug1C.md)
 - [Сброс и уменьшение размера tempdb в MS SQL Server](shrinkTempdb.md)
 - [Автозагрузка программы на Windows Server (2016–2025)](autostartWindowsServer.md)
+- [Сброс пароля администратора 1С (MS SQL, PostgreSQL, файловая база)](reset1CAdminPassword.md)
 
 </div>

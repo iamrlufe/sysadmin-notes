@@ -72,6 +72,7 @@ nav:
       - notes/windows/srvinfoDebug1C.md
       - notes/windows/shrinkTempdb.md
       - notes/windows/autostartWindowsServer.md
+      - notes/windows/reset1CAdminPassword.md
   - Сети:
       - notes/network/index.md
       - notes/network/dh.md
