@@ -104,7 +104,7 @@ UPDATE params SET filename = 'users.usr_bak' WHERE filename = 'users.usr';
 
 !!! note "Про имя резервной таблицы"
 
-    В PostgreSQL идентификатор с дефисом (`v8users_tuning-admina`) без двойных
+    В PostgreSQL идентификатор с дефисом (`v8users-bak`) без двойных
     кавычек вызывает синтаксическую ошибку — дефис читается как минус. Поэтому
     здесь и далее используется `v8users_bak` с подчёркиванием.
 
