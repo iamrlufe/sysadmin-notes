@@ -55,8 +55,8 @@
     "semantic_hash": "55eefcf8b4e632c00f54a01b1515664a"
   },
   "docs/notes/network/index.md": {
-    "mtime": 1784762781.1336217,
-    "ast_hash": "ef3503b5e038c487af4f8987325c5c47",
+    "mtime": 1785926261.7401667,
+    "ast_hash": "044e64ad901018ae813f4287e46e5534",
     "semantic_hash": ""
   },
   "docs/notes/windows/MicrosoftExcel-1C.md": {
@@ -65,8 +65,8 @@
     "semantic_hash": "9030d4d1edc34b81b5fc9579b1e76dfd"
   },
   "docs/notes/windows/index.md": {
-    "mtime": 1784761523.5047069,
-    "ast_hash": "79c52c6b09b4b0af1a0802cdd6768bbc",
+    "mtime": 1785309502.4582808,
+    "ast_hash": "fe0f3e2b02bebd1aa39569413a5ebf8e",
     "semantic_hash": ""
   },
   "docs/tags.md": {
@@ -75,8 +75,8 @@
     "semantic_hash": "3608ed43f8d77eb49b90f73e60dcbc93"
   },
   "mkdocs.yml": {
-    "mtime": 1784992088.5875268,
-    "ast_hash": "ec50fe481d3dbc2be675e272e797cca2",
+    "mtime": 1785926263.1406295,
+    "ast_hash": "b0f2d834d2e4c267e8f7126412a92319",
     "semantic_hash": ""
   },
   "requirements.txt": {
@@ -157,6 +157,21 @@
   "docs/javascripts/tetris.js": {
     "mtime": 1784993391.0355203,
     "ast_hash": "305f083258cb8debaf02a066d4186738",
+    "semantic_hash": ""
+  },
+  "docs/notes/network/synologyIscsiMaxSession.md": {
+    "mtime": 1785452149.3321416,
+    "ast_hash": "0ea65a1ee5caac172f2d82d1bfcd636e",
+    "semantic_hash": ""
+  },
+  "docs/notes/windows/reset1CAdminPassword.md": {
+    "mtime": 1785319159.4129694,
+    "ast_hash": "e789f9dca9eb3d695afb40a8204d59de",
+    "semantic_hash": ""
+  },
+  "docs/notes/network/mikrotikIpsecNatNetmap.md": {
+    "mtime": 1785926257.4998693,
+    "ast_hash": "948f47be925e7267d44e46dcc98ae12c",
     "semantic_hash": ""
   }
 }

@@ -79,6 +79,7 @@ nav:
       - notes/network/debugIpsec.md
       - notes/network/mikrotikOpenDnsResolver.md
       - notes/network/synologyIscsiMaxSession.md
+      - notes/network/mikrotikIpsecNatNetmap.md
   - Мониторинг:
       - notes/monitoring/index.md
   - Файлы и утилиты:
