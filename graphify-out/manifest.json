@@ -55,8 +55,8 @@
     "semantic_hash": "55eefcf8b4e632c00f54a01b1515664a"
   },
   "docs/notes/network/index.md": {
-    "mtime": 1785926261.7401667,
-    "ast_hash": "044e64ad901018ae813f4287e46e5534",
+    "mtime": 1787697994.303479,
+    "ast_hash": "4ea0fc3acede23eedc1003a8966d5cc8",
     "semantic_hash": ""
   },
   "docs/notes/windows/MicrosoftExcel-1C.md": {
@@ -75,8 +75,8 @@
     "semantic_hash": "3608ed43f8d77eb49b90f73e60dcbc93"
   },
   "mkdocs.yml": {
-    "mtime": 1785926263.1406295,
-    "ast_hash": "b0f2d834d2e4c267e8f7126412a92319",
+    "mtime": 1787697992.2528584,
+    "ast_hash": "9ba5c91d4918dd742be720262f02ecdb",
     "semantic_hash": ""
   },
   "requirements.txt": {
@@ -172,6 +172,11 @@
   "docs/notes/network/mikrotikIpsecNatNetmap.md": {
     "mtime": 1785926257.4998693,
     "ast_hash": "948f47be925e7267d44e46dcc98ae12c",
+    "semantic_hash": ""
+  },
+  "docs/notes/network/wireguardSiteToSite.md": {
+    "mtime": 1787697986.7115417,
+    "ast_hash": "5af731fa3b13481a33b8c21af2796051",
     "semantic_hash": ""
   }
 }

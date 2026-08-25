@@ -492,7 +492,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_index_md",
-      "community": 14,
+      "community": 15,
       "norm_label": "index.md"
     },
     {
@@ -502,7 +502,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_index_\u0444\u0430\u0439\u043b\u044b_\u0438_\u0443\u0442\u0438\u043b\u0438\u0442\u044b",
-      "community": 14,
+      "community": 15,
       "norm_label": "\u0444\u0430\u0438\u043b\u044b \u0438 \u0443\u0442\u0438\u043b\u0438\u0442\u044b"
     },
     {
@@ -512,7 +512,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_index_\u0437\u0430\u043c\u0435\u0442\u043a\u0438",
-      "community": 14,
+      "community": 15,
       "norm_label": "\u0437\u0430\u043c\u0435\u0442\u043a\u0438"
     },
     {
@@ -642,7 +642,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredboverwritefrombak_md",
-      "community": 14,
+      "community": 15,
       "norm_label": "restoredboverwritefrombak.md"
     },
     {
@@ -822,7 +822,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_sqlreindexstats_md",
-      "community": 14,
+      "community": 15,
       "norm_label": "sqlreindexstats.md"
     },
     {
@@ -2342,7 +2342,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "docs_notes_network_index",
-      "community": 9,
+      "community": 38,
       "norm_label": "index.md"
     },
     {
@@ -2352,7 +2352,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "docs_notes_network_index_\u0441\u0435\u0442\u0438",
-      "community": 9,
+      "community": 38,
       "norm_label": "\u0441\u0435\u0442\u0438"
     },
     {
@@ -2362,7 +2362,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "docs_notes_network_index_\u0437\u0430\u043c\u0435\u0442\u043a\u0438",
-      "community": 9,
+      "community": 38,
       "norm_label": "\u0437\u0430\u043c\u0435\u0442\u043a\u0438"
     },
     {
@@ -2372,7 +2372,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "docs_notes_network_mikrotikipsecnatnetmap",
-      "community": 9,
+      "community": 38,
       "norm_label": "mikrotikipsecnatnetmap.md"
     },
     {
@@ -2794,6 +2794,96 @@
       "id": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_network_synologyiscsimaxsession_\u0431\u044b\u0441\u0442\u0440\u0430\u044f_\u0448\u043f\u0430\u0440\u0433\u0430\u043b\u043a\u0430",
       "community": 28,
       "norm_label": "\u0431\u044b\u0441\u0442\u0440\u0430\u044f \u0448\u043f\u0430\u0440\u0433\u0430\u043b\u043a\u0430"
+    },
+    {
+      "label": "wireguardSiteToSite.md",
+      "file_type": "document",
+      "source_file": "docs/notes/network/wireguardSiteToSite.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_notes_network_wireguardsitetosite",
+      "community": 38,
+      "norm_label": "wireguardsitetosite.md"
+    },
+    {
+      "label": "Site-to-site \u0442\u0443\u043d\u043d\u0435\u043b\u044c WireGuard \u043d\u0430 RouterOS (MikroTik)",
+      "file_type": "document",
+      "source_file": "docs/notes/network/wireguardSiteToSite.md",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "docs_notes_network_wireguardsitetosite_site_to_site_\u0442\u0443\u043d\u043d\u0435\u043b\u044c_wireguard_\u043d\u0430_routeros_mikrotik",
+      "community": 38,
+      "norm_label": "site-to-site \u0442\u0443\u043d\u043d\u0435\u043b\u044c wireguard \u043d\u0430 routeros (mikrotik)"
+    },
+    {
+      "label": "\u0418\u0434\u0435\u044f \u043c\u0438\u0433\u0440\u0430\u0446\u0438\u0438",
+      "file_type": "document",
+      "source_file": "docs/notes/network/wireguardSiteToSite.md",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "docs_notes_network_wireguardsitetosite_\u0438\u0434\u0435\u044f_\u043c\u0438\u0433\u0440\u0430\u0446\u0438\u0438",
+      "community": 38,
+      "norm_label": "\u0438\u0434\u0435\u044f \u043c\u0438\u0433\u0440\u0430\u0446\u0438\u0438"
+    },
+    {
+      "label": "\u041f\u043e\u0434\u0433\u043e\u0442\u043e\u0432\u043a\u0430 (\u0441\u0434\u0435\u043b\u0430\u0442\u044c \u043d\u0430 \u043e\u0431\u0435\u0438\u0445 \u0441\u0442\u043e\u0440\u043e\u043d\u0430\u0445 \u0437\u0430\u0440\u0430\u043d\u0435\u0435)",
+      "file_type": "document",
+      "source_file": "docs/notes/network/wireguardSiteToSite.md",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "docs_notes_network_wireguardsitetosite_\u043f\u043e\u0434\u0433\u043e\u0442\u043e\u0432\u043a\u0430_\u0441\u0434\u0435\u043b\u0430\u0442\u044c_\u043d\u0430_\u043e\u0431\u0435\u0438\u0445_\u0441\u0442\u043e\u0440\u043e\u043d\u0430\u0445_\u0437\u0430\u0440\u0430\u043d\u0435\u0435",
+      "community": 38,
+      "norm_label": "\u043f\u043e\u0434\u0433\u043e\u0442\u043e\u0432\u043a\u0430 (\u0441\u0434\u0435\u043b\u0430\u0442\u044c \u043d\u0430 \u043e\u0431\u0435\u0438\u0445 \u0441\u0442\u043e\u0440\u043e\u043d\u0430\u0445 \u0437\u0430\u0440\u0430\u043d\u0435\u0435)"
+    },
+    {
+      "label": "\u0428\u0430\u0433\u0438 \u043d\u0430 \u0441\u0442\u043e\u0440\u043e\u043d\u0435 A",
+      "file_type": "document",
+      "source_file": "docs/notes/network/wireguardSiteToSite.md",
+      "source_location": "L43",
+      "_origin": "ast",
+      "id": "docs_notes_network_wireguardsitetosite_\u0448\u0430\u0433\u0438_\u043d\u0430_\u0441\u0442\u043e\u0440\u043e\u043d\u0435_a",
+      "community": 38,
+      "norm_label": "\u0448\u0430\u0433\u0438 \u043d\u0430 \u0441\u0442\u043e\u0440\u043e\u043d\u0435 a"
+    },
+    {
+      "label": "\u0428\u0430\u0433\u0438 \u043d\u0430 \u0441\u0442\u043e\u0440\u043e\u043d\u0435 B (\u0437\u0435\u0440\u043a\u0430\u043b\u044c\u043d\u043e)",
+      "file_type": "document",
+      "source_file": "docs/notes/network/wireguardSiteToSite.md",
+      "source_location": "L134",
+      "_origin": "ast",
+      "id": "docs_notes_network_wireguardsitetosite_\u0448\u0430\u0433\u0438_\u043d\u0430_\u0441\u0442\u043e\u0440\u043e\u043d\u0435_b_\u0437\u0435\u0440\u043a\u0430\u043b\u044c\u043d\u043e",
+      "community": 38,
+      "norm_label": "\u0448\u0430\u0433\u0438 \u043d\u0430 \u0441\u0442\u043e\u0440\u043e\u043d\u0435 b (\u0437\u0435\u0440\u043a\u0430\u043b\u044c\u043d\u043e)"
+    },
+    {
+      "label": "\u0427\u0430\u0441\u0442\u044b\u0435 \u043e\u0448\u0438\u0431\u043a\u0438",
+      "file_type": "document",
+      "source_file": "docs/notes/network/wireguardSiteToSite.md",
+      "source_location": "L191",
+      "_origin": "ast",
+      "id": "docs_notes_network_wireguardsitetosite_\u0447\u0430\u0441\u0442\u044b\u0435_\u043e\u0448\u0438\u0431\u043a\u0438",
+      "community": 38,
+      "norm_label": "\u0447\u0430\u0441\u0442\u044b\u0435 \u043e\u0448\u0438\u0431\u043a\u0438"
+    },
+    {
+      "label": "\u041f\u0440\u043e\u0432\u0435\u0440\u043e\u0447\u043d\u044b\u0439 \u0447\u0435\u043a-\u043b\u0438\u0441\u0442 \u043f\u0435\u0440\u0435\u0434 \u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435\u043c IPsec",
+      "file_type": "document",
+      "source_file": "docs/notes/network/wireguardSiteToSite.md",
+      "source_location": "L199",
+      "_origin": "ast",
+      "id": "docs_notes_network_wireguardsitetosite_\u043f\u0440\u043e\u0432\u0435\u0440\u043e\u0447\u043d\u044b\u0439_\u0447\u0435\u043a_\u043b\u0438\u0441\u0442_\u043f\u0435\u0440\u0435\u0434_\u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435\u043c_ipsec",
+      "community": 38,
+      "norm_label": "\u043f\u0440\u043e\u0432\u0435\u0440\u043e\u0447\u043d\u044b\u0438 \u0447\u0435\u043a-\u043b\u0438\u0441\u0442 \u043f\u0435\u0440\u0435\u0434 \u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435\u043c ipsec"
+    },
+    {
+      "label": "\u0421\u043c\u0435\u0436\u043d\u044b\u0435 \u0437\u0430\u043c\u0435\u0442\u043a\u0438",
+      "file_type": "document",
+      "source_file": "docs/notes/network/wireguardSiteToSite.md",
+      "source_location": "L213",
+      "_origin": "ast",
+      "id": "docs_notes_network_wireguardsitetosite_\u0441\u043c\u0435\u0436\u043d\u044b\u0435_\u0437\u0430\u043c\u0435\u0442\u043a\u0438",
+      "community": 38,
+      "norm_label": "\u0441\u043c\u0435\u0436\u043d\u044b\u0435 \u0437\u0430\u043c\u0435\u0442\u043a\u0438"
     },
     {
       "label": "MicrosoftExcel-1C.md",
@@ -6583,6 +6673,16 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/notes/network/index.md",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "docs_notes_network_index",
+      "target": "docs_notes_network_wireguardsitetosite",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/notes/network/index.md",
@@ -6600,6 +6700,16 @@
       "weight": 1.0,
       "source": "docs_notes_network_mikrotikipsecnatnetmap",
       "target": "docs_notes_network_mikrotikipsecnatnetmap_\u043d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0430_ipsec_\u0442\u0443\u043d\u043d\u0435\u043b\u044f_host_to_host_\u0441_nat_netmap_\u043d\u0430_mikrotik",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/notes/network/wireguardSiteToSite.md",
+      "source_location": "L216",
+      "weight": 1.0,
+      "source": "docs_notes_network_wireguardsitetosite",
+      "target": "docs_notes_network_mikrotikipsecnatnetmap",
       "confidence_score": 1.0
     },
     {
@@ -6990,6 +7100,86 @@
       "weight": 1.0,
       "source": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_network_synologyiscsimaxsession_\u0434\u0438\u0430\u0433\u043d\u043e\u0441\u0442\u0438\u043a\u0430",
       "target": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_network_synologyiscsimaxsession_\u0448\u0430\u0433_3_\u043f\u0440\u043e\u0432\u0435\u0440\u0438\u0442\u044c_\u043b\u0438\u043c\u0438\u0442_\u0441\u0435\u0441\u0441\u0438\u0439_\u043d\u0430_tpg",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/notes/network/wireguardSiteToSite.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "docs_notes_network_wireguardsitetosite",
+      "target": "docs_notes_network_wireguardsitetosite_site_to_site_\u0442\u0443\u043d\u043d\u0435\u043b\u044c_wireguard_\u043d\u0430_routeros_mikrotik",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/notes/network/wireguardSiteToSite.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "docs_notes_network_wireguardsitetosite_site_to_site_\u0442\u0443\u043d\u043d\u0435\u043b\u044c_wireguard_\u043d\u0430_routeros_mikrotik",
+      "target": "docs_notes_network_wireguardsitetosite_\u0438\u0434\u0435\u044f_\u043c\u0438\u0433\u0440\u0430\u0446\u0438\u0438",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/notes/network/wireguardSiteToSite.md",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "docs_notes_network_wireguardsitetosite_site_to_site_\u0442\u0443\u043d\u043d\u0435\u043b\u044c_wireguard_\u043d\u0430_routeros_mikrotik",
+      "target": "docs_notes_network_wireguardsitetosite_\u043f\u043e\u0434\u0433\u043e\u0442\u043e\u0432\u043a\u0430_\u0441\u0434\u0435\u043b\u0430\u0442\u044c_\u043d\u0430_\u043e\u0431\u0435\u0438\u0445_\u0441\u0442\u043e\u0440\u043e\u043d\u0430\u0445_\u0437\u0430\u0440\u0430\u043d\u0435\u0435",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/notes/network/wireguardSiteToSite.md",
+      "source_location": "L199",
+      "weight": 1.0,
+      "source": "docs_notes_network_wireguardsitetosite_site_to_site_\u0442\u0443\u043d\u043d\u0435\u043b\u044c_wireguard_\u043d\u0430_routeros_mikrotik",
+      "target": "docs_notes_network_wireguardsitetosite_\u043f\u0440\u043e\u0432\u0435\u0440\u043e\u0447\u043d\u044b\u0439_\u0447\u0435\u043a_\u043b\u0438\u0441\u0442_\u043f\u0435\u0440\u0435\u0434_\u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435\u043c_ipsec",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/notes/network/wireguardSiteToSite.md",
+      "source_location": "L213",
+      "weight": 1.0,
+      "source": "docs_notes_network_wireguardsitetosite_site_to_site_\u0442\u0443\u043d\u043d\u0435\u043b\u044c_wireguard_\u043d\u0430_routeros_mikrotik",
+      "target": "docs_notes_network_wireguardsitetosite_\u0441\u043c\u0435\u0436\u043d\u044b\u0435_\u0437\u0430\u043c\u0435\u0442\u043a\u0438",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/notes/network/wireguardSiteToSite.md",
+      "source_location": "L191",
+      "weight": 1.0,
+      "source": "docs_notes_network_wireguardsitetosite_site_to_site_\u0442\u0443\u043d\u043d\u0435\u043b\u044c_wireguard_\u043d\u0430_routeros_mikrotik",
+      "target": "docs_notes_network_wireguardsitetosite_\u0447\u0430\u0441\u0442\u044b\u0435_\u043e\u0448\u0438\u0431\u043a\u0438",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/notes/network/wireguardSiteToSite.md",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "docs_notes_network_wireguardsitetosite_site_to_site_\u0442\u0443\u043d\u043d\u0435\u043b\u044c_wireguard_\u043d\u0430_routeros_mikrotik",
+      "target": "docs_notes_network_wireguardsitetosite_\u0448\u0430\u0433\u0438_\u043d\u0430_\u0441\u0442\u043e\u0440\u043e\u043d\u0435_a",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/notes/network/wireguardSiteToSite.md",
+      "source_location": "L134",
+      "weight": 1.0,
+      "source": "docs_notes_network_wireguardsitetosite_site_to_site_\u0442\u0443\u043d\u043d\u0435\u043b\u044c_wireguard_\u043d\u0430_routeros_mikrotik",
+      "target": "docs_notes_network_wireguardsitetosite_\u0448\u0430\u0433\u0438_\u043d\u0430_\u0441\u0442\u043e\u0440\u043e\u043d\u0435_b_\u0437\u0435\u0440\u043a\u0430\u043b\u044c\u043d\u043e",
       "confidence_score": 1.0
     },
     {
@@ -8264,5 +8454,5 @@
       "source_file": "mkdocs.yml"
     }
   ],
-  "built_at_commit": "32255059b4c110733f0f4bfc2cb3ba9aacef80d1"
+  "built_at_commit": "0469da91395be97a3dfbb94857a8624a05f0dacf"
 }

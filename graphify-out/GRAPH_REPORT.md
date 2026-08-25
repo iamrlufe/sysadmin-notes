@@ -1,16 +1,16 @@
-# Graph Report - sysadmin-notes  (2026-08-05)
+# Graph Report - sysadmin-notes  (2026-08-26)
 
 ## Corpus Check
-- 33 files · ~26,637 words
+- 34 files · ~27,734 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 409 nodes · 396 edges · 38 communities (26 shown, 12 thin omitted)
+- 418 nodes · 406 edges · 39 communities (27 shown, 12 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 1 edges (avg confidence: 0.95)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `32255059`
+- Built from commit: `0469da91`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -50,6 +50,7 @@
 - tetris.js
 - iSCSI-диски не подключились после перезагрузки Windows Server (Synology NAS)
 - tags.md
+- Site-to-site туннель WireGuard на RouterOS (MikroTik)
 
 ## God Nodes (most connected - your core abstractions)
 1. `Диагностика и отладка IPsec в MikroTik RouterOS` - 33 edges
@@ -83,7 +84,7 @@
 - **Notes aggregated by the Material tags plugin into the tags page** — docs_tags_tags_index, docs_notes_linux_atutility_at_deferred_execution, docs_notes_linux_example_note_deleted_open_files, docs_notes_network_dh_dh_group_mapping, docs_notes_windows_microsoftexcel_1c_dcom_excel_setup [INFERRED 0.95]
 - **Site section index pages forming the knowledge base navigation** — docs_index_homepage, docs_notes_linux_index_linux_section, docs_notes_windows_index_windows_section, docs_notes_network_index_network_section, docs_notes_monitoring_index_monitoring_section, docs_notes_files_index_files_section, docs_tags_tags_index [EXTRACTED 1.00]
 
-## Communities (38 total, 12 thin omitted)
+## Communities (39 total, 12 thin omitted)
 
 ### Community 0 - "Хук главной страницы"
 Cohesion: 0.22
@@ -102,8 +103,8 @@ Cohesion: 0.06
 Nodes (31): 1С всё равно просит пароль, Вариант 1. MS SQL Server, Вариант 2. PostgreSQL через pgAdmin 4, Вариант 3. PostgreSQL через консоль, Вариант 4. Файловая база, Возможные проблемы, Ошибка синтаксиса в PostgreSQL, После сброса не входит ни один пользователь (+23 more)
 
 ### Community 9 - "Сопоставление групп Diffie-Hellman в MikroTik и Juniper SSG"
-Cohesion: 0.07
-Nodes (25): заметки, Сети, 1. Profile, 2. Proposal, 3. Peer, 4. Identity, 5. Policy, 6–8. NAT-правила (+17 more)
+Cohesion: 0.09
+Nodes (23): 1. Profile, 2. Proposal, 3. Peer, 4. Identity, 5. Policy, 6–8. NAT-правила, 6. src-nat — исходящий трафик, реальный сервер → в туннель, 7. netmap (srcnat) — то же самое, но через action=netmap (+15 more)
 
 ### Community 10 - "Windows Server 2016 определяет доменную сеть как Public"
 Cohesion: 0.08
@@ -122,12 +123,12 @@ Cohesion: 0.09
 Nodes (17): RHEL / CentOS / Rocky Linux / AlmaLinux, Ubuntu / Debian, Важно, Выполнение команды через 4 часа, Другие примеры, Отложенный запуск команды в Linux с помощью `at`, Просмотр запланированных заданий, Просмотр команды задания (+9 more)
 
 ### Community 14 - "Отложенный запуск команды в Linux с помощью `at`"
-Cohesion: 0.12
-Nodes (13): заметки, Файлы и утилиты, 1. Получение списка файлов, 2. Пропуск существующих баз, 3. Разбор состава backup-файла, 4. Генерация MOVE для каждого файла, 5. Два режима: отчёт и выполнение, 6. Проверка свободного места (+5 more)
+Cohesion: 0.17
+Nodes (11): 1. Получение списка файлов, 2. Пропуск существующих баз, 3. Разбор состава backup-файла, 4. Генерация MOVE для каждого файла, 5. Два режима: отчёт и выполнение, 6. Проверка свободного места, Как использовать, Массовое восстановление баз SQL Server из каталога с .bak (+3 more)
 
 ### Community 15 - "Как это устроено"
-Cohesion: 0.12
-Nodes (17): 10. Обработка ошибок, 11. Итоги, 1. Предохранитель на входе, 2. Список файлов и фильтрация, 3. Определение действия для каждой базы, 4. Проверки, блокирующие restore, 5. Состав бэкапа и целевые пути файлов, 6. Проверка коллизий (+9 more)
+Cohesion: 0.09
+Nodes (19): заметки, Файлы и утилиты, 10. Обработка ошибок, 11. Итоги, 1. Предохранитель на входе, 2. Список файлов и фильтрация, 3. Определение действия для каждой базы, 4. Проверки, блокирующие restore (+11 more)
 
 ### Community 16 - "sysadmin-notes"
 Cohesion: 0.12
@@ -177,8 +178,12 @@ Nodes (4): База знаний системного администратор
 Cohesion: 0.42
 Nodes (9): buildModal(), cookieGet(), cookieSet(), init(), localGet(), localSet(), readFlag(), storageKey() (+1 more)
 
+### Community 38 - "Site-to-site туннель WireGuard на RouterOS (MikroTik)"
+Cohesion: 0.17
+Nodes (10): заметки, Сети, Site-to-site туннель WireGuard на RouterOS (MikroTik), Идея миграции, Подготовка (сделать на обеих сторонах заранее), Проверочный чек-лист перед отключением IPsec, Смежные заметки, Частые ошибки (+2 more)
+
 ## Knowledge Gaps
-- **288 isolated node(s):** `graphify`, `Локальный запуск`, `1. Создать репозиторий на GitHub`, `2. Подключить Cloudflare Pages`, `Если push стал долгим` (+283 more)
+- **295 isolated node(s):** `graphify`, `Локальный запуск`, `1. Создать репозиторий на GitHub`, `2. Подключить Cloudflare Pages`, `Если push стал долгим` (+290 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **12 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -188,7 +193,7 @@ _Questions this graph is uniquely positioned to answer:_
 - **Why does `Настройка DCOM для Microsoft Excel Application (1С)` connect `tags.md` to `Windows Server 2016 определяет доменную сеть как Public`?**
   _High betweenness centrality (0.013) - this node is a cross-community bridge._
 - **What connects `graphify`, `Локальный запуск`, `1. Создать репозиторий на GitHub` to the rest of the system?**
-  _288 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _295 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Структура сайта` be split into smaller, more focused modules?**
   _Cohesion score 0.125 - nodes in this community are weakly interconnected._
 - **Should `debugIpsec.md` be split into smaller, more focused modules?**
@@ -196,6 +201,6 @@ _Questions this graph is uniquely positioned to answer:_
 - **Should `29. Команды-шпаргалка` be split into smaller, more focused modules?**
   _Cohesion score 0.0625 - nodes in this community are weakly interconnected._
 - **Should `Сопоставление групп Diffie-Hellman в MikroTik и Juniper SSG` be split into smaller, more focused modules?**
-  _Cohesion score 0.07407407407407407 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.08695652173913043 - nodes in this community are weakly interconnected._
 - **Should `Windows Server 2016 определяет доменную сеть как Public` be split into smaller, more focused modules?**
   _Cohesion score 0.08 - nodes in this community are weakly interconnected._

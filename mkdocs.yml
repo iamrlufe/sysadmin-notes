@@ -80,6 +80,7 @@ nav:
       - notes/network/mikrotikOpenDnsResolver.md
       - notes/network/synologyIscsiMaxSession.md
       - notes/network/mikrotikIpsecNatNetmap.md
+      - notes/network/wireguardSiteToSite.md
   - Мониторинг:
       - notes/monitoring/index.md
   - Файлы и утилиты:
@@ -105,6 +106,8 @@ markdown_extensions:
   - pymdownx.snippets
   - pymdownx.tabbed:
       alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
   - tables
   - toc:
       permalink: true
