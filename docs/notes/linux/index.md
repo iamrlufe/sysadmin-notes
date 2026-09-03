@@ -14,5 +14,6 @@ title: Linux
 - [Отложенный запуск команды в Linux через at](atUtility.md)
 - [Диагностике и добавление агентов в очередь Asterisk](queueAsterisk.md)
 - [Назначение прав глобального администратора в Zimbra](zimbraAdmin.md)
+- [Анти-спуфинг собственного домена на Zimbra MTA (Postfix)](zimbraAntiSpoofing.md)
 
 </div>
