@@ -15,5 +15,6 @@ title: Linux
 - [Диагностике и добавление агентов в очередь Asterisk](queueAsterisk.md)
 - [Назначение прав глобального администратора в Zimbra](zimbraAdmin.md)
 - [Анти-спуфинг собственного домена на Zimbra MTA (Postfix)](zimbraAntiSpoofing.md)
+- [Fail2ban на почтовом сервере Zimbra: увеличение времени блокировки](zimbraFail2banBantime.md)
 
 </div>
