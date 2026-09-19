@@ -1,182 +1,192 @@
 {
   "hooks/homepage_data.py": {
-    "mtime": 1784931716.4029353,
+    "mtime": 1789820010.1044335,
     "ast_hash": "7797e706548d6eab476bd7e98a235bdf",
     "semantic_hash": ""
   },
   "CLAUDE.md": {
-    "mtime": 1783935639.4801953,
+    "mtime": 1789820010.0885491,
     "ast_hash": "82efb97a359f5c7290bf2513d14686be",
     "semantic_hash": "82efb97a359f5c7290bf2513d14686be"
   },
   "README.md": {
-    "mtime": 1784932122.8678985,
+    "mtime": 1789820010.0886674,
     "ast_hash": "6037e5f2faa47bd12e73ddfa01d03dad",
     "semantic_hash": ""
   },
   "docs/index.md": {
-    "mtime": 1784032997.0188584,
+    "mtime": 1789820010.088805,
     "ast_hash": "5c7e8b2ab6a0ea88ac4a9a281e8a4286",
     "semantic_hash": ""
   },
   "docs/notes/files/index.md": {
-    "mtime": 1784845388.9961524,
+    "mtime": 1789820010.0893757,
     "ast_hash": "a168f7a36731550d6b045d8f9065d09d",
     "semantic_hash": ""
   },
   "docs/notes/linux/atUtility.md": {
-    "mtime": 1783925152.2634623,
+    "mtime": 1789820010.0902712,
     "ast_hash": "bad3667aeabb22f4da3a14936f6b32aa",
     "semantic_hash": "bad3667aeabb22f4da3a14936f6b32aa"
   },
   "docs/notes/linux/example-note.md": {
-    "mtime": 1783925158.722792,
+    "mtime": 1789820010.0903277,
     "ast_hash": "f45f2341895eff9267f4c088fb39535a",
     "semantic_hash": "f45f2341895eff9267f4c088fb39535a"
   },
   "docs/notes/linux/index.md": {
-    "mtime": 1784173370.792426,
-    "ast_hash": "0ba8a8319f5bc98a124c1787e621f50d",
+    "mtime": 1789820186.1255977,
+    "ast_hash": "063c80c60ee672253e3080944720dd6e",
     "semantic_hash": ""
   },
   "docs/notes/linux/queueAsterisk.md": {
-    "mtime": 1783933686.2547848,
+    "mtime": 1789820010.0904558,
     "ast_hash": "4f8120acda9a7c6043f1f93dfcdb115f",
     "semantic_hash": "4f8120acda9a7c6043f1f93dfcdb115f"
   },
   "docs/notes/monitoring/index.md": {
-    "mtime": 1784032518.1572933,
+    "mtime": 1789820010.090731,
     "ast_hash": "9722d75fe668b22d9cfefab594193510",
     "semantic_hash": ""
   },
   "docs/notes/network/dh.md": {
-    "mtime": 1783925149.9388566,
+    "mtime": 1789820010.090951,
     "ast_hash": "55eefcf8b4e632c00f54a01b1515664a",
     "semantic_hash": "55eefcf8b4e632c00f54a01b1515664a"
   },
   "docs/notes/network/index.md": {
-    "mtime": 1787697994.303479,
+    "mtime": 1789820010.0910046,
     "ast_hash": "4ea0fc3acede23eedc1003a8966d5cc8",
     "semantic_hash": ""
   },
   "docs/notes/windows/MicrosoftExcel-1C.md": {
-    "mtime": 1783925160.6114275,
+    "mtime": 1789820010.091508,
     "ast_hash": "9030d4d1edc34b81b5fc9579b1e76dfd",
     "semantic_hash": "9030d4d1edc34b81b5fc9579b1e76dfd"
   },
   "docs/notes/windows/index.md": {
-    "mtime": 1785309502.4582808,
+    "mtime": 1789820010.091628,
     "ast_hash": "fe0f3e2b02bebd1aa39569413a5ebf8e",
     "semantic_hash": ""
   },
   "docs/tags.md": {
-    "mtime": 1783580518.0,
+    "mtime": 1789820010.0922287,
     "ast_hash": "3608ed43f8d77eb49b90f73e60dcbc93",
     "semantic_hash": "3608ed43f8d77eb49b90f73e60dcbc93"
   },
   "mkdocs.yml": {
-    "mtime": 1787697992.2528584,
-    "ast_hash": "9ba5c91d4918dd742be720262f02ecdb",
+    "mtime": 1789820186.1252697,
+    "ast_hash": "7db7bd36fcfd998a66bcceb98b845473",
     "semantic_hash": ""
   },
   "requirements.txt": {
-    "mtime": 1783925140.7667053,
+    "mtime": 1789820010.1046257,
     "ast_hash": "d1c9e625e96a4c1f51376ef48d4b178f",
     "semantic_hash": "d1c9e625e96a4c1f51376ef48d4b178f"
   },
   "docs/notes/network/debugIpsec.md": {
-    "mtime": 1784033611.02254,
+    "mtime": 1789820010.090835,
     "ast_hash": "d15ef624c888ccf13bcd5c766396d169",
     "semantic_hash": ""
   },
   "docs/notes/windows/lanPublic.md": {
-    "mtime": 1783946740.4030063,
+    "mtime": 1789820010.0917032,
     "ast_hash": "758876fbb3ecc809bf70696388d99c94",
     "semantic_hash": ""
   },
   "docs/javascripts/terminal.js": {
-    "mtime": 1784992095.4782195,
+    "mtime": 1789820010.089038,
     "ast_hash": "90c73a92720cd9b62ad9e11b74676e2a",
     "semantic_hash": ""
   },
   "docs/javascripts/snake.js": {
-    "mtime": 1784190355.619322,
+    "mtime": 1789820010.0889359,
     "ast_hash": "54907bf231d8822f0b01b2fc145ce5fd",
     "semantic_hash": ""
   },
   "docs/notes/linux/zimbraAdmin.md": {
-    "mtime": 1784173611.519746,
+    "mtime": 1789820010.0905545,
     "ast_hash": "f5dc5a200f5d7c292cb7b816dd50ebfd",
     "semantic_hash": ""
   },
   "docs/notes/windows/srvinfoDebug1C.md": {
-    "mtime": 1784700397.9990735,
+    "mtime": 1789820010.0919883,
     "ast_hash": "39a57d4938b280cb52271c09789e5e0f",
     "semantic_hash": ""
   },
   "docs/snake.md": {
-    "mtime": 1784190138.085621,
+    "mtime": 1789820010.0920353,
     "ast_hash": "30c1e811c0ab369a5b320dfe34dc1b1b",
     "semantic_hash": ""
   },
   "docs/notes/files/restoreDbFromBak.md": {
-    "mtime": 1784721101.1620917,
+    "mtime": 1789820010.0894716,
     "ast_hash": "407caeaa2db2fea136eba62f8473863d",
     "semantic_hash": ""
   },
   "docs/notes/files/restoreDbOverwriteFromBak.md": {
-    "mtime": 1784724052.2284546,
+    "mtime": 1789820010.0896995,
     "ast_hash": "244b0812d5d2ab376d6f0de4102a6af2",
     "semantic_hash": ""
   },
   "docs/notes/files/uploadBackupsToFtp.md": {
-    "mtime": 1784726354.0310113,
+    "mtime": 1789820010.0901623,
     "ast_hash": "0386a2a1a51c13229dd01f1d3c960e18",
     "semantic_hash": ""
   },
   "docs/notes/windows/shrinkTempdb.md": {
-    "mtime": 1784760093.3403568,
+    "mtime": 1789820010.0918877,
     "ast_hash": "ad18cd0c146108f1a415aff047f1c87b",
     "semantic_hash": ""
   },
   "docs/notes/windows/autostartWindowsServer.md": {
-    "mtime": 1784761513.412398,
+    "mtime": 1789820010.0915802,
     "ast_hash": "b0514ff2924c169d9e1ec3dc92f3a5ed",
     "semantic_hash": ""
   },
   "docs/notes/network/mikrotikOpenDnsResolver.md": {
-    "mtime": 1784762764.213488,
+    "mtime": 1789820010.091181,
     "ast_hash": "52e6dcb555c44f25474fab07e407d882",
     "semantic_hash": ""
   },
   "docs/notes/files/sqlReindexStats.md": {
-    "mtime": 1784845379.0774374,
+    "mtime": 1789820010.0900614,
     "ast_hash": "5e2adaa978e8b5be47bb01cd08d3f91e",
     "semantic_hash": ""
   },
   "docs/javascripts/tetris.js": {
-    "mtime": 1784993391.0355203,
+    "mtime": 1789820010.0891259,
     "ast_hash": "305f083258cb8debaf02a066d4186738",
     "semantic_hash": ""
   },
   "docs/notes/network/synologyIscsiMaxSession.md": {
-    "mtime": 1785452149.3321416,
+    "mtime": 1789820010.0912952,
     "ast_hash": "0ea65a1ee5caac172f2d82d1bfcd636e",
     "semantic_hash": ""
   },
   "docs/notes/windows/reset1CAdminPassword.md": {
-    "mtime": 1785319159.4129694,
+    "mtime": 1789820010.09178,
     "ast_hash": "e789f9dca9eb3d695afb40a8204d59de",
     "semantic_hash": ""
   },
   "docs/notes/network/mikrotikIpsecNatNetmap.md": {
-    "mtime": 1785926257.4998693,
+    "mtime": 1789820010.0910833,
     "ast_hash": "948f47be925e7267d44e46dcc98ae12c",
     "semantic_hash": ""
   },
   "docs/notes/network/wireguardSiteToSite.md": {
-    "mtime": 1787697986.7115417,
+    "mtime": 1789820010.0913792,
     "ast_hash": "5af731fa3b13481a33b8c21af2796051",
+    "semantic_hash": ""
+  },
+  "docs/notes/linux/zimbraAntiSpoofing.md": {
+    "mtime": 1789820010.0906289,
+    "ast_hash": "b8aafb84149e71e1542c36d9031651db",
+    "semantic_hash": ""
+  },
+  "docs/notes/linux/zimbraFail2banBantime.md": {
+    "mtime": 1789820180.3615901,
+    "ast_hash": "c2d45d4406c9cbaf6a62d7390642a5e5",
     "semantic_hash": ""
   }
 }
