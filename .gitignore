@@ -9,3 +9,10 @@ __pycache__/
 # истории git — в индексе это чистое дублирование, которое раздувает клон
 # (Cloudflare Pages тянет полную историю через `git fetch --unshallow`).
 graphify-out/20*/
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
