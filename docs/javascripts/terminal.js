@@ -3,15 +3,6 @@
 (function () {
   "use strict";
 
-  var SECTIONS = [
-    { meta: "drwxr-xr-x", label: "windows/", url: "notes/windows/", desc: "DCOM, Office, 1С, службы, права доступа" },
-    { meta: "drwxr-xr-x", label: "linux/", url: "notes/linux/", desc: "диски, процессы, systemd, SSH, сеть" },
-    { meta: "drwxr-xr-x", label: "network/", url: "notes/network/", desc: "DNS, VPN, firewall, MikroTik, Juniper" },
-    { meta: "drwxr-xr-x", label: "monitoring/", url: "notes/monitoring/", desc: "Zabbix, Prometheus, Grafana, алерты" },
-    { meta: "drwxr-xr-x", label: "files/", url: "notes/files/", desc: "REG-файлы, скрипты, утилиты" },
-    { meta: "lrwxrwxrwx", label: "tags/ ->", url: "tags/", desc: "заметки по технологиям и ошибкам" }
-  ];
-
   var CD_ALIASES = {
     linux: "notes/linux/",
     windows: "notes/windows/",
@@ -34,12 +25,13 @@
     var input = document.createElement("input");
     input.className = "kb-term__input";
     input.type = "text";
-    input.placeholder = "введите help";
+    input.placeholder = "help · ls · tetris";
     input.autocomplete = "off";
     input.spellcheck = false;
     input.setAttribute("aria-label", "Терминал: введите команду, например help");
+    // Без автофокуса: иначе «/» и «s» уходят в терминал, а не в поиск
+    // Material, а скринридер начинает страницу с поля ввода.
     live.insertBefore(input, live.querySelector(".kb-cursor"));
-    input.focus({ preventScroll: true });
 
     var history = [];
     var hIdx = -1;
@@ -129,8 +121,21 @@
           "История команд — стрелками ↑/↓."
         ]);
       },
+      // Разделы берём из сетки на странице — один источник вместо двух
       ls: function () {
-        linkList(SECTIONS);
+        var items = [];
+        document.querySelectorAll(".kb-dir").forEach(function (a) {
+          var perm = a.querySelector(".kb-dir__perm");
+          var name = a.querySelector("strong");
+          var info = a.querySelector(".kb-dir__info");
+          items.push({
+            meta: perm ? perm.textContent : "",
+            label: name ? name.textContent : a.getAttribute("href"),
+            url: a.getAttribute("href"),
+            desc: info ? info.textContent : ""
+          });
+        });
+        linkList(items);
       },
       cd: function (arg) {
         if (!arg) {

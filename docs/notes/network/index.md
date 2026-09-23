@@ -6,7 +6,7 @@ title: Сети
 
 # Сети
 
-Заметки про DNS, firewall, VPN и маршрутизацию.
+Заметки про MikroTik: IPsec, WireGuard, DNS, группы Diffie-Hellman с Juniper, а также iSCSI на Synology.
 
 ## заметки
 

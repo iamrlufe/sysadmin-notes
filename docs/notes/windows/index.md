@@ -6,7 +6,7 @@ title: Windows и ПО
 
 # Windows и ПО
 
-Заметки про Windows, Office, 1С и другой софт.
+Заметки про Windows Server, 1С (DCOM, отладка, пароли) и обслуживание MS SQL Server.
 
 ## заметки
 

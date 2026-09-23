@@ -6,13 +6,13 @@ title: Linux
 
 # Linux
 
-Заметки про диски, процессы, systemd, права и сеть.
+Заметки про почтовый сервер Zimbra, телефонию Asterisk, диски и планировщик `at`.
 
 ## заметки
 
 - [Диск переполнен, а du не находит крупные файлы](example-note.md)
 - [Отложенный запуск команды в Linux через at](atUtility.md)
-- [Диагностике и добавление агентов в очередь Asterisk](queueAsterisk.md)
+- [Диагностика и управление агентами очереди Asterisk](queueAsterisk.md)
 - [Назначение прав глобального администратора в Zimbra](zimbraAdmin.md)
 - [Анти-спуфинг собственного домена на Zimbra MTA (Postfix)](zimbraAntiSpoofing.md)
 - [Fail2ban на почтовом сервере Zimbra: увеличение времени блокировки](zimbraFail2banBantime.md)

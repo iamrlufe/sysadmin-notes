@@ -1,17 +1,15 @@
 /* Тетрис в модальном окне терминала.
 
-   Всплывает сам один раз — при первом визите на сайт; при следующих
-   заходах молчит. Позже игру можно позвать руками: команда `tetris` в
-   терминале на главной или window.kbTetris.open() из консоли.
+   Сама не всплывает — посетитель пришёл за заметкой, а не за игрой.
+   Открывается командой `tetris` в терминале на главной или
+   window.kbTetris.open() из консоли.
 
    Модалка живёт в <body> и переживает instant-навигацию Material —
    создаётся один раз за загрузку страницы, а не на каждый document$. */
 (function () {
   "use strict";
 
-  var SEEN_KEY = "kb-tetris-seen";
   var BEST_KEY = "kb-tetris-best";
-  var AUTO_OPEN_DELAY = 900;
 
   var W = 10;
   var H = 18;
@@ -36,14 +34,13 @@
      Выбор темы Material держит в localStorage под ключом вида
      "<база сайта>.<имя>" — на rlufe.kz это "/.__palette". База берётся
      из __md_scope, то есть корня сайта, а не текущей страницы, поэтому
-     ключ один на весь сайт. Отметку о показе игры кладём туда же и в
-     том же формате (значение — JSON): если настройка темы пережила
-     перезаход, переживёт и она.
+     ключ один на весь сайт. Рекорд кладём туда же и в том же формате
+     (значение — JSON): если настройка темы пережила перезаход,
+     переживёт и он.
 
      Схему повторяем, а не зовём __md_get/__md_set: те молча глотают
      отказ хранилища, а нам важно об этом узнать. В приватном режиме
-     Safari setItem бросает, и без запасного пути окно всплывало бы на
-     каждой странице — ровно то, чего быть не должно. */
+     Safari setItem бросает — тогда рекорд уходит в cookie. */
 
   function storageKey(key) {
     var scope = typeof __md_scope !== "undefined" && __md_scope;
@@ -475,9 +472,6 @@
 
     function open() {
       if (!root.hidden) return;
-      // Отметку ставим здесь, а не при загрузке: иначе визит, закрытый
-      // раньше, чем окно успело всплыть, считался бы показанным.
-      writeFlag(SEEN_KEY, true);
       lastFocused = document.activeElement;
       root.hidden = false;
       document.body.classList.add("kb-modal-open");
@@ -512,20 +506,6 @@
     document.addEventListener("visibilitychange", onVis);
 
     window.kbTetris = { open: open, close: close };
-
-    // Первый визит: показываем сами. Если вкладку открыли в фоне —
-    // ждём, пока на неё посмотрят, иначе визит сгорит вхолостую.
-    if (!readFlag(SEEN_KEY)) {
-      if (document.hidden) {
-        document.addEventListener("visibilitychange", function onShow() {
-          if (document.hidden) return;
-          document.removeEventListener("visibilitychange", onShow);
-          setTimeout(open, AUTO_OPEN_DELAY);
-        });
-      } else {
-        setTimeout(open, AUTO_OPEN_DELAY);
-      }
-    }
   }
 
   if (document.readyState === "loading") {
