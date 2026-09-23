@@ -15,13 +15,13 @@
     "semantic_hash": ""
   },
   "docs/index.md": {
-    "mtime": 1789820010.088805,
-    "ast_hash": "5c7e8b2ab6a0ea88ac4a9a281e8a4286",
+    "mtime": 1790145411.6014736,
+    "ast_hash": "01761821caf77ddd2619cc94b657f915",
     "semantic_hash": ""
   },
   "docs/notes/files/index.md": {
-    "mtime": 1789820010.0893757,
-    "ast_hash": "a168f7a36731550d6b045d8f9065d09d",
+    "mtime": 1790145411.599942,
+    "ast_hash": "c38d3e11b0e21bd3a3ed3708b5b02de2",
     "semantic_hash": ""
   },
   "docs/notes/linux/atUtility.md": {
@@ -35,8 +35,8 @@
     "semantic_hash": "f45f2341895eff9267f4c088fb39535a"
   },
   "docs/notes/linux/index.md": {
-    "mtime": 1789820186.1255977,
-    "ast_hash": "063c80c60ee672253e3080944720dd6e",
+    "mtime": 1790145411.5992868,
+    "ast_hash": "53065d721e6bf277035fc7a402a59835",
     "semantic_hash": ""
   },
   "docs/notes/linux/queueAsterisk.md": {
@@ -55,8 +55,8 @@
     "semantic_hash": "55eefcf8b4e632c00f54a01b1515664a"
   },
   "docs/notes/network/index.md": {
-    "mtime": 1789820010.0910046,
-    "ast_hash": "4ea0fc3acede23eedc1003a8966d5cc8",
+    "mtime": 1790145411.599573,
+    "ast_hash": "ce478eb00230a66f67ea06055fbdd003",
     "semantic_hash": ""
   },
   "docs/notes/windows/MicrosoftExcel-1C.md": {
@@ -65,8 +65,8 @@
     "semantic_hash": "9030d4d1edc34b81b5fc9579b1e76dfd"
   },
   "docs/notes/windows/index.md": {
-    "mtime": 1789820010.091628,
-    "ast_hash": "fe0f3e2b02bebd1aa39569413a5ebf8e",
+    "mtime": 1790145411.5997202,
+    "ast_hash": "ad00c53086e17184ae39a927014b7faa",
     "semantic_hash": ""
   },
   "docs/tags.md": {
@@ -95,8 +95,8 @@
     "semantic_hash": ""
   },
   "docs/javascripts/terminal.js": {
-    "mtime": 1789820010.089038,
-    "ast_hash": "90c73a92720cd9b62ad9e11b74676e2a",
+    "mtime": 1790145390.4760003,
+    "ast_hash": "4f8b4e19bf01fe26796a5c229dfe00e5",
     "semantic_hash": ""
   },
   "docs/javascripts/snake.js": {
@@ -155,8 +155,8 @@
     "semantic_hash": ""
   },
   "docs/javascripts/tetris.js": {
-    "mtime": 1789820010.0891259,
-    "ast_hash": "305f083258cb8debaf02a066d4186738",
+    "mtime": 1790145381.6740396,
+    "ast_hash": "f9660f90f73927d574e5c09b5d0ef663",
     "semantic_hash": ""
   },
   "docs/notes/network/synologyIscsiMaxSession.md": {
