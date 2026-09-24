@@ -67,6 +67,7 @@ nav:
       - notes/linux/zimbraAdmin.md
       - notes/linux/zimbraAntiSpoofing.md
       - notes/linux/zimbraFail2banBantime.md
+      - notes/linux/apacheBasicAuthAddUser.md
   - Windows и ПО:
       - notes/windows/index.md
       - notes/windows/MicrosoftExcel-1C.md

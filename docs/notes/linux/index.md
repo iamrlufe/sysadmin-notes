@@ -6,7 +6,7 @@ title: Linux
 
 # Linux
 
-Заметки про почтовый сервер Zimbra, телефонию Asterisk, диски и планировщик `at`.
+Заметки про почтовый сервер Zimbra, телефонию Asterisk, веб-сервер Apache, диски и планировщик `at`.
 
 ## заметки
 
@@ -16,5 +16,6 @@ title: Linux
 - [Назначение прав глобального администратора в Zimbra](zimbraAdmin.md)
 - [Анти-спуфинг собственного домена на Zimbra MTA (Postfix)](zimbraAntiSpoofing.md)
 - [Fail2ban на почтовом сервере Zimbra: увеличение времени блокировки](zimbraFail2banBantime.md)
+- [Apache Basic Auth: добавление пользователя](apacheBasicAuthAddUser.md)
 
 </div>
