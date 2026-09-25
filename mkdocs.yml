@@ -90,8 +90,10 @@ nav:
       - notes/files/index.md
       - notes/files/restoreDbFromBak.md
       - notes/files/restoreDbOverwriteFromBak.md
+      - notes/files/restoreDbMoveToNewDisk.md
       - notes/files/uploadBackupsToFtp.md
       - notes/files/sqlReindexStats.md
+      - notes/files/shrinkProgress.md
   - Теги: tags.md
 
 plugins:
