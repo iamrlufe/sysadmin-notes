@@ -1,16 +1,16 @@
 # Graph Report - sysadmin-notes  (2026-09-25)
 
 ## Corpus Check
-- 38 files · ~33,122 words
+- 37 files · ~30,524 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 464 nodes · 437 edges · 45 communities (31 shown, 14 thin omitted)
+- 446 nodes · 421 edges · 44 communities (30 shown, 14 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 1 edges (avg confidence: 0.95)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `275a162f`
+- Built from commit: `dfb800a5`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -30,7 +30,6 @@
 - Настройка DCOM для Microsoft Excel Application (1С)
 - Диск переполнен, а du не находит крупные файлы
 - Отложенный запуск команды в Linux с помощью `at`
-- Как это устроено
 - sysadmin-notes
 - База знаний системного администратора
 - CLAUDE.md
@@ -63,7 +62,7 @@
 2. `Анти-спуфинг собственного домена на Zimbra MTA (Postfix)` - 19 edges
 3. `29. Команды-шпаргалка` - 16 edges
 4. `MkDocs Material site configuration (RLUFE.KZ)` - 14 edges
-5. `Принцип работы` - 12 edges
+5. `Массовое восстановление баз SQL Server из .bak` - 12 edges
 6. `Назначение прав глобального администратора в Zimbra 8.8.12 (CLI)` - 11 edges
 7. `Windows Server 2016 определяет доменную сеть как Public` - 11 edges
 8. `Реиндексация и обновление статистики MS SQL Server (1С)` - 10 edges
@@ -90,7 +89,7 @@
 - **Notes aggregated by the Material tags plugin into the tags page** — docs_tags_tags_index, docs_notes_linux_atutility_at_deferred_execution, docs_notes_linux_example_note_deleted_open_files, docs_notes_network_dh_dh_group_mapping, docs_notes_windows_microsoftexcel_1c_dcom_excel_setup [INFERRED 0.95]
 - **Site section index pages forming the knowledge base navigation** — docs_index_homepage, docs_notes_linux_index_linux_section, docs_notes_windows_index_windows_section, docs_notes_network_index_network_section, docs_notes_monitoring_index_monitoring_section, docs_notes_files_index_files_section, docs_tags_tags_index [EXTRACTED 1.00]
 
-## Communities (45 total, 14 thin omitted)
+## Communities (44 total, 14 thin omitted)
 
 ### Community 0 - "Хук главной страницы"
 Cohesion: 0.22
@@ -109,8 +108,8 @@ Cohesion: 0.06
 Nodes (31): 1С всё равно просит пароль, Вариант 1. MS SQL Server, Вариант 2. PostgreSQL через pgAdmin 4, Вариант 3. PostgreSQL через консоль, Вариант 4. Файловая база, Возможные проблемы, Ошибка синтаксиса в PostgreSQL, После сброса не входит ни один пользователь (+23 more)
 
 ### Community 9 - "Сопоставление групп Diffie-Hellman в MikroTik и Juniper SSG"
-Cohesion: 0.06
-Nodes (31): 1. Profile, 2. Proposal, 3. Peer, 4. Identity, 5. Policy, 6–8. NAT-правила, 6. src-nat — исходящий трафик, реальный сервер → в туннель, 7. netmap (srcnat) — то же самое, но через action=netmap (+23 more)
+Cohesion: 0.09
+Nodes (23): 1. Profile, 2. Proposal, 3. Peer, 4. Identity, 5. Policy, 6–8. NAT-правила, 6. src-nat — исходящий трафик, реальный сервер → в туннель, 7. netmap (srcnat) — то же самое, но через action=netmap (+15 more)
 
 ### Community 10 - "Windows Server 2016 определяет доменную сеть как Public"
 Cohesion: 0.17
@@ -129,12 +128,8 @@ Cohesion: 0.18
 Nodes (10): RHEL / CentOS / Rocky Linux / AlmaLinux, Ubuntu / Debian, Важно, Выполнение команды через 4 часа, Другие примеры, Отложенный запуск команды в Linux с помощью `at`, Просмотр запланированных заданий, Просмотр команды задания (+2 more)
 
 ### Community 14 - "Отложенный запуск команды в Linux с помощью `at`"
-Cohesion: 0.17
-Nodes (11): 1. Получение списка файлов, 2. Пропуск существующих баз, 3. Разбор состава backup-файла, 4. Генерация MOVE для каждого файла, 5. Два режима: отчёт и выполнение, 6. Проверка свободного места, Как использовать, Массовое восстановление баз SQL Server из каталога с .bak (+3 more)
-
-### Community 15 - "Как это устроено"
-Cohesion: 0.11
-Nodes (17): 10. Обработка ошибок, 11. Итоги, 1. Предохранитель на входе, 2. Список файлов и фильтрация, 3. Определение действия для каждой базы, 4. Проверки, блокирующие restore, 5. Состав бэкапа и целевые пути файлов, 6. Проверка коллизий (+9 more)
+Cohesion: 0.20
+Nodes (8): Site-to-site туннель WireGuard на RouterOS (MikroTik), Идея миграции, Подготовка (сделать на обеих сторонах заранее), Проверочный чек-лист перед отключением IPsec, Смежные заметки, Частые ошибки, Шаги на стороне A, Шаги на стороне B (зеркально)
 
 ### Community 16 - "sysadmin-notes"
 Cohesion: 0.12
@@ -189,8 +184,8 @@ Cohesion: 0.10
 Nodes (21): Анти-спуфинг собственного домена на Zimbra MTA (Postfix), Архитектура проблемы, Итог, Ключевая сложность решения, Наблюдение после внедрения, Откат, Почему SPF/DMARC не решают проблему полностью, Проблема (+13 more)
 
 ### Community 40 - "Fail2ban на почтовом сервере Zimbra: увеличение времени блокировки"
-Cohesion: 0.17
-Nodes (9): Linux, заметки, Fail2ban на почтовом сервере Zimbra: увеличение времени блокировки, Исходная ситуация, Шаг 1. Время блокировки 30 дней, Шаг 2. Хранение банов после рестарта, Шаг 3. Проверка, Шаг 4. Разбан своих IP и ignoreip (+1 more)
+Cohesion: 0.10
+Nodes (16): Apache Basic Auth: добавление пользователя, Безопасность и замечания, Где лежит файл паролей, Добавление пользователя, Проверка Require и перезагрузка, Проверка доступа, Шпаргалка, Linux (+8 more)
 
 ### Community 41 - "Диск переполнен, а du не находит крупные файлы"
 Cohesion: 0.33
@@ -201,11 +196,11 @@ Cohesion: 0.50
 Nodes (3): База знаний системного администратора, последние-заметки.log, разделы
 
 ### Community 43 - "Файлы и утилиты"
-Cohesion: 0.11
-Nodes (17): заметки, Файлы и утилиты, Восстановление баз SQL Server из .bak с переносом файлов на другой диск, Нехватка места и повторный запуск, Подготовка, Полный текст скрипта, Проверка после восстановления, Что делает скрипт (+9 more)
+Cohesion: 0.09
+Nodes (21): заметки, Файлы и утилиты, Защитные механизмы, Куда попадают файлы, Массовое восстановление баз SQL Server из .bak, Нехватка места и повторный запуск, Особенности и подводные камни, Параметры (+13 more)
 
 ## Knowledge Gaps
-- **332 isolated node(s):** `graphify`, `Локальный запуск`, `1. Создать репозиторий на GitHub`, `2. Подключить Cloudflare Pages`, `Если push стал долгим` (+327 more)
+- **318 isolated node(s):** `graphify`, `Локальный запуск`, `1. Создать репозиторий на GitHub`, `2. Подключить Cloudflare Pages`, `Если push стал долгим` (+313 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **14 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -213,13 +208,13 @@ Nodes (17): заметки, Файлы и утилиты, Восстановле
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Диагностика и отладка IPsec в MikroTik RouterOS` connect `debugIpsec.md` to `sysadmin-notes`?**
-  _High betweenness centrality (0.009) - this node is a cross-community bridge._
+  _High betweenness centrality (0.010) - this node is a cross-community bridge._
 - **Why does `29. Команды-шпаргалка` connect `sysadmin-notes` to `debugIpsec.md`?**
   _High betweenness centrality (0.006) - this node is a cross-community bridge._
 - **Why does `Анти-спуфинг собственного домена на Zimbra MTA (Postfix)` connect `Site-to-site туннель WireGuard на RouterOS (MikroTik)` to `Fail2ban на почтовом сервере Zimbra: увеличение времени блокировки`?**
-  _High betweenness centrality (0.004) - this node is a cross-community bridge._
+  _High betweenness centrality (0.006) - this node is a cross-community bridge._
 - **What connects `graphify`, `Локальный запуск`, `1. Создать репозиторий на GitHub` to the rest of the system?**
-  _332 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _318 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Структура сайта` be split into smaller, more focused modules?**
   _Cohesion score 0.125 - nodes in this community are weakly interconnected._
 - **Should `debugIpsec.md` be split into smaller, more focused modules?**

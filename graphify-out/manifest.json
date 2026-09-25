@@ -20,8 +20,8 @@
     "semantic_hash": ""
   },
   "docs/notes/files/index.md": {
-    "mtime": 1790323282.0315008,
-    "ast_hash": "22223f15bb4d112ba43d9cf62ba3e087",
+    "mtime": 1790323759.2913547,
+    "ast_hash": "afd9438adf800aa62f73d29c9ae6a098",
     "semantic_hash": ""
   },
   "docs/notes/linux/atUtility.md": {
@@ -35,8 +35,8 @@
     "semantic_hash": "f45f2341895eff9267f4c088fb39535a"
   },
   "docs/notes/linux/index.md": {
-    "mtime": 1790145411.5992868,
-    "ast_hash": "53065d721e6bf277035fc7a402a59835",
+    "mtime": 1790323305.7636912,
+    "ast_hash": "567c7034ed3ac92278698fb85795ed43",
     "semantic_hash": ""
   },
   "docs/notes/linux/queueAsterisk.md": {
@@ -75,8 +75,8 @@
     "semantic_hash": "3608ed43f8d77eb49b90f73e60dcbc93"
   },
   "mkdocs.yml": {
-    "mtime": 1790323282.0313008,
-    "ast_hash": "9935d127006d050ef658992fb4ea8520",
+    "mtime": 1790323759.2910936,
+    "ast_hash": "d674ffbed0019fbd3e1ae353a2324a62",
     "semantic_hash": ""
   },
   "requirements.txt": {
@@ -120,13 +120,8 @@
     "semantic_hash": ""
   },
   "docs/notes/files/restoreDbFromBak.md": {
-    "mtime": 1789820010.0894716,
-    "ast_hash": "407caeaa2db2fea136eba62f8473863d",
-    "semantic_hash": ""
-  },
-  "docs/notes/files/restoreDbOverwriteFromBak.md": {
-    "mtime": 1789820010.0896995,
-    "ast_hash": "244b0812d5d2ab376d6f0de4102a6af2",
+    "mtime": 1790323741.483254,
+    "ast_hash": "50fc72b12c9947fa27450bf737f1f837",
     "semantic_hash": ""
   },
   "docs/notes/files/uploadBackupsToFtp.md": {
@@ -189,14 +184,14 @@
     "ast_hash": "c2d45d4406c9cbaf6a62d7390642a5e5",
     "semantic_hash": ""
   },
-  "docs/notes/files/restoreDbMoveToNewDisk.md": {
-    "mtime": 1790323282.0364428,
-    "ast_hash": "fac8732eb1f3a27ece7b48454d671905",
+  "docs/notes/files/shrinkProgress.md": {
+    "mtime": 1790323305.7729409,
+    "ast_hash": "c9a86ca9f9813a3c63764780b8be47a2",
     "semantic_hash": ""
   },
-  "docs/notes/files/shrinkProgress.md": {
-    "mtime": 1790323281.987377,
-    "ast_hash": "c9a86ca9f9813a3c63764780b8be47a2",
+  "docs/notes/linux/apacheBasicAuthAddUser.md": {
+    "mtime": 1790323305.7634757,
+    "ast_hash": "07bc0a0a2c41476f754434287a7fe41d",
     "semantic_hash": ""
   }
 }

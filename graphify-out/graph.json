@@ -511,388 +511,128 @@
       "source_file": "docs/notes/files/restoreDbFromBak.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredbfrombak_md",
-      "community": 14,
+      "id": "docs_notes_files_restoredbfrombak",
+      "community": 43,
       "norm_label": "restoredbfrombak.md"
     },
     {
-      "label": "\u041c\u0430\u0441\u0441\u043e\u0432\u043e\u0435 \u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435 \u0431\u0430\u0437 SQL Server \u0438\u0437 \u043a\u0430\u0442\u0430\u043b\u043e\u0433\u0430 \u0441 .bak",
+      "label": "\u041c\u0430\u0441\u0441\u043e\u0432\u043e\u0435 \u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435 \u0431\u0430\u0437 SQL Server \u0438\u0437 .bak",
       "file_type": "document",
       "source_file": "docs/notes/files/restoreDbFromBak.md",
       "source_location": "L10",
       "_origin": "ast",
-      "id": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredbfrombak_\u043c\u0430\u0441\u0441\u043e\u0432\u043e\u0435_\u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435_\u0431\u0430\u0437_sql_server_\u0438\u0437_\u043a\u0430\u0442\u0430\u043b\u043e\u0433\u0430_\u0441_bak",
-      "community": 14,
-      "norm_label": "\u043c\u0430\u0441\u0441\u043e\u0432\u043e\u0435 \u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435 \u0431\u0430\u0437 sql server \u0438\u0437 \u043a\u0430\u0442\u0430\u043b\u043e\u0433\u0430 \u0441 .bak"
-    },
-    {
-      "label": "\u041f\u0440\u0438\u043d\u0446\u0438\u043f \u0440\u0430\u0431\u043e\u0442\u044b",
-      "file_type": "document",
-      "source_file": "docs/notes/files/restoreDbFromBak.md",
-      "source_location": "L20",
-      "_origin": "ast",
-      "id": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredbfrombak_\u043f\u0440\u0438\u043d\u0446\u0438\u043f_\u0440\u0430\u0431\u043e\u0442\u044b",
-      "community": 14,
-      "norm_label": "\u043f\u0440\u0438\u043d\u0446\u0438\u043f \u0440\u0430\u0431\u043e\u0442\u044b"
-    },
-    {
-      "label": "1. \u041f\u043e\u043b\u0443\u0447\u0435\u043d\u0438\u0435 \u0441\u043f\u0438\u0441\u043a\u0430 \u0444\u0430\u0439\u043b\u043e\u0432",
-      "file_type": "document",
-      "source_file": "docs/notes/files/restoreDbFromBak.md",
-      "source_location": "L25",
-      "_origin": "ast",
-      "id": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredbfrombak_1_\u043f\u043e\u043b\u0443\u0447\u0435\u043d\u0438\u0435_\u0441\u043f\u0438\u0441\u043a\u0430_\u0444\u0430\u0439\u043b\u043e\u0432",
-      "community": 14,
-      "norm_label": "1. \u043f\u043e\u043b\u0443\u0447\u0435\u043d\u0438\u0435 \u0441\u043f\u0438\u0441\u043a\u0430 \u0444\u0430\u0438\u043b\u043e\u0432"
-    },
-    {
-      "label": "2. \u041f\u0440\u043e\u043f\u0443\u0441\u043a \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u0443\u044e\u0449\u0438\u0445 \u0431\u0430\u0437",
-      "file_type": "document",
-      "source_file": "docs/notes/files/restoreDbFromBak.md",
-      "source_location": "L38",
-      "_origin": "ast",
-      "id": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredbfrombak_2_\u043f\u0440\u043e\u043f\u0443\u0441\u043a_\u0441\u0443\u0449\u0435\u0441\u0442\u0432\u0443\u044e\u0449\u0438\u0445_\u0431\u0430\u0437",
-      "community": 14,
-      "norm_label": "2. \u043f\u0440\u043e\u043f\u0443\u0441\u043a \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u0443\u044e\u0449\u0438\u0445 \u0431\u0430\u0437"
-    },
-    {
-      "label": "3. \u0420\u0430\u0437\u0431\u043e\u0440 \u0441\u043e\u0441\u0442\u0430\u0432\u0430 backup-\u0444\u0430\u0439\u043b\u0430",
-      "file_type": "document",
-      "source_file": "docs/notes/files/restoreDbFromBak.md",
-      "source_location": "L46",
-      "_origin": "ast",
-      "id": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredbfrombak_3_\u0440\u0430\u0437\u0431\u043e\u0440_\u0441\u043e\u0441\u0442\u0430\u0432\u0430_backup_\u0444\u0430\u0439\u043b\u0430",
-      "community": 14,
-      "norm_label": "3. \u0440\u0430\u0437\u0431\u043e\u0440 \u0441\u043e\u0441\u0442\u0430\u0432\u0430 backup-\u0444\u0430\u0438\u043b\u0430"
-    },
-    {
-      "label": "4. \u0413\u0435\u043d\u0435\u0440\u0430\u0446\u0438\u044f MOVE \u0434\u043b\u044f \u043a\u0430\u0436\u0434\u043e\u0433\u043e \u0444\u0430\u0439\u043b\u0430",
-      "file_type": "document",
-      "source_file": "docs/notes/files/restoreDbFromBak.md",
-      "source_location": "L61",
-      "_origin": "ast",
-      "id": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredbfrombak_4_\u0433\u0435\u043d\u0435\u0440\u0430\u0446\u0438\u044f_move_\u0434\u043b\u044f_\u043a\u0430\u0436\u0434\u043e\u0433\u043e_\u0444\u0430\u0439\u043b\u0430",
-      "community": 14,
-      "norm_label": "4. \u0433\u0435\u043d\u0435\u0440\u0430\u0446\u0438\u044f move \u0434\u043b\u044f \u043a\u0430\u0436\u0434\u043e\u0433\u043e \u0444\u0430\u0438\u043b\u0430"
-    },
-    {
-      "label": "5. \u0414\u0432\u0430 \u0440\u0435\u0436\u0438\u043c\u0430: \u043e\u0442\u0447\u0451\u0442 \u0438 \u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u0438\u0435",
-      "file_type": "document",
-      "source_file": "docs/notes/files/restoreDbFromBak.md",
-      "source_location": "L71",
-      "_origin": "ast",
-      "id": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredbfrombak_5_\u0434\u0432\u0430_\u0440\u0435\u0436\u0438\u043c\u0430_\u043e\u0442\u0447\u0451\u0442_\u0438_\u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u0438\u0435",
-      "community": 14,
-      "norm_label": "5. \u0434\u0432\u0430 \u0440\u0435\u0436\u0438\u043c\u0430: \u043e\u0442\u0447\u0435\u0442 \u0438 \u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u0438\u0435"
-    },
-    {
-      "label": "6. \u041f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 \u0441\u0432\u043e\u0431\u043e\u0434\u043d\u043e\u0433\u043e \u043c\u0435\u0441\u0442\u0430",
-      "file_type": "document",
-      "source_file": "docs/notes/files/restoreDbFromBak.md",
-      "source_location": "L86",
-      "_origin": "ast",
-      "id": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredbfrombak_6_\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430_\u0441\u0432\u043e\u0431\u043e\u0434\u043d\u043e\u0433\u043e_\u043c\u0435\u0441\u0442\u0430",
-      "community": 14,
-      "norm_label": "6. \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 \u0441\u0432\u043e\u0431\u043e\u0434\u043d\u043e\u0433\u043e \u043c\u0435\u0441\u0442\u0430"
-    },
-    {
-      "label": "\u041a\u0430\u043a \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c",
-      "file_type": "document",
-      "source_file": "docs/notes/files/restoreDbFromBak.md",
-      "source_location": "L97",
-      "_origin": "ast",
-      "id": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredbfrombak_\u043a\u0430\u043a_\u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c",
-      "community": 14,
-      "norm_label": "\u043a\u0430\u043a \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c"
-    },
-    {
-      "label": "\u041f\u043e\u043b\u043d\u044b\u0439 \u0441\u043a\u0440\u0438\u043f\u0442",
-      "file_type": "document",
-      "source_file": "docs/notes/files/restoreDbFromBak.md",
-      "source_location": "L124",
-      "_origin": "ast",
-      "id": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredbfrombak_\u043f\u043e\u043b\u043d\u044b\u0439_\u0441\u043a\u0440\u0438\u043f\u0442",
-      "community": 14,
-      "norm_label": "\u043f\u043e\u043b\u043d\u044b\u0438 \u0441\u043a\u0440\u0438\u043f\u0442"
-    },
-    {
-      "label": "\u041e\u0441\u043e\u0431\u0435\u043d\u043d\u043e\u0441\u0442\u0438 \u0438 \u043f\u043e\u0434\u0432\u043e\u0434\u043d\u044b\u0435 \u043a\u0430\u043c\u043d\u0438",
-      "file_type": "document",
-      "source_file": "docs/notes/files/restoreDbFromBak.md",
-      "source_location": "L316",
-      "_origin": "ast",
-      "id": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredbfrombak_\u043e\u0441\u043e\u0431\u0435\u043d\u043d\u043e\u0441\u0442\u0438_\u0438_\u043f\u043e\u0434\u0432\u043e\u0434\u043d\u044b\u0435_\u043a\u0430\u043c\u043d\u0438",
-      "community": 14,
-      "norm_label": "\u043e\u0441\u043e\u0431\u0435\u043d\u043d\u043e\u0441\u0442\u0438 \u0438 \u043f\u043e\u0434\u0432\u043e\u0434\u043d\u044b\u0435 \u043a\u0430\u043c\u043d\u0438"
-    },
-    {
-      "label": "restoreDbMoveToNewDisk.md",
-      "file_type": "document",
-      "source_file": "docs/notes/files/restoreDbMoveToNewDisk.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "docs_notes_files_restoredbmovetonewdisk",
+      "id": "docs_notes_files_restoredbfrombak_\u043c\u0430\u0441\u0441\u043e\u0432\u043e\u0435_\u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435_\u0431\u0430\u0437_sql_server_\u0438\u0437_bak",
       "community": 43,
-      "norm_label": "restoredbmovetonewdisk.md"
+      "norm_label": "\u043c\u0430\u0441\u0441\u043e\u0432\u043e\u0435 \u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435 \u0431\u0430\u0437 sql server \u0438\u0437 .bak"
     },
     {
-      "label": "\u0412\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435 \u0431\u0430\u0437 SQL Server \u0438\u0437 .bak \u0441 \u043f\u0435\u0440\u0435\u043d\u043e\u0441\u043e\u043c \u0444\u0430\u0439\u043b\u043e\u0432 \u043d\u0430 \u0434\u0440\u0443\u0433\u043e\u0439 \u0434\u0438\u0441\u043a",
+      "label": "\u0422\u0438\u043f\u043e\u0432\u044b\u0435 \u0441\u0446\u0435\u043d\u0430\u0440\u0438\u0438",
       "file_type": "document",
-      "source_file": "docs/notes/files/restoreDbMoveToNewDisk.md",
-      "source_location": "L10",
+      "source_file": "docs/notes/files/restoreDbFromBak.md",
+      "source_location": "L23",
       "_origin": "ast",
-      "id": "docs_notes_files_restoredbmovetonewdisk_\u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435_\u0431\u0430\u0437_sql_server_\u0438\u0437_bak_\u0441_\u043f\u0435\u0440\u0435\u043d\u043e\u0441\u043e\u043c_\u0444\u0430\u0439\u043b\u043e\u0432_\u043d\u0430_\u0434\u0440\u0443\u0433\u043e\u0439_\u0434\u0438\u0441\u043a",
+      "id": "docs_notes_files_restoredbfrombak_\u0442\u0438\u043f\u043e\u0432\u044b\u0435_\u0441\u0446\u0435\u043d\u0430\u0440\u0438\u0438",
       "community": 43,
-      "norm_label": "\u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435 \u0431\u0430\u0437 sql server \u0438\u0437 .bak \u0441 \u043f\u0435\u0440\u0435\u043d\u043e\u0441\u043e\u043c \u0444\u0430\u0438\u043b\u043e\u0432 \u043d\u0430 \u0434\u0440\u0443\u0433\u043e\u0438 \u0434\u0438\u0441\u043a"
+      "norm_label": "\u0442\u0438\u043f\u043e\u0432\u044b\u0435 \u0441\u0446\u0435\u043d\u0430\u0440\u0438\u0438"
     },
     {
-      "label": "\u0427\u0442\u043e \u0434\u0435\u043b\u0430\u0435\u0442 \u0441\u043a\u0440\u0438\u043f\u0442",
+      "label": "\u041f\u0430\u0440\u0430\u043c\u0435\u0442\u0440\u044b",
       "file_type": "document",
-      "source_file": "docs/notes/files/restoreDbMoveToNewDisk.md",
-      "source_location": "L22",
+      "source_file": "docs/notes/files/restoreDbFromBak.md",
+      "source_location": "L42",
       "_origin": "ast",
-      "id": "docs_notes_files_restoredbmovetonewdisk_\u0447\u0442\u043e_\u0434\u0435\u043b\u0430\u0435\u0442_\u0441\u043a\u0440\u0438\u043f\u0442",
+      "id": "docs_notes_files_restoredbfrombak_\u043f\u0430\u0440\u0430\u043c\u0435\u0442\u0440\u044b",
       "community": 43,
-      "norm_label": "\u0447\u0442\u043e \u0434\u0435\u043b\u0430\u0435\u0442 \u0441\u043a\u0440\u0438\u043f\u0442"
+      "norm_label": "\u043f\u0430\u0440\u0430\u043c\u0435\u0442\u0440\u044b"
     },
     {
-      "label": "\u041f\u043e\u0434\u0433\u043e\u0442\u043e\u0432\u043a\u0430",
+      "label": "\u041a\u0443\u0434\u0430 \u043f\u043e\u043f\u0430\u0434\u0430\u044e\u0442 \u0444\u0430\u0439\u043b\u044b",
       "file_type": "document",
-      "source_file": "docs/notes/files/restoreDbMoveToNewDisk.md",
-      "source_location": "L61",
+      "source_file": "docs/notes/files/restoreDbFromBak.md",
+      "source_location": "L59",
       "_origin": "ast",
-      "id": "docs_notes_files_restoredbmovetonewdisk_\u043f\u043e\u0434\u0433\u043e\u0442\u043e\u0432\u043a\u0430",
+      "id": "docs_notes_files_restoredbfrombak_\u043a\u0443\u0434\u0430_\u043f\u043e\u043f\u0430\u0434\u0430\u044e\u0442_\u0444\u0430\u0439\u043b\u044b",
       "community": 43,
-      "norm_label": "\u043f\u043e\u0434\u0433\u043e\u0442\u043e\u0432\u043a\u0430"
+      "norm_label": "\u043a\u0443\u0434\u0430 \u043f\u043e\u043f\u0430\u0434\u0430\u044e\u0442 \u0444\u0430\u0438\u043b\u044b"
+    },
+    {
+      "label": "\u0417\u0430\u0449\u0438\u0442\u043d\u044b\u0435 \u043c\u0435\u0445\u0430\u043d\u0438\u0437\u043c\u044b",
+      "file_type": "document",
+      "source_file": "docs/notes/files/restoreDbFromBak.md",
+      "source_location": "L72",
+      "_origin": "ast",
+      "id": "docs_notes_files_restoredbfrombak_\u0437\u0430\u0449\u0438\u0442\u043d\u044b\u0435_\u043c\u0435\u0445\u0430\u043d\u0438\u0437\u043c\u044b",
+      "community": 43,
+      "norm_label": "\u0437\u0430\u0449\u0438\u0442\u043d\u044b\u0435 \u043c\u0435\u0445\u0430\u043d\u0438\u0437\u043c\u044b"
+    },
+    {
+      "label": "\u041f\u043e\u0434\u0433\u043e\u0442\u043e\u0432\u043a\u0430 { #podgotovka }",
+      "file_type": "document",
+      "source_file": "docs/notes/files/restoreDbFromBak.md",
+      "source_location": "L95",
+      "_origin": "ast",
+      "id": "docs_notes_files_restoredbfrombak_\u043f\u043e\u0434\u0433\u043e\u0442\u043e\u0432\u043a\u0430_podgotovka",
+      "community": 43,
+      "norm_label": "\u043f\u043e\u0434\u0433\u043e\u0442\u043e\u0432\u043a\u0430 { #podgotovka }"
     },
     {
       "label": "\u0428\u0430\u0433 1. \u041f\u0440\u043e\u0431\u043d\u044b\u0439 \u0437\u0430\u043f\u0443\u0441\u043a",
       "file_type": "document",
-      "source_file": "docs/notes/files/restoreDbMoveToNewDisk.md",
-      "source_location": "L84",
+      "source_file": "docs/notes/files/restoreDbFromBak.md",
+      "source_location": "L125",
       "_origin": "ast",
-      "id": "docs_notes_files_restoredbmovetonewdisk_\u0448\u0430\u0433_1_\u043f\u0440\u043e\u0431\u043d\u044b\u0439_\u0437\u0430\u043f\u0443\u0441\u043a",
+      "id": "docs_notes_files_restoredbfrombak_\u0448\u0430\u0433_1_\u043f\u0440\u043e\u0431\u043d\u044b\u0439_\u0437\u0430\u043f\u0443\u0441\u043a",
       "community": 43,
       "norm_label": "\u0448\u0430\u0433 1. \u043f\u0440\u043e\u0431\u043d\u044b\u0438 \u0437\u0430\u043f\u0443\u0441\u043a"
     },
     {
       "label": "\u0428\u0430\u0433 2. \u0411\u043e\u0435\u0432\u043e\u0439 \u0437\u0430\u043f\u0443\u0441\u043a",
       "file_type": "document",
-      "source_file": "docs/notes/files/restoreDbMoveToNewDisk.md",
-      "source_location": "L102",
+      "source_file": "docs/notes/files/restoreDbFromBak.md",
+      "source_location": "L142",
       "_origin": "ast",
-      "id": "docs_notes_files_restoredbmovetonewdisk_\u0448\u0430\u0433_2_\u0431\u043e\u0435\u0432\u043e\u0439_\u0437\u0430\u043f\u0443\u0441\u043a",
+      "id": "docs_notes_files_restoredbfrombak_\u0448\u0430\u0433_2_\u0431\u043e\u0435\u0432\u043e\u0439_\u0437\u0430\u043f\u0443\u0441\u043a",
       "community": 43,
       "norm_label": "\u0448\u0430\u0433 2. \u0431\u043e\u0435\u0432\u043e\u0438 \u0437\u0430\u043f\u0443\u0441\u043a"
     },
     {
       "label": "\u041d\u0435\u0445\u0432\u0430\u0442\u043a\u0430 \u043c\u0435\u0441\u0442\u0430 \u0438 \u043f\u043e\u0432\u0442\u043e\u0440\u043d\u044b\u0439 \u0437\u0430\u043f\u0443\u0441\u043a",
       "file_type": "document",
-      "source_file": "docs/notes/files/restoreDbMoveToNewDisk.md",
-      "source_location": "L121",
+      "source_file": "docs/notes/files/restoreDbFromBak.md",
+      "source_location": "L159",
       "_origin": "ast",
-      "id": "docs_notes_files_restoredbmovetonewdisk_\u043d\u0435\u0445\u0432\u0430\u0442\u043a\u0430_\u043c\u0435\u0441\u0442\u0430_\u0438_\u043f\u043e\u0432\u0442\u043e\u0440\u043d\u044b\u0439_\u0437\u0430\u043f\u0443\u0441\u043a",
+      "id": "docs_notes_files_restoredbfrombak_\u043d\u0435\u0445\u0432\u0430\u0442\u043a\u0430_\u043c\u0435\u0441\u0442\u0430_\u0438_\u043f\u043e\u0432\u0442\u043e\u0440\u043d\u044b\u0439_\u0437\u0430\u043f\u0443\u0441\u043a",
       "community": 43,
       "norm_label": "\u043d\u0435\u0445\u0432\u0430\u0442\u043a\u0430 \u043c\u0435\u0441\u0442\u0430 \u0438 \u043f\u043e\u0432\u0442\u043e\u0440\u043d\u044b\u0438 \u0437\u0430\u043f\u0443\u0441\u043a"
     },
     {
       "label": "\u041f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 \u043f\u043e\u0441\u043b\u0435 \u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u044f",
       "file_type": "document",
-      "source_file": "docs/notes/files/restoreDbMoveToNewDisk.md",
-      "source_location": "L150",
+      "source_file": "docs/notes/files/restoreDbFromBak.md",
+      "source_location": "L177",
       "_origin": "ast",
-      "id": "docs_notes_files_restoredbmovetonewdisk_\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430_\u043f\u043e\u0441\u043b\u0435_\u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u044f",
+      "id": "docs_notes_files_restoredbfrombak_\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430_\u043f\u043e\u0441\u043b\u0435_\u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u044f",
       "community": 43,
       "norm_label": "\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 \u043f\u043e\u0441\u043b\u0435 \u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u044f"
     },
     {
-      "label": "\u041f\u043e\u043b\u043d\u044b\u0439 \u0442\u0435\u043a\u0441\u0442 \u0441\u043a\u0440\u0438\u043f\u0442\u0430",
-      "file_type": "document",
-      "source_file": "docs/notes/files/restoreDbMoveToNewDisk.md",
-      "source_location": "L182",
-      "_origin": "ast",
-      "id": "docs_notes_files_restoredbmovetonewdisk_\u043f\u043e\u043b\u043d\u044b\u0439_\u0442\u0435\u043a\u0441\u0442_\u0441\u043a\u0440\u0438\u043f\u0442\u0430",
-      "community": 43,
-      "norm_label": "\u043f\u043e\u043b\u043d\u044b\u0438 \u0442\u0435\u043a\u0441\u0442 \u0441\u043a\u0440\u0438\u043f\u0442\u0430"
-    },
-    {
-      "label": "restoreDbOverwriteFromBak.md",
-      "file_type": "document",
-      "source_file": "docs/notes/files/restoreDbOverwriteFromBak.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredboverwritefrombak_md",
-      "community": 15,
-      "norm_label": "restoredboverwritefrombak.md"
-    },
-    {
-      "label": "\u0412\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435 \u0431\u0430\u0437 SQL Server \u0438\u0437 .bak \u0441 \u043f\u0435\u0440\u0435\u0437\u0430\u043f\u0438\u0441\u044c\u044e \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u0443\u044e\u0449\u0438\u0445",
-      "file_type": "document",
-      "source_file": "docs/notes/files/restoreDbOverwriteFromBak.md",
-      "source_location": "L10",
-      "_origin": "ast",
-      "id": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredboverwritefrombak_\u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435_\u0431\u0430\u0437_sql_server_\u0438\u0437_bak_\u0441_\u043f\u0435\u0440\u0435\u0437\u0430\u043f\u0438\u0441\u044c\u044e_\u0441\u0443\u0449\u0435\u0441\u0442\u0432\u0443\u044e\u0449\u0438\u0445",
-      "community": 15,
-      "norm_label": "\u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435 \u0431\u0430\u0437 sql server \u0438\u0437 .bak \u0441 \u043f\u0435\u0440\u0435\u0437\u0430\u043f\u0438\u0441\u044c\u044e \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u0443\u044e\u0449\u0438\u0445"
-    },
-    {
-      "label": "\u0427\u0435\u043c \u043e\u0442\u043b\u0438\u0447\u0430\u0435\u0442\u0441\u044f \u043e\u0442 \u0431\u0430\u0437\u043e\u0432\u043e\u0433\u043e \u0441\u043a\u0440\u0438\u043f\u0442\u0430",
-      "file_type": "document",
-      "source_file": "docs/notes/files/restoreDbOverwriteFromBak.md",
-      "source_location": "L28",
-      "_origin": "ast",
-      "id": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredboverwritefrombak_\u0447\u0435\u043c_\u043e\u0442\u043b\u0438\u0447\u0430\u0435\u0442\u0441\u044f_\u043e\u0442_\u0431\u0430\u0437\u043e\u0432\u043e\u0433\u043e_\u0441\u043a\u0440\u0438\u043f\u0442\u0430",
-      "community": 15,
-      "norm_label": "\u0447\u0435\u043c \u043e\u0442\u043b\u0438\u0447\u0430\u0435\u0442\u0441\u044f \u043e\u0442 \u0431\u0430\u0437\u043e\u0432\u043e\u0433\u043e \u0441\u043a\u0440\u0438\u043f\u0442\u0430"
-    },
-    {
-      "label": "\u041f\u0440\u0438\u043d\u0446\u0438\u043f \u0440\u0430\u0431\u043e\u0442\u044b",
-      "file_type": "document",
-      "source_file": "docs/notes/files/restoreDbOverwriteFromBak.md",
-      "source_location": "L79",
-      "_origin": "ast",
-      "id": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredboverwritefrombak_\u043f\u0440\u0438\u043d\u0446\u0438\u043f_\u0440\u0430\u0431\u043e\u0442\u044b",
-      "community": 15,
-      "norm_label": "\u043f\u0440\u0438\u043d\u0446\u0438\u043f \u0440\u0430\u0431\u043e\u0442\u044b"
-    },
-    {
-      "label": "1. \u041f\u0440\u0435\u0434\u043e\u0445\u0440\u0430\u043d\u0438\u0442\u0435\u043b\u044c \u043d\u0430 \u0432\u0445\u043e\u0434\u0435",
-      "file_type": "document",
-      "source_file": "docs/notes/files/restoreDbOverwriteFromBak.md",
-      "source_location": "L81",
-      "_origin": "ast",
-      "id": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredboverwritefrombak_1_\u043f\u0440\u0435\u0434\u043e\u0445\u0440\u0430\u043d\u0438\u0442\u0435\u043b\u044c_\u043d\u0430_\u0432\u0445\u043e\u0434\u0435",
-      "community": 15,
-      "norm_label": "1. \u043f\u0440\u0435\u0434\u043e\u0445\u0440\u0430\u043d\u0438\u0442\u0435\u043b\u044c \u043d\u0430 \u0432\u0445\u043e\u0434\u0435"
-    },
-    {
-      "label": "2. \u0421\u043f\u0438\u0441\u043e\u043a \u0444\u0430\u0439\u043b\u043e\u0432 \u0438 \u0444\u0438\u043b\u044c\u0442\u0440\u0430\u0446\u0438\u044f",
-      "file_type": "document",
-      "source_file": "docs/notes/files/restoreDbOverwriteFromBak.md",
-      "source_location": "L88",
-      "_origin": "ast",
-      "id": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredboverwritefrombak_2_\u0441\u043f\u0438\u0441\u043e\u043a_\u0444\u0430\u0439\u043b\u043e\u0432_\u0438_\u0444\u0438\u043b\u044c\u0442\u0440\u0430\u0446\u0438\u044f",
-      "community": 15,
-      "norm_label": "2. \u0441\u043f\u0438\u0441\u043e\u043a \u0444\u0430\u0438\u043b\u043e\u0432 \u0438 \u0444\u0438\u043b\u044c\u0442\u0440\u0430\u0446\u0438\u044f"
-    },
-    {
-      "label": "3. \u041e\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u0438\u0435 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044f \u0434\u043b\u044f \u043a\u0430\u0436\u0434\u043e\u0439 \u0431\u0430\u0437\u044b",
-      "file_type": "document",
-      "source_file": "docs/notes/files/restoreDbOverwriteFromBak.md",
-      "source_location": "L94",
-      "_origin": "ast",
-      "id": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredboverwritefrombak_3_\u043e\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u0438\u0435_\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044f_\u0434\u043b\u044f_\u043a\u0430\u0436\u0434\u043e\u0439_\u0431\u0430\u0437\u044b",
-      "community": 15,
-      "norm_label": "3. \u043e\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u0438\u0435 \u0434\u0435\u0438\u0441\u0442\u0432\u0438\u044f \u0434\u043b\u044f \u043a\u0430\u0436\u0434\u043e\u0438 \u0431\u0430\u0437\u044b"
-    },
-    {
-      "label": "4. \u041f\u0440\u043e\u0432\u0435\u0440\u043a\u0438, \u0431\u043b\u043e\u043a\u0438\u0440\u0443\u044e\u0449\u0438\u0435 restore",
-      "file_type": "document",
-      "source_file": "docs/notes/files/restoreDbOverwriteFromBak.md",
-      "source_location": "L104",
-      "_origin": "ast",
-      "id": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredboverwritefrombak_4_\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0438_\u0431\u043b\u043e\u043a\u0438\u0440\u0443\u044e\u0449\u0438\u0435_restore",
-      "community": 15,
-      "norm_label": "4. \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0438, \u0431\u043b\u043e\u043a\u0438\u0440\u0443\u044e\u0449\u0438\u0435 restore"
-    },
-    {
-      "label": "5. \u0421\u043e\u0441\u0442\u0430\u0432 \u0431\u044d\u043a\u0430\u043f\u0430 \u0438 \u0446\u0435\u043b\u0435\u0432\u044b\u0435 \u043f\u0443\u0442\u0438 \u0444\u0430\u0439\u043b\u043e\u0432",
-      "file_type": "document",
-      "source_file": "docs/notes/files/restoreDbOverwriteFromBak.md",
-      "source_location": "L110",
-      "_origin": "ast",
-      "id": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredboverwritefrombak_5_\u0441\u043e\u0441\u0442\u0430\u0432_\u0431\u044d\u043a\u0430\u043f\u0430_\u0438_\u0446\u0435\u043b\u0435\u0432\u044b\u0435_\u043f\u0443\u0442\u0438_\u0444\u0430\u0439\u043b\u043e\u0432",
-      "community": 15,
-      "norm_label": "5. \u0441\u043e\u0441\u0442\u0430\u0432 \u0431\u044d\u043a\u0430\u043f\u0430 \u0438 \u0446\u0435\u043b\u0435\u0432\u044b\u0435 \u043f\u0443\u0442\u0438 \u0444\u0430\u0438\u043b\u043e\u0432"
-    },
-    {
-      "label": "6. \u041f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 \u043a\u043e\u043b\u043b\u0438\u0437\u0438\u0439",
-      "file_type": "document",
-      "source_file": "docs/notes/files/restoreDbOverwriteFromBak.md",
-      "source_location": "L119",
-      "_origin": "ast",
-      "id": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredboverwritefrombak_6_\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430_\u043a\u043e\u043b\u043b\u0438\u0437\u0438\u0439",
-      "community": 15,
-      "norm_label": "6. \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 \u043a\u043e\u043b\u043b\u0438\u0437\u0438\u0438"
-    },
-    {
-      "label": "7. \u0421\u0431\u043e\u0440\u043a\u0430 \u043a\u043e\u043c\u0430\u043d\u0434\u044b `RESTORE`",
-      "file_type": "document",
-      "source_file": "docs/notes/files/restoreDbOverwriteFromBak.md",
-      "source_location": "L126",
-      "_origin": "ast",
-      "id": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredboverwritefrombak_7_\u0441\u0431\u043e\u0440\u043a\u0430_\u043a\u043e\u043c\u0430\u043d\u0434\u044b_restore",
-      "community": 15,
-      "norm_label": "7. \u0441\u0431\u043e\u0440\u043a\u0430 \u043a\u043e\u043c\u0430\u043d\u0434\u044b `restore`"
-    },
-    {
-      "label": "8. \u0420\u0435\u0436\u0438\u043c \u043e\u0442\u0447\u0451\u0442\u0430",
-      "file_type": "document",
-      "source_file": "docs/notes/files/restoreDbOverwriteFromBak.md",
-      "source_location": "L132",
-      "_origin": "ast",
-      "id": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredboverwritefrombak_8_\u0440\u0435\u0436\u0438\u043c_\u043e\u0442\u0447\u0451\u0442\u0430",
-      "community": 15,
-      "norm_label": "8. \u0440\u0435\u0436\u0438\u043c \u043e\u0442\u0447\u0435\u0442\u0430"
-    },
-    {
-      "label": "9. \u0412\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u0438\u0435",
-      "file_type": "document",
-      "source_file": "docs/notes/files/restoreDbOverwriteFromBak.md",
-      "source_location": "L139",
-      "_origin": "ast",
-      "id": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredboverwritefrombak_9_\u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u0438\u0435",
-      "community": 15,
-      "norm_label": "9. \u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u0438\u0435"
-    },
-    {
-      "label": "10. \u041e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0430 \u043e\u0448\u0438\u0431\u043e\u043a",
-      "file_type": "document",
-      "source_file": "docs/notes/files/restoreDbOverwriteFromBak.md",
-      "source_location": "L146",
-      "_origin": "ast",
-      "id": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredboverwritefrombak_10_\u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0430_\u043e\u0448\u0438\u0431\u043e\u043a",
-      "community": 15,
-      "norm_label": "10. \u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0430 \u043e\u0448\u0438\u0431\u043e\u043a"
-    },
-    {
-      "label": "11. \u0418\u0442\u043e\u0433\u0438",
-      "file_type": "document",
-      "source_file": "docs/notes/files/restoreDbOverwriteFromBak.md",
-      "source_location": "L153",
-      "_origin": "ast",
-      "id": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredboverwritefrombak_11_\u0438\u0442\u043e\u0433\u0438",
-      "community": 15,
-      "norm_label": "11. \u0438\u0442\u043e\u0433\u0438"
-    },
-    {
-      "label": "\u041a\u0430\u043a \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c",
-      "file_type": "document",
-      "source_file": "docs/notes/files/restoreDbOverwriteFromBak.md",
-      "source_location": "L161",
-      "_origin": "ast",
-      "id": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredboverwritefrombak_\u043a\u0430\u043a_\u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c",
-      "community": 15,
-      "norm_label": "\u043a\u0430\u043a \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c"
-    },
-    {
       "label": "\u041f\u043e\u043b\u043d\u044b\u0439 \u0441\u043a\u0440\u0438\u043f\u0442",
       "file_type": "document",
-      "source_file": "docs/notes/files/restoreDbOverwriteFromBak.md",
-      "source_location": "L177",
+      "source_file": "docs/notes/files/restoreDbFromBak.md",
+      "source_location": "L206",
       "_origin": "ast",
-      "id": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredboverwritefrombak_\u043f\u043e\u043b\u043d\u044b\u0439_\u0441\u043a\u0440\u0438\u043f\u0442",
-      "community": 15,
+      "id": "docs_notes_files_restoredbfrombak_\u043f\u043e\u043b\u043d\u044b\u0439_\u0441\u043a\u0440\u0438\u043f\u0442",
+      "community": 43,
       "norm_label": "\u043f\u043e\u043b\u043d\u044b\u0438 \u0441\u043a\u0440\u0438\u043f\u0442"
     },
     {
       "label": "\u041e\u0441\u043e\u0431\u0435\u043d\u043d\u043e\u0441\u0442\u0438 \u0438 \u043f\u043e\u0434\u0432\u043e\u0434\u043d\u044b\u0435 \u043a\u0430\u043c\u043d\u0438",
       "file_type": "document",
-      "source_file": "docs/notes/files/restoreDbOverwriteFromBak.md",
-      "source_location": "L494",
+      "source_file": "docs/notes/files/restoreDbFromBak.md",
+      "source_location": "L622",
       "_origin": "ast",
-      "id": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredboverwritefrombak_\u043e\u0441\u043e\u0431\u0435\u043d\u043d\u043e\u0441\u0442\u0438_\u0438_\u043f\u043e\u0434\u0432\u043e\u0434\u043d\u044b\u0435_\u043a\u0430\u043c\u043d\u0438",
-      "community": 15,
+      "id": "docs_notes_files_restoredbfrombak_\u043e\u0441\u043e\u0431\u0435\u043d\u043d\u043e\u0441\u0442\u0438_\u0438_\u043f\u043e\u0434\u0432\u043e\u0434\u043d\u044b\u0435_\u043a\u0430\u043c\u043d\u0438",
+      "community": 43,
       "norm_label": "\u043e\u0441\u043e\u0431\u0435\u043d\u043d\u043e\u0441\u0442\u0438 \u0438 \u043f\u043e\u0434\u0432\u043e\u0434\u043d\u044b\u0435 \u043a\u0430\u043c\u043d\u0438"
     },
     {
@@ -1264,6 +1004,86 @@
       "id": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_uploadbackupstoftp_\u043e\u0441\u043e\u0431\u0435\u043d\u043d\u043e\u0441\u0442\u0438_\u0438_\u043f\u043e\u0434\u0432\u043e\u0434\u043d\u044b\u0435_\u043a\u0430\u043c\u043d\u0438",
       "community": 17,
       "norm_label": "\u043e\u0441\u043e\u0431\u0435\u043d\u043d\u043e\u0441\u0442\u0438 \u0438 \u043f\u043e\u0434\u0432\u043e\u0434\u043d\u044b\u0435 \u043a\u0430\u043c\u043d\u0438"
+    },
+    {
+      "label": "apacheBasicAuthAddUser.md",
+      "file_type": "document",
+      "source_file": "docs/notes/linux/apacheBasicAuthAddUser.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_notes_linux_apachebasicauthadduser",
+      "community": 40,
+      "norm_label": "apachebasicauthadduser.md"
+    },
+    {
+      "label": "Apache Basic Auth: \u0434\u043e\u0431\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f",
+      "file_type": "document",
+      "source_file": "docs/notes/linux/apacheBasicAuthAddUser.md",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "docs_notes_linux_apachebasicauthadduser_apache_basic_auth_\u0434\u043e\u0431\u0430\u0432\u043b\u0435\u043d\u0438\u0435_\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f",
+      "community": 40,
+      "norm_label": "apache basic auth: \u0434\u043e\u0431\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f"
+    },
+    {
+      "label": "\u0413\u0434\u0435 \u043b\u0435\u0436\u0438\u0442 \u0444\u0430\u0439\u043b \u043f\u0430\u0440\u043e\u043b\u0435\u0439",
+      "file_type": "document",
+      "source_file": "docs/notes/linux/apacheBasicAuthAddUser.md",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "docs_notes_linux_apachebasicauthadduser_\u0433\u0434\u0435_\u043b\u0435\u0436\u0438\u0442_\u0444\u0430\u0439\u043b_\u043f\u0430\u0440\u043e\u043b\u0435\u0439",
+      "community": 40,
+      "norm_label": "\u0433\u0434\u0435 \u043b\u0435\u0436\u0438\u0442 \u0444\u0430\u0438\u043b \u043f\u0430\u0440\u043e\u043b\u0435\u0438"
+    },
+    {
+      "label": "\u0414\u043e\u0431\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f",
+      "file_type": "document",
+      "source_file": "docs/notes/linux/apacheBasicAuthAddUser.md",
+      "source_location": "L43",
+      "_origin": "ast",
+      "id": "docs_notes_linux_apachebasicauthadduser_\u0434\u043e\u0431\u0430\u0432\u043b\u0435\u043d\u0438\u0435_\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f",
+      "community": 40,
+      "norm_label": "\u0434\u043e\u0431\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f"
+    },
+    {
+      "label": "\u041f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 Require \u0438 \u043f\u0435\u0440\u0435\u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0430",
+      "file_type": "document",
+      "source_file": "docs/notes/linux/apacheBasicAuthAddUser.md",
+      "source_location": "L68",
+      "_origin": "ast",
+      "id": "docs_notes_linux_apachebasicauthadduser_\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430_require_\u0438_\u043f\u0435\u0440\u0435\u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0430",
+      "community": 40,
+      "norm_label": "\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 require \u0438 \u043f\u0435\u0440\u0435\u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0430"
+    },
+    {
+      "label": "\u041f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 \u0434\u043e\u0441\u0442\u0443\u043f\u0430",
+      "file_type": "document",
+      "source_file": "docs/notes/linux/apacheBasicAuthAddUser.md",
+      "source_location": "L87",
+      "_origin": "ast",
+      "id": "docs_notes_linux_apachebasicauthadduser_\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430_\u0434\u043e\u0441\u0442\u0443\u043f\u0430",
+      "community": 40,
+      "norm_label": "\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 \u0434\u043e\u0441\u0442\u0443\u043f\u0430"
+    },
+    {
+      "label": "\u0428\u043f\u0430\u0440\u0433\u0430\u043b\u043a\u0430",
+      "file_type": "document",
+      "source_file": "docs/notes/linux/apacheBasicAuthAddUser.md",
+      "source_location": "L95",
+      "_origin": "ast",
+      "id": "docs_notes_linux_apachebasicauthadduser_\u0448\u043f\u0430\u0440\u0433\u0430\u043b\u043a\u0430",
+      "community": 40,
+      "norm_label": "\u0448\u043f\u0430\u0440\u0433\u0430\u043b\u043a\u0430"
+    },
+    {
+      "label": "\u0411\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u044c \u0438 \u0437\u0430\u043c\u0435\u0447\u0430\u043d\u0438\u044f",
+      "file_type": "document",
+      "source_file": "docs/notes/linux/apacheBasicAuthAddUser.md",
+      "source_location": "L105",
+      "_origin": "ast",
+      "id": "docs_notes_linux_apachebasicauthadduser_\u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u044c_\u0438_\u0437\u0430\u043c\u0435\u0447\u0430\u043d\u0438\u044f",
+      "community": 40,
+      "norm_label": "\u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u044c \u0438 \u0437\u0430\u043c\u0435\u0447\u0430\u043d\u0438\u044f"
     },
     {
       "label": "atUtility.md",
@@ -2832,7 +2652,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "users_romanimanberdiyev_library_cloudstorage_googledrive_rlufte_gmail_com_\u043c\u043e\u0439_\u0434\u0438\u0441\u043a_application_sysadmin_notes_docs_notes_network_mikrotikipsecnatnetmap_md",
-      "community": 9,
+      "community": 14,
       "norm_label": "mikrotikipsecnatnetmap.md"
     },
     {
@@ -3262,7 +3082,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "users_romanimanberdiyev_library_cloudstorage_googledrive_rlufte_gmail_com_\u043c\u043e\u0439_\u0434\u0438\u0441\u043a_application_sysadmin_notes_docs_notes_network_wireguardsitetosite_md",
-      "community": 9,
+      "community": 14,
       "norm_label": "wireguardsitetosite.md"
     },
     {
@@ -3272,7 +3092,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "users_romanimanberdiyev_library_cloudstorage_googledrive_rlufte_gmail_com_\u043c\u043e\u0439_\u0434\u0438\u0441\u043a_application_sysadmin_notes_docs_notes_network_wireguardsitetosite_site_to_site_\u0442\u0443\u043d\u043d\u0435\u043b\u044c_wireguard_\u043d\u0430_routeros_mikrotik",
-      "community": 9,
+      "community": 14,
       "norm_label": "site-to-site \u0442\u0443\u043d\u043d\u0435\u043b\u044c wireguard \u043d\u0430 routeros (mikrotik)"
     },
     {
@@ -3282,7 +3102,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "users_romanimanberdiyev_library_cloudstorage_googledrive_rlufte_gmail_com_\u043c\u043e\u0439_\u0434\u0438\u0441\u043a_application_sysadmin_notes_docs_notes_network_wireguardsitetosite_\u0438\u0434\u0435\u044f_\u043c\u0438\u0433\u0440\u0430\u0446\u0438\u0438",
-      "community": 9,
+      "community": 14,
       "norm_label": "\u0438\u0434\u0435\u044f \u043c\u0438\u0433\u0440\u0430\u0446\u0438\u0438"
     },
     {
@@ -3292,7 +3112,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "users_romanimanberdiyev_library_cloudstorage_googledrive_rlufte_gmail_com_\u043c\u043e\u0439_\u0434\u0438\u0441\u043a_application_sysadmin_notes_docs_notes_network_wireguardsitetosite_\u043f\u043e\u0434\u0433\u043e\u0442\u043e\u0432\u043a\u0430_\u0441\u0434\u0435\u043b\u0430\u0442\u044c_\u043d\u0430_\u043e\u0431\u0435\u0438\u0445_\u0441\u0442\u043e\u0440\u043e\u043d\u0430\u0445_\u0437\u0430\u0440\u0430\u043d\u0435\u0435",
-      "community": 9,
+      "community": 14,
       "norm_label": "\u043f\u043e\u0434\u0433\u043e\u0442\u043e\u0432\u043a\u0430 (\u0441\u0434\u0435\u043b\u0430\u0442\u044c \u043d\u0430 \u043e\u0431\u0435\u0438\u0445 \u0441\u0442\u043e\u0440\u043e\u043d\u0430\u0445 \u0437\u0430\u0440\u0430\u043d\u0435\u0435)"
     },
     {
@@ -3302,7 +3122,7 @@
       "source_location": "L43",
       "_origin": "ast",
       "id": "users_romanimanberdiyev_library_cloudstorage_googledrive_rlufte_gmail_com_\u043c\u043e\u0439_\u0434\u0438\u0441\u043a_application_sysadmin_notes_docs_notes_network_wireguardsitetosite_\u0448\u0430\u0433\u0438_\u043d\u0430_\u0441\u0442\u043e\u0440\u043e\u043d\u0435_a",
-      "community": 9,
+      "community": 14,
       "norm_label": "\u0448\u0430\u0433\u0438 \u043d\u0430 \u0441\u0442\u043e\u0440\u043e\u043d\u0435 a"
     },
     {
@@ -3312,7 +3132,7 @@
       "source_location": "L134",
       "_origin": "ast",
       "id": "users_romanimanberdiyev_library_cloudstorage_googledrive_rlufte_gmail_com_\u043c\u043e\u0439_\u0434\u0438\u0441\u043a_application_sysadmin_notes_docs_notes_network_wireguardsitetosite_\u0448\u0430\u0433\u0438_\u043d\u0430_\u0441\u0442\u043e\u0440\u043e\u043d\u0435_b_\u0437\u0435\u0440\u043a\u0430\u043b\u044c\u043d\u043e",
-      "community": 9,
+      "community": 14,
       "norm_label": "\u0448\u0430\u0433\u0438 \u043d\u0430 \u0441\u0442\u043e\u0440\u043e\u043d\u0435 b (\u0437\u0435\u0440\u043a\u0430\u043b\u044c\u043d\u043e)"
     },
     {
@@ -3322,7 +3142,7 @@
       "source_location": "L191",
       "_origin": "ast",
       "id": "users_romanimanberdiyev_library_cloudstorage_googledrive_rlufte_gmail_com_\u043c\u043e\u0439_\u0434\u0438\u0441\u043a_application_sysadmin_notes_docs_notes_network_wireguardsitetosite_\u0447\u0430\u0441\u0442\u044b\u0435_\u043e\u0448\u0438\u0431\u043a\u0438",
-      "community": 9,
+      "community": 14,
       "norm_label": "\u0447\u0430\u0441\u0442\u044b\u0435 \u043e\u0448\u0438\u0431\u043a\u0438"
     },
     {
@@ -3332,7 +3152,7 @@
       "source_location": "L199",
       "_origin": "ast",
       "id": "users_romanimanberdiyev_library_cloudstorage_googledrive_rlufte_gmail_com_\u043c\u043e\u0439_\u0434\u0438\u0441\u043a_application_sysadmin_notes_docs_notes_network_wireguardsitetosite_\u043f\u0440\u043e\u0432\u0435\u0440\u043e\u0447\u043d\u044b\u0439_\u0447\u0435\u043a_\u043b\u0438\u0441\u0442_\u043f\u0435\u0440\u0435\u0434_\u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435\u043c_ipsec",
-      "community": 9,
+      "community": 14,
       "norm_label": "\u043f\u0440\u043e\u0432\u0435\u0440\u043e\u0447\u043d\u044b\u0438 \u0447\u0435\u043a-\u043b\u0438\u0441\u0442 \u043f\u0435\u0440\u0435\u0434 \u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435\u043c ipsec"
     },
     {
@@ -3342,7 +3162,7 @@
       "source_location": "L213",
       "_origin": "ast",
       "id": "users_romanimanberdiyev_library_cloudstorage_googledrive_rlufte_gmail_com_\u043c\u043e\u0439_\u0434\u0438\u0441\u043a_application_sysadmin_notes_docs_notes_network_wireguardsitetosite_\u0441\u043c\u0435\u0436\u043d\u044b\u0435_\u0437\u0430\u043c\u0435\u0442\u043a\u0438",
-      "community": 9,
+      "community": 14,
       "norm_label": "\u0441\u043c\u0435\u0436\u043d\u044b\u0435 \u0437\u0430\u043c\u0435\u0442\u043a\u0438"
     },
     {
@@ -5316,17 +5136,17 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "docs/notes/files/index.md",
-      "source_location": "L15",
+      "source_location": "L13",
       "weight": 1.0,
       "source": "docs_notes_files_index",
-      "target": "docs_notes_files_restoredbmovetonewdisk",
+      "target": "docs_notes_files_restoredbfrombak",
       "confidence_score": 1.0
     },
     {
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "docs/notes/files/index.md",
-      "source_location": "L18",
+      "source_location": "L16",
       "weight": 1.0,
       "source": "docs_notes_files_index",
       "target": "docs_notes_files_shrinkprogress",
@@ -5348,368 +5168,128 @@
       "source_file": "docs/notes/files/restoreDbFromBak.md",
       "source_location": "L10",
       "weight": 1.0,
-      "source": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredbfrombak_md",
-      "target": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredbfrombak_\u043c\u0430\u0441\u0441\u043e\u0432\u043e\u0435_\u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435_\u0431\u0430\u0437_sql_server_\u0438\u0437_\u043a\u0430\u0442\u0430\u043b\u043e\u0433\u0430_\u0441_bak",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/files/restoreDbFromBak.md",
-      "source_location": "L97",
-      "weight": 1.0,
-      "source": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredbfrombak_\u043c\u0430\u0441\u0441\u043e\u0432\u043e\u0435_\u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435_\u0431\u0430\u0437_sql_server_\u0438\u0437_\u043a\u0430\u0442\u0430\u043b\u043e\u0433\u0430_\u0441_bak",
-      "target": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredbfrombak_\u043a\u0430\u043a_\u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/files/restoreDbFromBak.md",
-      "source_location": "L316",
-      "weight": 1.0,
-      "source": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredbfrombak_\u043c\u0430\u0441\u0441\u043e\u0432\u043e\u0435_\u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435_\u0431\u0430\u0437_sql_server_\u0438\u0437_\u043a\u0430\u0442\u0430\u043b\u043e\u0433\u0430_\u0441_bak",
-      "target": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredbfrombak_\u043e\u0441\u043e\u0431\u0435\u043d\u043d\u043e\u0441\u0442\u0438_\u0438_\u043f\u043e\u0434\u0432\u043e\u0434\u043d\u044b\u0435_\u043a\u0430\u043c\u043d\u0438",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/files/restoreDbFromBak.md",
-      "source_location": "L124",
-      "weight": 1.0,
-      "source": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredbfrombak_\u043c\u0430\u0441\u0441\u043e\u0432\u043e\u0435_\u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435_\u0431\u0430\u0437_sql_server_\u0438\u0437_\u043a\u0430\u0442\u0430\u043b\u043e\u0433\u0430_\u0441_bak",
-      "target": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredbfrombak_\u043f\u043e\u043b\u043d\u044b\u0439_\u0441\u043a\u0440\u0438\u043f\u0442",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/files/restoreDbFromBak.md",
-      "source_location": "L20",
-      "weight": 1.0,
-      "source": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredbfrombak_\u043c\u0430\u0441\u0441\u043e\u0432\u043e\u0435_\u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435_\u0431\u0430\u0437_sql_server_\u0438\u0437_\u043a\u0430\u0442\u0430\u043b\u043e\u0433\u0430_\u0441_bak",
-      "target": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredbfrombak_\u043f\u0440\u0438\u043d\u0446\u0438\u043f_\u0440\u0430\u0431\u043e\u0442\u044b",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/files/restoreDbFromBak.md",
-      "source_location": "L25",
-      "weight": 1.0,
-      "source": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredbfrombak_\u043f\u0440\u0438\u043d\u0446\u0438\u043f_\u0440\u0430\u0431\u043e\u0442\u044b",
-      "target": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredbfrombak_1_\u043f\u043e\u043b\u0443\u0447\u0435\u043d\u0438\u0435_\u0441\u043f\u0438\u0441\u043a\u0430_\u0444\u0430\u0439\u043b\u043e\u0432",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/files/restoreDbFromBak.md",
-      "source_location": "L38",
-      "weight": 1.0,
-      "source": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredbfrombak_\u043f\u0440\u0438\u043d\u0446\u0438\u043f_\u0440\u0430\u0431\u043e\u0442\u044b",
-      "target": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredbfrombak_2_\u043f\u0440\u043e\u043f\u0443\u0441\u043a_\u0441\u0443\u0449\u0435\u0441\u0442\u0432\u0443\u044e\u0449\u0438\u0445_\u0431\u0430\u0437",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/files/restoreDbFromBak.md",
-      "source_location": "L46",
-      "weight": 1.0,
-      "source": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredbfrombak_\u043f\u0440\u0438\u043d\u0446\u0438\u043f_\u0440\u0430\u0431\u043e\u0442\u044b",
-      "target": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredbfrombak_3_\u0440\u0430\u0437\u0431\u043e\u0440_\u0441\u043e\u0441\u0442\u0430\u0432\u0430_backup_\u0444\u0430\u0439\u043b\u0430",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/files/restoreDbFromBak.md",
-      "source_location": "L61",
-      "weight": 1.0,
-      "source": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredbfrombak_\u043f\u0440\u0438\u043d\u0446\u0438\u043f_\u0440\u0430\u0431\u043e\u0442\u044b",
-      "target": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredbfrombak_4_\u0433\u0435\u043d\u0435\u0440\u0430\u0446\u0438\u044f_move_\u0434\u043b\u044f_\u043a\u0430\u0436\u0434\u043e\u0433\u043e_\u0444\u0430\u0439\u043b\u0430",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/files/restoreDbFromBak.md",
-      "source_location": "L71",
-      "weight": 1.0,
-      "source": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredbfrombak_\u043f\u0440\u0438\u043d\u0446\u0438\u043f_\u0440\u0430\u0431\u043e\u0442\u044b",
-      "target": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredbfrombak_5_\u0434\u0432\u0430_\u0440\u0435\u0436\u0438\u043c\u0430_\u043e\u0442\u0447\u0451\u0442_\u0438_\u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u0438\u0435",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/files/restoreDbFromBak.md",
-      "source_location": "L86",
-      "weight": 1.0,
-      "source": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredbfrombak_\u043f\u0440\u0438\u043d\u0446\u0438\u043f_\u0440\u0430\u0431\u043e\u0442\u044b",
-      "target": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredbfrombak_6_\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430_\u0441\u0432\u043e\u0431\u043e\u0434\u043d\u043e\u0433\u043e_\u043c\u0435\u0441\u0442\u0430",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/files/restoreDbMoveToNewDisk.md",
-      "source_location": "L10",
-      "weight": 1.0,
-      "source": "docs_notes_files_restoredbmovetonewdisk",
-      "target": "docs_notes_files_restoredbmovetonewdisk_\u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435_\u0431\u0430\u0437_sql_server_\u0438\u0437_bak_\u0441_\u043f\u0435\u0440\u0435\u043d\u043e\u0441\u043e\u043c_\u0444\u0430\u0439\u043b\u043e\u0432_\u043d\u0430_\u0434\u0440\u0443\u0433\u043e\u0439_\u0434\u0438\u0441\u043a",
+      "source": "docs_notes_files_restoredbfrombak",
+      "target": "docs_notes_files_restoredbfrombak_\u043c\u0430\u0441\u0441\u043e\u0432\u043e\u0435_\u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435_\u0431\u0430\u0437_sql_server_\u0438\u0437_bak",
       "confidence_score": 1.0
     },
     {
       "relation": "references",
       "confidence": "EXTRACTED",
-      "source_file": "docs/notes/files/restoreDbMoveToNewDisk.md",
-      "source_location": "L126",
+      "source_file": "docs/notes/files/restoreDbFromBak.md",
+      "source_location": "L165",
       "weight": 1.0,
-      "source": "docs_notes_files_restoredbmovetonewdisk",
+      "source": "docs_notes_files_restoredbfrombak",
       "target": "docs_notes_files_shrinkprogress",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "docs/notes/files/restoreDbMoveToNewDisk.md",
-      "source_location": "L121",
+      "source_file": "docs/notes/files/restoreDbFromBak.md",
+      "source_location": "L72",
       "weight": 1.0,
-      "source": "docs_notes_files_restoredbmovetonewdisk_\u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435_\u0431\u0430\u0437_sql_server_\u0438\u0437_bak_\u0441_\u043f\u0435\u0440\u0435\u043d\u043e\u0441\u043e\u043c_\u0444\u0430\u0439\u043b\u043e\u0432_\u043d\u0430_\u0434\u0440\u0443\u0433\u043e\u0439_\u0434\u0438\u0441\u043a",
-      "target": "docs_notes_files_restoredbmovetonewdisk_\u043d\u0435\u0445\u0432\u0430\u0442\u043a\u0430_\u043c\u0435\u0441\u0442\u0430_\u0438_\u043f\u043e\u0432\u0442\u043e\u0440\u043d\u044b\u0439_\u0437\u0430\u043f\u0443\u0441\u043a",
+      "source": "docs_notes_files_restoredbfrombak_\u043c\u0430\u0441\u0441\u043e\u0432\u043e\u0435_\u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435_\u0431\u0430\u0437_sql_server_\u0438\u0437_bak",
+      "target": "docs_notes_files_restoredbfrombak_\u0437\u0430\u0449\u0438\u0442\u043d\u044b\u0435_\u043c\u0435\u0445\u0430\u043d\u0438\u0437\u043c\u044b",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "docs/notes/files/restoreDbMoveToNewDisk.md",
-      "source_location": "L61",
+      "source_file": "docs/notes/files/restoreDbFromBak.md",
+      "source_location": "L59",
       "weight": 1.0,
-      "source": "docs_notes_files_restoredbmovetonewdisk_\u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435_\u0431\u0430\u0437_sql_server_\u0438\u0437_bak_\u0441_\u043f\u0435\u0440\u0435\u043d\u043e\u0441\u043e\u043c_\u0444\u0430\u0439\u043b\u043e\u0432_\u043d\u0430_\u0434\u0440\u0443\u0433\u043e\u0439_\u0434\u0438\u0441\u043a",
-      "target": "docs_notes_files_restoredbmovetonewdisk_\u043f\u043e\u0434\u0433\u043e\u0442\u043e\u0432\u043a\u0430",
+      "source": "docs_notes_files_restoredbfrombak_\u043c\u0430\u0441\u0441\u043e\u0432\u043e\u0435_\u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435_\u0431\u0430\u0437_sql_server_\u0438\u0437_bak",
+      "target": "docs_notes_files_restoredbfrombak_\u043a\u0443\u0434\u0430_\u043f\u043e\u043f\u0430\u0434\u0430\u044e\u0442_\u0444\u0430\u0439\u043b\u044b",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "docs/notes/files/restoreDbMoveToNewDisk.md",
-      "source_location": "L182",
+      "source_file": "docs/notes/files/restoreDbFromBak.md",
+      "source_location": "L159",
       "weight": 1.0,
-      "source": "docs_notes_files_restoredbmovetonewdisk_\u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435_\u0431\u0430\u0437_sql_server_\u0438\u0437_bak_\u0441_\u043f\u0435\u0440\u0435\u043d\u043e\u0441\u043e\u043c_\u0444\u0430\u0439\u043b\u043e\u0432_\u043d\u0430_\u0434\u0440\u0443\u0433\u043e\u0439_\u0434\u0438\u0441\u043a",
-      "target": "docs_notes_files_restoredbmovetonewdisk_\u043f\u043e\u043b\u043d\u044b\u0439_\u0442\u0435\u043a\u0441\u0442_\u0441\u043a\u0440\u0438\u043f\u0442\u0430",
+      "source": "docs_notes_files_restoredbfrombak_\u043c\u0430\u0441\u0441\u043e\u0432\u043e\u0435_\u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435_\u0431\u0430\u0437_sql_server_\u0438\u0437_bak",
+      "target": "docs_notes_files_restoredbfrombak_\u043d\u0435\u0445\u0432\u0430\u0442\u043a\u0430_\u043c\u0435\u0441\u0442\u0430_\u0438_\u043f\u043e\u0432\u0442\u043e\u0440\u043d\u044b\u0439_\u0437\u0430\u043f\u0443\u0441\u043a",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "docs/notes/files/restoreDbMoveToNewDisk.md",
-      "source_location": "L150",
+      "source_file": "docs/notes/files/restoreDbFromBak.md",
+      "source_location": "L622",
       "weight": 1.0,
-      "source": "docs_notes_files_restoredbmovetonewdisk_\u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435_\u0431\u0430\u0437_sql_server_\u0438\u0437_bak_\u0441_\u043f\u0435\u0440\u0435\u043d\u043e\u0441\u043e\u043c_\u0444\u0430\u0439\u043b\u043e\u0432_\u043d\u0430_\u0434\u0440\u0443\u0433\u043e\u0439_\u0434\u0438\u0441\u043a",
-      "target": "docs_notes_files_restoredbmovetonewdisk_\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430_\u043f\u043e\u0441\u043b\u0435_\u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u044f",
+      "source": "docs_notes_files_restoredbfrombak_\u043c\u0430\u0441\u0441\u043e\u0432\u043e\u0435_\u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435_\u0431\u0430\u0437_sql_server_\u0438\u0437_bak",
+      "target": "docs_notes_files_restoredbfrombak_\u043e\u0441\u043e\u0431\u0435\u043d\u043d\u043e\u0441\u0442\u0438_\u0438_\u043f\u043e\u0434\u0432\u043e\u0434\u043d\u044b\u0435_\u043a\u0430\u043c\u043d\u0438",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "docs/notes/files/restoreDbMoveToNewDisk.md",
-      "source_location": "L22",
+      "source_file": "docs/notes/files/restoreDbFromBak.md",
+      "source_location": "L42",
       "weight": 1.0,
-      "source": "docs_notes_files_restoredbmovetonewdisk_\u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435_\u0431\u0430\u0437_sql_server_\u0438\u0437_bak_\u0441_\u043f\u0435\u0440\u0435\u043d\u043e\u0441\u043e\u043c_\u0444\u0430\u0439\u043b\u043e\u0432_\u043d\u0430_\u0434\u0440\u0443\u0433\u043e\u0439_\u0434\u0438\u0441\u043a",
-      "target": "docs_notes_files_restoredbmovetonewdisk_\u0447\u0442\u043e_\u0434\u0435\u043b\u0430\u0435\u0442_\u0441\u043a\u0440\u0438\u043f\u0442",
+      "source": "docs_notes_files_restoredbfrombak_\u043c\u0430\u0441\u0441\u043e\u0432\u043e\u0435_\u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435_\u0431\u0430\u0437_sql_server_\u0438\u0437_bak",
+      "target": "docs_notes_files_restoredbfrombak_\u043f\u0430\u0440\u0430\u043c\u0435\u0442\u0440\u044b",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "docs/notes/files/restoreDbMoveToNewDisk.md",
-      "source_location": "L84",
+      "source_file": "docs/notes/files/restoreDbFromBak.md",
+      "source_location": "L95",
       "weight": 1.0,
-      "source": "docs_notes_files_restoredbmovetonewdisk_\u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435_\u0431\u0430\u0437_sql_server_\u0438\u0437_bak_\u0441_\u043f\u0435\u0440\u0435\u043d\u043e\u0441\u043e\u043c_\u0444\u0430\u0439\u043b\u043e\u0432_\u043d\u0430_\u0434\u0440\u0443\u0433\u043e\u0439_\u0434\u0438\u0441\u043a",
-      "target": "docs_notes_files_restoredbmovetonewdisk_\u0448\u0430\u0433_1_\u043f\u0440\u043e\u0431\u043d\u044b\u0439_\u0437\u0430\u043f\u0443\u0441\u043a",
+      "source": "docs_notes_files_restoredbfrombak_\u043c\u0430\u0441\u0441\u043e\u0432\u043e\u0435_\u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435_\u0431\u0430\u0437_sql_server_\u0438\u0437_bak",
+      "target": "docs_notes_files_restoredbfrombak_\u043f\u043e\u0434\u0433\u043e\u0442\u043e\u0432\u043a\u0430_podgotovka",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "docs/notes/files/restoreDbMoveToNewDisk.md",
-      "source_location": "L102",
+      "source_file": "docs/notes/files/restoreDbFromBak.md",
+      "source_location": "L206",
       "weight": 1.0,
-      "source": "docs_notes_files_restoredbmovetonewdisk_\u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435_\u0431\u0430\u0437_sql_server_\u0438\u0437_bak_\u0441_\u043f\u0435\u0440\u0435\u043d\u043e\u0441\u043e\u043c_\u0444\u0430\u0439\u043b\u043e\u0432_\u043d\u0430_\u0434\u0440\u0443\u0433\u043e\u0439_\u0434\u0438\u0441\u043a",
-      "target": "docs_notes_files_restoredbmovetonewdisk_\u0448\u0430\u0433_2_\u0431\u043e\u0435\u0432\u043e\u0439_\u0437\u0430\u043f\u0443\u0441\u043a",
+      "source": "docs_notes_files_restoredbfrombak_\u043c\u0430\u0441\u0441\u043e\u0432\u043e\u0435_\u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435_\u0431\u0430\u0437_sql_server_\u0438\u0437_bak",
+      "target": "docs_notes_files_restoredbfrombak_\u043f\u043e\u043b\u043d\u044b\u0439_\u0441\u043a\u0440\u0438\u043f\u0442",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "docs/notes/files/restoreDbOverwriteFromBak.md",
-      "source_location": "L10",
-      "weight": 1.0,
-      "source": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredboverwritefrombak_md",
-      "target": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredboverwritefrombak_\u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435_\u0431\u0430\u0437_sql_server_\u0438\u0437_bak_\u0441_\u043f\u0435\u0440\u0435\u0437\u0430\u043f\u0438\u0441\u044c\u044e_\u0441\u0443\u0449\u0435\u0441\u0442\u0432\u0443\u044e\u0449\u0438\u0445",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/files/restoreDbOverwriteFromBak.md",
-      "source_location": "L161",
-      "weight": 1.0,
-      "source": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredboverwritefrombak_\u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435_\u0431\u0430\u0437_sql_server_\u0438\u0437_bak_\u0441_\u043f\u0435\u0440\u0435\u0437\u0430\u043f\u0438\u0441\u044c\u044e_\u0441\u0443\u0449\u0435\u0441\u0442\u0432\u0443\u044e\u0449\u0438\u0445",
-      "target": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredboverwritefrombak_\u043a\u0430\u043a_\u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/files/restoreDbOverwriteFromBak.md",
-      "source_location": "L494",
-      "weight": 1.0,
-      "source": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredboverwritefrombak_\u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435_\u0431\u0430\u0437_sql_server_\u0438\u0437_bak_\u0441_\u043f\u0435\u0440\u0435\u0437\u0430\u043f\u0438\u0441\u044c\u044e_\u0441\u0443\u0449\u0435\u0441\u0442\u0432\u0443\u044e\u0449\u0438\u0445",
-      "target": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredboverwritefrombak_\u043e\u0441\u043e\u0431\u0435\u043d\u043d\u043e\u0441\u0442\u0438_\u0438_\u043f\u043e\u0434\u0432\u043e\u0434\u043d\u044b\u0435_\u043a\u0430\u043c\u043d\u0438",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/files/restoreDbOverwriteFromBak.md",
+      "source_file": "docs/notes/files/restoreDbFromBak.md",
       "source_location": "L177",
       "weight": 1.0,
-      "source": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredboverwritefrombak_\u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435_\u0431\u0430\u0437_sql_server_\u0438\u0437_bak_\u0441_\u043f\u0435\u0440\u0435\u0437\u0430\u043f\u0438\u0441\u044c\u044e_\u0441\u0443\u0449\u0435\u0441\u0442\u0432\u0443\u044e\u0449\u0438\u0445",
-      "target": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredboverwritefrombak_\u043f\u043e\u043b\u043d\u044b\u0439_\u0441\u043a\u0440\u0438\u043f\u0442",
+      "source": "docs_notes_files_restoredbfrombak_\u043c\u0430\u0441\u0441\u043e\u0432\u043e\u0435_\u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435_\u0431\u0430\u0437_sql_server_\u0438\u0437_bak",
+      "target": "docs_notes_files_restoredbfrombak_\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430_\u043f\u043e\u0441\u043b\u0435_\u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u044f",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "docs/notes/files/restoreDbOverwriteFromBak.md",
-      "source_location": "L79",
+      "source_file": "docs/notes/files/restoreDbFromBak.md",
+      "source_location": "L23",
       "weight": 1.0,
-      "source": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredboverwritefrombak_\u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435_\u0431\u0430\u0437_sql_server_\u0438\u0437_bak_\u0441_\u043f\u0435\u0440\u0435\u0437\u0430\u043f\u0438\u0441\u044c\u044e_\u0441\u0443\u0449\u0435\u0441\u0442\u0432\u0443\u044e\u0449\u0438\u0445",
-      "target": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredboverwritefrombak_\u043f\u0440\u0438\u043d\u0446\u0438\u043f_\u0440\u0430\u0431\u043e\u0442\u044b",
+      "source": "docs_notes_files_restoredbfrombak_\u043c\u0430\u0441\u0441\u043e\u0432\u043e\u0435_\u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435_\u0431\u0430\u0437_sql_server_\u0438\u0437_bak",
+      "target": "docs_notes_files_restoredbfrombak_\u0442\u0438\u043f\u043e\u0432\u044b\u0435_\u0441\u0446\u0435\u043d\u0430\u0440\u0438\u0438",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "docs/notes/files/restoreDbOverwriteFromBak.md",
-      "source_location": "L28",
+      "source_file": "docs/notes/files/restoreDbFromBak.md",
+      "source_location": "L125",
       "weight": 1.0,
-      "source": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredboverwritefrombak_\u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435_\u0431\u0430\u0437_sql_server_\u0438\u0437_bak_\u0441_\u043f\u0435\u0440\u0435\u0437\u0430\u043f\u0438\u0441\u044c\u044e_\u0441\u0443\u0449\u0435\u0441\u0442\u0432\u0443\u044e\u0449\u0438\u0445",
-      "target": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredboverwritefrombak_\u0447\u0435\u043c_\u043e\u0442\u043b\u0438\u0447\u0430\u0435\u0442\u0441\u044f_\u043e\u0442_\u0431\u0430\u0437\u043e\u0432\u043e\u0433\u043e_\u0441\u043a\u0440\u0438\u043f\u0442\u0430",
+      "source": "docs_notes_files_restoredbfrombak_\u043c\u0430\u0441\u0441\u043e\u0432\u043e\u0435_\u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435_\u0431\u0430\u0437_sql_server_\u0438\u0437_bak",
+      "target": "docs_notes_files_restoredbfrombak_\u0448\u0430\u0433_1_\u043f\u0440\u043e\u0431\u043d\u044b\u0439_\u0437\u0430\u043f\u0443\u0441\u043a",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "docs/notes/files/restoreDbOverwriteFromBak.md",
-      "source_location": "L146",
+      "source_file": "docs/notes/files/restoreDbFromBak.md",
+      "source_location": "L142",
       "weight": 1.0,
-      "source": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredboverwritefrombak_\u043f\u0440\u0438\u043d\u0446\u0438\u043f_\u0440\u0430\u0431\u043e\u0442\u044b",
-      "target": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredboverwritefrombak_10_\u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0430_\u043e\u0448\u0438\u0431\u043e\u043a",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/files/restoreDbOverwriteFromBak.md",
-      "source_location": "L153",
-      "weight": 1.0,
-      "source": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredboverwritefrombak_\u043f\u0440\u0438\u043d\u0446\u0438\u043f_\u0440\u0430\u0431\u043e\u0442\u044b",
-      "target": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredboverwritefrombak_11_\u0438\u0442\u043e\u0433\u0438",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/files/restoreDbOverwriteFromBak.md",
-      "source_location": "L81",
-      "weight": 1.0,
-      "source": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredboverwritefrombak_\u043f\u0440\u0438\u043d\u0446\u0438\u043f_\u0440\u0430\u0431\u043e\u0442\u044b",
-      "target": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredboverwritefrombak_1_\u043f\u0440\u0435\u0434\u043e\u0445\u0440\u0430\u043d\u0438\u0442\u0435\u043b\u044c_\u043d\u0430_\u0432\u0445\u043e\u0434\u0435",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/files/restoreDbOverwriteFromBak.md",
-      "source_location": "L88",
-      "weight": 1.0,
-      "source": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredboverwritefrombak_\u043f\u0440\u0438\u043d\u0446\u0438\u043f_\u0440\u0430\u0431\u043e\u0442\u044b",
-      "target": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredboverwritefrombak_2_\u0441\u043f\u0438\u0441\u043e\u043a_\u0444\u0430\u0439\u043b\u043e\u0432_\u0438_\u0444\u0438\u043b\u044c\u0442\u0440\u0430\u0446\u0438\u044f",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/files/restoreDbOverwriteFromBak.md",
-      "source_location": "L94",
-      "weight": 1.0,
-      "source": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredboverwritefrombak_\u043f\u0440\u0438\u043d\u0446\u0438\u043f_\u0440\u0430\u0431\u043e\u0442\u044b",
-      "target": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredboverwritefrombak_3_\u043e\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u0438\u0435_\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044f_\u0434\u043b\u044f_\u043a\u0430\u0436\u0434\u043e\u0439_\u0431\u0430\u0437\u044b",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/files/restoreDbOverwriteFromBak.md",
-      "source_location": "L104",
-      "weight": 1.0,
-      "source": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredboverwritefrombak_\u043f\u0440\u0438\u043d\u0446\u0438\u043f_\u0440\u0430\u0431\u043e\u0442\u044b",
-      "target": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredboverwritefrombak_4_\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0438_\u0431\u043b\u043e\u043a\u0438\u0440\u0443\u044e\u0449\u0438\u0435_restore",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/files/restoreDbOverwriteFromBak.md",
-      "source_location": "L110",
-      "weight": 1.0,
-      "source": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredboverwritefrombak_\u043f\u0440\u0438\u043d\u0446\u0438\u043f_\u0440\u0430\u0431\u043e\u0442\u044b",
-      "target": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredboverwritefrombak_5_\u0441\u043e\u0441\u0442\u0430\u0432_\u0431\u044d\u043a\u0430\u043f\u0430_\u0438_\u0446\u0435\u043b\u0435\u0432\u044b\u0435_\u043f\u0443\u0442\u0438_\u0444\u0430\u0439\u043b\u043e\u0432",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/files/restoreDbOverwriteFromBak.md",
-      "source_location": "L119",
-      "weight": 1.0,
-      "source": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredboverwritefrombak_\u043f\u0440\u0438\u043d\u0446\u0438\u043f_\u0440\u0430\u0431\u043e\u0442\u044b",
-      "target": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredboverwritefrombak_6_\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430_\u043a\u043e\u043b\u043b\u0438\u0437\u0438\u0439",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/files/restoreDbOverwriteFromBak.md",
-      "source_location": "L126",
-      "weight": 1.0,
-      "source": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredboverwritefrombak_\u043f\u0440\u0438\u043d\u0446\u0438\u043f_\u0440\u0430\u0431\u043e\u0442\u044b",
-      "target": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredboverwritefrombak_7_\u0441\u0431\u043e\u0440\u043a\u0430_\u043a\u043e\u043c\u0430\u043d\u0434\u044b_restore",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/files/restoreDbOverwriteFromBak.md",
-      "source_location": "L132",
-      "weight": 1.0,
-      "source": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredboverwritefrombak_\u043f\u0440\u0438\u043d\u0446\u0438\u043f_\u0440\u0430\u0431\u043e\u0442\u044b",
-      "target": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredboverwritefrombak_8_\u0440\u0435\u0436\u0438\u043c_\u043e\u0442\u0447\u0451\u0442\u0430",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/files/restoreDbOverwriteFromBak.md",
-      "source_location": "L139",
-      "weight": 1.0,
-      "source": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredboverwritefrombak_\u043f\u0440\u0438\u043d\u0446\u0438\u043f_\u0440\u0430\u0431\u043e\u0442\u044b",
-      "target": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredboverwritefrombak_9_\u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u0438\u0435",
+      "source": "docs_notes_files_restoredbfrombak_\u043c\u0430\u0441\u0441\u043e\u0432\u043e\u0435_\u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435_\u0431\u0430\u0437_sql_server_\u0438\u0437_bak",
+      "target": "docs_notes_files_restoredbfrombak_\u0448\u0430\u0433_2_\u0431\u043e\u0435\u0432\u043e\u0439_\u0437\u0430\u043f\u0443\u0441\u043a",
       "confidence_score": 1.0
     },
     {
@@ -6050,6 +5630,86 @@
       "weight": 1.0,
       "source": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_uploadbackupstoftp_\u043f\u043e\u043b\u043d\u044b\u0435_\u0441\u043a\u0440\u0438\u043f\u0442\u044b",
       "target": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_uploadbackupstoftp_upload_full_cmd",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/notes/linux/apacheBasicAuthAddUser.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "docs_notes_linux_apachebasicauthadduser",
+      "target": "docs_notes_linux_apachebasicauthadduser_apache_basic_auth_\u0434\u043e\u0431\u0430\u0432\u043b\u0435\u043d\u0438\u0435_\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/notes/linux/index.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "docs_notes_linux_index",
+      "target": "docs_notes_linux_apachebasicauthadduser",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/notes/linux/apacheBasicAuthAddUser.md",
+      "source_location": "L105",
+      "weight": 1.0,
+      "source": "docs_notes_linux_apachebasicauthadduser_apache_basic_auth_\u0434\u043e\u0431\u0430\u0432\u043b\u0435\u043d\u0438\u0435_\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f",
+      "target": "docs_notes_linux_apachebasicauthadduser_\u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u044c_\u0438_\u0437\u0430\u043c\u0435\u0447\u0430\u043d\u0438\u044f",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/notes/linux/apacheBasicAuthAddUser.md",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "docs_notes_linux_apachebasicauthadduser_apache_basic_auth_\u0434\u043e\u0431\u0430\u0432\u043b\u0435\u043d\u0438\u0435_\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f",
+      "target": "docs_notes_linux_apachebasicauthadduser_\u0433\u0434\u0435_\u043b\u0435\u0436\u0438\u0442_\u0444\u0430\u0439\u043b_\u043f\u0430\u0440\u043e\u043b\u0435\u0439",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/notes/linux/apacheBasicAuthAddUser.md",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "docs_notes_linux_apachebasicauthadduser_apache_basic_auth_\u0434\u043e\u0431\u0430\u0432\u043b\u0435\u043d\u0438\u0435_\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f",
+      "target": "docs_notes_linux_apachebasicauthadduser_\u0434\u043e\u0431\u0430\u0432\u043b\u0435\u043d\u0438\u0435_\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/notes/linux/apacheBasicAuthAddUser.md",
+      "source_location": "L68",
+      "weight": 1.0,
+      "source": "docs_notes_linux_apachebasicauthadduser_apache_basic_auth_\u0434\u043e\u0431\u0430\u0432\u043b\u0435\u043d\u0438\u0435_\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f",
+      "target": "docs_notes_linux_apachebasicauthadduser_\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430_require_\u0438_\u043f\u0435\u0440\u0435\u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0430",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/notes/linux/apacheBasicAuthAddUser.md",
+      "source_location": "L87",
+      "weight": 1.0,
+      "source": "docs_notes_linux_apachebasicauthadduser_apache_basic_auth_\u0434\u043e\u0431\u0430\u0432\u043b\u0435\u043d\u0438\u0435_\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f",
+      "target": "docs_notes_linux_apachebasicauthadduser_\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430_\u0434\u043e\u0441\u0442\u0443\u043f\u0430",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/notes/linux/apacheBasicAuthAddUser.md",
+      "source_location": "L95",
+      "weight": 1.0,
+      "source": "docs_notes_linux_apachebasicauthadduser_apache_basic_auth_\u0434\u043e\u0431\u0430\u0432\u043b\u0435\u043d\u0438\u0435_\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f",
+      "target": "docs_notes_linux_apachebasicauthadduser_\u0448\u043f\u0430\u0440\u0433\u0430\u043b\u043a\u0430",
       "confidence_score": 1.0
     },
     {
@@ -9224,5 +8884,5 @@
       "source_file": "mkdocs.yml"
     }
   ],
-  "built_at_commit": "275a162f3263c52d735be62c0483ab96950a6cf5"
+  "built_at_commit": "dfb800a530ba9261e279d9e0f0368f7289a0f828"
 }
