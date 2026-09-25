@@ -1,16 +1,16 @@
-# Graph Report - sysadmin-notes  (2026-09-23)
+# Graph Report - sysadmin-notes  (2026-09-25)
 
 ## Corpus Check
-- 36 files · ~30,073 words
+- 38 files · ~33,122 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 447 nodes · 419 edges · 46 communities (31 shown, 15 thin omitted)
+- 464 nodes · 437 edges · 45 communities (31 shown, 14 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 1 edges (avg confidence: 0.95)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `f6fb7bd4`
+- Built from commit: `275a162f`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -51,7 +51,6 @@
 - iSCSI-диски не подключились после перезагрузки Windows Server (Synology NAS)
 - tags.md
 - Site-to-site туннель WireGuard на RouterOS (MikroTik)
-- Site-to-site туннель WireGuard на RouterOS (MikroTik)
 - Fail2ban на почтовом сервере Zimbra: увеличение времени блокировки
 - Диск переполнен, а du не находит крупные файлы
 - База знаний системного администратора
@@ -91,7 +90,7 @@
 - **Notes aggregated by the Material tags plugin into the tags page** — docs_tags_tags_index, docs_notes_linux_atutility_at_deferred_execution, docs_notes_linux_example_note_deleted_open_files, docs_notes_network_dh_dh_group_mapping, docs_notes_windows_microsoftexcel_1c_dcom_excel_setup [INFERRED 0.95]
 - **Site section index pages forming the knowledge base navigation** — docs_index_homepage, docs_notes_linux_index_linux_section, docs_notes_windows_index_windows_section, docs_notes_network_index_network_section, docs_notes_monitoring_index_monitoring_section, docs_notes_files_index_files_section, docs_tags_tags_index [EXTRACTED 1.00]
 
-## Communities (46 total, 15 thin omitted)
+## Communities (45 total, 14 thin omitted)
 
 ### Community 0 - "Хук главной страницы"
 Cohesion: 0.22
@@ -110,8 +109,8 @@ Cohesion: 0.06
 Nodes (31): 1С всё равно просит пароль, Вариант 1. MS SQL Server, Вариант 2. PostgreSQL через pgAdmin 4, Вариант 3. PostgreSQL через консоль, Вариант 4. Файловая база, Возможные проблемы, Ошибка синтаксиса в PostgreSQL, После сброса не входит ни один пользователь (+23 more)
 
 ### Community 9 - "Сопоставление групп Diffie-Hellman в MikroTik и Juniper SSG"
-Cohesion: 0.09
-Nodes (23): 1. Profile, 2. Proposal, 3. Peer, 4. Identity, 5. Policy, 6–8. NAT-правила, 6. src-nat — исходящий трафик, реальный сервер → в туннель, 7. netmap (srcnat) — то же самое, но через action=netmap (+15 more)
+Cohesion: 0.06
+Nodes (31): 1. Profile, 2. Proposal, 3. Peer, 4. Identity, 5. Policy, 6–8. NAT-правила, 6. src-nat — исходящий трафик, реальный сервер → в туннель, 7. netmap (srcnat) — то же самое, но через action=netmap (+23 more)
 
 ### Community 10 - "Windows Server 2016 определяет доменную сеть как Public"
 Cohesion: 0.17
@@ -189,10 +188,6 @@ Nodes (9): buildModal(), cookieGet(), cookieSet(), init(), localGet(), localSet(
 Cohesion: 0.10
 Nodes (21): Анти-спуфинг собственного домена на Zimbra MTA (Postfix), Архитектура проблемы, Итог, Ключевая сложность решения, Наблюдение после внедрения, Откат, Почему SPF/DMARC не решают проблему полностью, Проблема (+13 more)
 
-### Community 39 - "Site-to-site туннель WireGuard на RouterOS (MikroTik)"
-Cohesion: 0.20
-Nodes (8): Site-to-site туннель WireGuard на RouterOS (MikroTik), Идея миграции, Подготовка (сделать на обеих сторонах заранее), Проверочный чек-лист перед отключением IPsec, Смежные заметки, Частые ошибки, Шаги на стороне A, Шаги на стороне B (зеркально)
-
 ### Community 40 - "Fail2ban на почтовом сервере Zimbra: увеличение времени блокировки"
 Cohesion: 0.17
 Nodes (9): Linux, заметки, Fail2ban на почтовом сервере Zimbra: увеличение времени блокировки, Исходная ситуация, Шаг 1. Время блокировки 30 дней, Шаг 2. Хранение банов после рестарта, Шаг 3. Проверка, Шаг 4. Разбан своих IP и ignoreip (+1 more)
@@ -205,22 +200,26 @@ Nodes (5): Диск переполнен, а du не находит крупны
 Cohesion: 0.50
 Nodes (3): База знаний системного администратора, последние-заметки.log, разделы
 
+### Community 43 - "Файлы и утилиты"
+Cohesion: 0.11
+Nodes (17): заметки, Файлы и утилиты, Восстановление баз SQL Server из .bak с переносом файлов на другой диск, Нехватка места и повторный запуск, Подготовка, Полный текст скрипта, Проверка после восстановления, Что делает скрипт (+9 more)
+
 ## Knowledge Gaps
-- **319 isolated node(s):** `graphify`, `Локальный запуск`, `1. Создать репозиторий на GitHub`, `2. Подключить Cloudflare Pages`, `Если push стал долгим` (+314 more)
+- **332 isolated node(s):** `graphify`, `Локальный запуск`, `1. Создать репозиторий на GitHub`, `2. Подключить Cloudflare Pages`, `Если push стал долгим` (+327 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **15 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **14 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Диагностика и отладка IPsec в MikroTik RouterOS` connect `debugIpsec.md` to `sysadmin-notes`?**
-  _High betweenness centrality (0.010) - this node is a cross-community bridge._
+  _High betweenness centrality (0.009) - this node is a cross-community bridge._
 - **Why does `29. Команды-шпаргалка` connect `sysadmin-notes` to `debugIpsec.md`?**
   _High betweenness centrality (0.006) - this node is a cross-community bridge._
 - **Why does `Анти-спуфинг собственного домена на Zimbra MTA (Postfix)` connect `Site-to-site туннель WireGuard на RouterOS (MikroTik)` to `Fail2ban на почтовом сервере Zimbra: увеличение времени блокировки`?**
   _High betweenness centrality (0.004) - this node is a cross-community bridge._
 - **What connects `graphify`, `Локальный запуск`, `1. Создать репозиторий на GitHub` to the rest of the system?**
-  _319 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _332 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Структура сайта` be split into smaller, more focused modules?**
   _Cohesion score 0.125 - nodes in this community are weakly interconnected._
 - **Should `debugIpsec.md` be split into smaller, more focused modules?**

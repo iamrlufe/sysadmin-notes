@@ -626,6 +626,96 @@
       "norm_label": "\u043e\u0441\u043e\u0431\u0435\u043d\u043d\u043e\u0441\u0442\u0438 \u0438 \u043f\u043e\u0434\u0432\u043e\u0434\u043d\u044b\u0435 \u043a\u0430\u043c\u043d\u0438"
     },
     {
+      "label": "restoreDbMoveToNewDisk.md",
+      "file_type": "document",
+      "source_file": "docs/notes/files/restoreDbMoveToNewDisk.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_notes_files_restoredbmovetonewdisk",
+      "community": 43,
+      "norm_label": "restoredbmovetonewdisk.md"
+    },
+    {
+      "label": "\u0412\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435 \u0431\u0430\u0437 SQL Server \u0438\u0437 .bak \u0441 \u043f\u0435\u0440\u0435\u043d\u043e\u0441\u043e\u043c \u0444\u0430\u0439\u043b\u043e\u0432 \u043d\u0430 \u0434\u0440\u0443\u0433\u043e\u0439 \u0434\u0438\u0441\u043a",
+      "file_type": "document",
+      "source_file": "docs/notes/files/restoreDbMoveToNewDisk.md",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "docs_notes_files_restoredbmovetonewdisk_\u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435_\u0431\u0430\u0437_sql_server_\u0438\u0437_bak_\u0441_\u043f\u0435\u0440\u0435\u043d\u043e\u0441\u043e\u043c_\u0444\u0430\u0439\u043b\u043e\u0432_\u043d\u0430_\u0434\u0440\u0443\u0433\u043e\u0439_\u0434\u0438\u0441\u043a",
+      "community": 43,
+      "norm_label": "\u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435 \u0431\u0430\u0437 sql server \u0438\u0437 .bak \u0441 \u043f\u0435\u0440\u0435\u043d\u043e\u0441\u043e\u043c \u0444\u0430\u0438\u043b\u043e\u0432 \u043d\u0430 \u0434\u0440\u0443\u0433\u043e\u0438 \u0434\u0438\u0441\u043a"
+    },
+    {
+      "label": "\u0427\u0442\u043e \u0434\u0435\u043b\u0430\u0435\u0442 \u0441\u043a\u0440\u0438\u043f\u0442",
+      "file_type": "document",
+      "source_file": "docs/notes/files/restoreDbMoveToNewDisk.md",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "docs_notes_files_restoredbmovetonewdisk_\u0447\u0442\u043e_\u0434\u0435\u043b\u0430\u0435\u0442_\u0441\u043a\u0440\u0438\u043f\u0442",
+      "community": 43,
+      "norm_label": "\u0447\u0442\u043e \u0434\u0435\u043b\u0430\u0435\u0442 \u0441\u043a\u0440\u0438\u043f\u0442"
+    },
+    {
+      "label": "\u041f\u043e\u0434\u0433\u043e\u0442\u043e\u0432\u043a\u0430",
+      "file_type": "document",
+      "source_file": "docs/notes/files/restoreDbMoveToNewDisk.md",
+      "source_location": "L61",
+      "_origin": "ast",
+      "id": "docs_notes_files_restoredbmovetonewdisk_\u043f\u043e\u0434\u0433\u043e\u0442\u043e\u0432\u043a\u0430",
+      "community": 43,
+      "norm_label": "\u043f\u043e\u0434\u0433\u043e\u0442\u043e\u0432\u043a\u0430"
+    },
+    {
+      "label": "\u0428\u0430\u0433 1. \u041f\u0440\u043e\u0431\u043d\u044b\u0439 \u0437\u0430\u043f\u0443\u0441\u043a",
+      "file_type": "document",
+      "source_file": "docs/notes/files/restoreDbMoveToNewDisk.md",
+      "source_location": "L84",
+      "_origin": "ast",
+      "id": "docs_notes_files_restoredbmovetonewdisk_\u0448\u0430\u0433_1_\u043f\u0440\u043e\u0431\u043d\u044b\u0439_\u0437\u0430\u043f\u0443\u0441\u043a",
+      "community": 43,
+      "norm_label": "\u0448\u0430\u0433 1. \u043f\u0440\u043e\u0431\u043d\u044b\u0438 \u0437\u0430\u043f\u0443\u0441\u043a"
+    },
+    {
+      "label": "\u0428\u0430\u0433 2. \u0411\u043e\u0435\u0432\u043e\u0439 \u0437\u0430\u043f\u0443\u0441\u043a",
+      "file_type": "document",
+      "source_file": "docs/notes/files/restoreDbMoveToNewDisk.md",
+      "source_location": "L102",
+      "_origin": "ast",
+      "id": "docs_notes_files_restoredbmovetonewdisk_\u0448\u0430\u0433_2_\u0431\u043e\u0435\u0432\u043e\u0439_\u0437\u0430\u043f\u0443\u0441\u043a",
+      "community": 43,
+      "norm_label": "\u0448\u0430\u0433 2. \u0431\u043e\u0435\u0432\u043e\u0438 \u0437\u0430\u043f\u0443\u0441\u043a"
+    },
+    {
+      "label": "\u041d\u0435\u0445\u0432\u0430\u0442\u043a\u0430 \u043c\u0435\u0441\u0442\u0430 \u0438 \u043f\u043e\u0432\u0442\u043e\u0440\u043d\u044b\u0439 \u0437\u0430\u043f\u0443\u0441\u043a",
+      "file_type": "document",
+      "source_file": "docs/notes/files/restoreDbMoveToNewDisk.md",
+      "source_location": "L121",
+      "_origin": "ast",
+      "id": "docs_notes_files_restoredbmovetonewdisk_\u043d\u0435\u0445\u0432\u0430\u0442\u043a\u0430_\u043c\u0435\u0441\u0442\u0430_\u0438_\u043f\u043e\u0432\u0442\u043e\u0440\u043d\u044b\u0439_\u0437\u0430\u043f\u0443\u0441\u043a",
+      "community": 43,
+      "norm_label": "\u043d\u0435\u0445\u0432\u0430\u0442\u043a\u0430 \u043c\u0435\u0441\u0442\u0430 \u0438 \u043f\u043e\u0432\u0442\u043e\u0440\u043d\u044b\u0438 \u0437\u0430\u043f\u0443\u0441\u043a"
+    },
+    {
+      "label": "\u041f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 \u043f\u043e\u0441\u043b\u0435 \u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u044f",
+      "file_type": "document",
+      "source_file": "docs/notes/files/restoreDbMoveToNewDisk.md",
+      "source_location": "L150",
+      "_origin": "ast",
+      "id": "docs_notes_files_restoredbmovetonewdisk_\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430_\u043f\u043e\u0441\u043b\u0435_\u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u044f",
+      "community": 43,
+      "norm_label": "\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 \u043f\u043e\u0441\u043b\u0435 \u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u044f"
+    },
+    {
+      "label": "\u041f\u043e\u043b\u043d\u044b\u0439 \u0442\u0435\u043a\u0441\u0442 \u0441\u043a\u0440\u0438\u043f\u0442\u0430",
+      "file_type": "document",
+      "source_file": "docs/notes/files/restoreDbMoveToNewDisk.md",
+      "source_location": "L182",
+      "_origin": "ast",
+      "id": "docs_notes_files_restoredbmovetonewdisk_\u043f\u043e\u043b\u043d\u044b\u0439_\u0442\u0435\u043a\u0441\u0442_\u0441\u043a\u0440\u0438\u043f\u0442\u0430",
+      "community": 43,
+      "norm_label": "\u043f\u043e\u043b\u043d\u044b\u0438 \u0442\u0435\u043a\u0441\u0442 \u0441\u043a\u0440\u0438\u043f\u0442\u0430"
+    },
+    {
       "label": "restoreDbOverwriteFromBak.md",
       "file_type": "document",
       "source_file": "docs/notes/files/restoreDbOverwriteFromBak.md",
@@ -804,6 +894,86 @@
       "id": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredboverwritefrombak_\u043e\u0441\u043e\u0431\u0435\u043d\u043d\u043e\u0441\u0442\u0438_\u0438_\u043f\u043e\u0434\u0432\u043e\u0434\u043d\u044b\u0435_\u043a\u0430\u043c\u043d\u0438",
       "community": 15,
       "norm_label": "\u043e\u0441\u043e\u0431\u0435\u043d\u043d\u043e\u0441\u0442\u0438 \u0438 \u043f\u043e\u0434\u0432\u043e\u0434\u043d\u044b\u0435 \u043a\u0430\u043c\u043d\u0438"
+    },
+    {
+      "label": "shrinkProgress.md",
+      "file_type": "document",
+      "source_file": "docs/notes/files/shrinkProgress.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_notes_files_shrinkprogress",
+      "community": 43,
+      "norm_label": "shrinkprogress.md"
+    },
+    {
+      "label": "\u041a\u043e\u043d\u0442\u0440\u043e\u043b\u044c \u0445\u043e\u0434\u0430 DBCC SHRINKFILE / SHRINKDATABASE \u0432 MS SQL Server",
+      "file_type": "document",
+      "source_file": "docs/notes/files/shrinkProgress.md",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "docs_notes_files_shrinkprogress_\u043a\u043e\u043d\u0442\u0440\u043e\u043b\u044c_\u0445\u043e\u0434\u0430_dbcc_shrinkfile_shrinkdatabase_\u0432_ms_sql_server",
+      "community": 43,
+      "norm_label": "\u043a\u043e\u043d\u0442\u0440\u043e\u043b\u044c \u0445\u043e\u0434\u0430 dbcc shrinkfile / shrinkdatabase \u0432 ms sql server"
+    },
+    {
+      "label": "\u041f\u0440\u043e\u0433\u0440\u0435\u0441\u0441 \u0448\u0440\u0438\u043d\u043a\u0430",
+      "file_type": "document",
+      "source_file": "docs/notes/files/shrinkProgress.md",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "docs_notes_files_shrinkprogress_\u043f\u0440\u043e\u0433\u0440\u0435\u0441\u0441_\u0448\u0440\u0438\u043d\u043a\u0430",
+      "community": 43,
+      "norm_label": "\u043f\u0440\u043e\u0433\u0440\u0435\u0441\u0441 \u0448\u0440\u0438\u043d\u043a\u0430"
+    },
+    {
+      "label": "\u041a\u0430\u043a \u0447\u0438\u0442\u0430\u0442\u044c \u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442",
+      "file_type": "document",
+      "source_file": "docs/notes/files/shrinkProgress.md",
+      "source_location": "L41",
+      "_origin": "ast",
+      "id": "docs_notes_files_shrinkprogress_\u043a\u0430\u043a_\u0447\u0438\u0442\u0430\u0442\u044c_\u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442",
+      "community": 43,
+      "norm_label": "\u043a\u0430\u043a \u0447\u0438\u0442\u0430\u0442\u044c \u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442"
+    },
+    {
+      "label": "\u0421\u043a\u043e\u043b\u044c\u043a\u043e \u043c\u0435\u0441\u0442\u0430 \u0440\u0435\u0430\u043b\u044c\u043d\u043e \u043c\u043e\u0436\u043d\u043e \u043e\u0442\u0434\u0430\u0442\u044c",
+      "file_type": "document",
+      "source_file": "docs/notes/files/shrinkProgress.md",
+      "source_location": "L66",
+      "_origin": "ast",
+      "id": "docs_notes_files_shrinkprogress_\u0441\u043a\u043e\u043b\u044c\u043a\u043e_\u043c\u0435\u0441\u0442\u0430_\u0440\u0435\u0430\u043b\u044c\u043d\u043e_\u043c\u043e\u0436\u043d\u043e_\u043e\u0442\u0434\u0430\u0442\u044c",
+      "community": 43,
+      "norm_label": "\u0441\u043a\u043e\u043b\u044c\u043a\u043e \u043c\u0435\u0441\u0442\u0430 \u0440\u0435\u0430\u043b\u044c\u043d\u043e \u043c\u043e\u0436\u043d\u043e \u043e\u0442\u0434\u0430\u0442\u044c"
+    },
+    {
+      "label": "\u0428\u0440\u0438\u043d\u043a \u043f\u043e\u0440\u0446\u0438\u044f\u043c\u0438",
+      "file_type": "document",
+      "source_file": "docs/notes/files/shrinkProgress.md",
+      "source_location": "L88",
+      "_origin": "ast",
+      "id": "docs_notes_files_shrinkprogress_\u0448\u0440\u0438\u043d\u043a_\u043f\u043e\u0440\u0446\u0438\u044f\u043c\u0438",
+      "community": 43,
+      "norm_label": "\u0448\u0440\u0438\u043d\u043a \u043f\u043e\u0440\u0446\u0438\u044f\u043c\u0438"
+    },
+    {
+      "label": "\u041f\u0440\u0435\u0440\u044b\u0432\u0430\u043d\u0438\u0435 \u0448\u0440\u0438\u043d\u043a\u0430",
+      "file_type": "document",
+      "source_file": "docs/notes/files/shrinkProgress.md",
+      "source_location": "L144",
+      "_origin": "ast",
+      "id": "docs_notes_files_shrinkprogress_\u043f\u0440\u0435\u0440\u044b\u0432\u0430\u043d\u0438\u0435_\u0448\u0440\u0438\u043d\u043a\u0430",
+      "community": 43,
+      "norm_label": "\u043f\u0440\u0435\u0440\u044b\u0432\u0430\u043d\u0438\u0435 \u0448\u0440\u0438\u043d\u043a\u0430"
+    },
+    {
+      "label": "\u041f\u043e\u0441\u043b\u0435 \u0448\u0440\u0438\u043d\u043a\u0430",
+      "file_type": "document",
+      "source_file": "docs/notes/files/shrinkProgress.md",
+      "source_location": "L152",
+      "_origin": "ast",
+      "id": "docs_notes_files_shrinkprogress_\u043f\u043e\u0441\u043b\u0435_\u0448\u0440\u0438\u043d\u043a\u0430",
+      "community": 43,
+      "norm_label": "\u043f\u043e\u0441\u043b\u0435 \u0448\u0440\u0438\u043d\u043a\u0430"
     },
     {
       "label": "sqlReindexStats.md",
@@ -2662,7 +2832,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "users_romanimanberdiyev_library_cloudstorage_googledrive_rlufte_gmail_com_\u043c\u043e\u0439_\u0434\u0438\u0441\u043a_application_sysadmin_notes_docs_notes_network_mikrotikipsecnatnetmap_md",
-      "community": 39,
+      "community": 9,
       "norm_label": "mikrotikipsecnatnetmap.md"
     },
     {
@@ -3092,7 +3262,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "users_romanimanberdiyev_library_cloudstorage_googledrive_rlufte_gmail_com_\u043c\u043e\u0439_\u0434\u0438\u0441\u043a_application_sysadmin_notes_docs_notes_network_wireguardsitetosite_md",
-      "community": 39,
+      "community": 9,
       "norm_label": "wireguardsitetosite.md"
     },
     {
@@ -3102,7 +3272,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "users_romanimanberdiyev_library_cloudstorage_googledrive_rlufte_gmail_com_\u043c\u043e\u0439_\u0434\u0438\u0441\u043a_application_sysadmin_notes_docs_notes_network_wireguardsitetosite_site_to_site_\u0442\u0443\u043d\u043d\u0435\u043b\u044c_wireguard_\u043d\u0430_routeros_mikrotik",
-      "community": 39,
+      "community": 9,
       "norm_label": "site-to-site \u0442\u0443\u043d\u043d\u0435\u043b\u044c wireguard \u043d\u0430 routeros (mikrotik)"
     },
     {
@@ -3112,7 +3282,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "users_romanimanberdiyev_library_cloudstorage_googledrive_rlufte_gmail_com_\u043c\u043e\u0439_\u0434\u0438\u0441\u043a_application_sysadmin_notes_docs_notes_network_wireguardsitetosite_\u0438\u0434\u0435\u044f_\u043c\u0438\u0433\u0440\u0430\u0446\u0438\u0438",
-      "community": 39,
+      "community": 9,
       "norm_label": "\u0438\u0434\u0435\u044f \u043c\u0438\u0433\u0440\u0430\u0446\u0438\u0438"
     },
     {
@@ -3122,7 +3292,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "users_romanimanberdiyev_library_cloudstorage_googledrive_rlufte_gmail_com_\u043c\u043e\u0439_\u0434\u0438\u0441\u043a_application_sysadmin_notes_docs_notes_network_wireguardsitetosite_\u043f\u043e\u0434\u0433\u043e\u0442\u043e\u0432\u043a\u0430_\u0441\u0434\u0435\u043b\u0430\u0442\u044c_\u043d\u0430_\u043e\u0431\u0435\u0438\u0445_\u0441\u0442\u043e\u0440\u043e\u043d\u0430\u0445_\u0437\u0430\u0440\u0430\u043d\u0435\u0435",
-      "community": 39,
+      "community": 9,
       "norm_label": "\u043f\u043e\u0434\u0433\u043e\u0442\u043e\u0432\u043a\u0430 (\u0441\u0434\u0435\u043b\u0430\u0442\u044c \u043d\u0430 \u043e\u0431\u0435\u0438\u0445 \u0441\u0442\u043e\u0440\u043e\u043d\u0430\u0445 \u0437\u0430\u0440\u0430\u043d\u0435\u0435)"
     },
     {
@@ -3132,7 +3302,7 @@
       "source_location": "L43",
       "_origin": "ast",
       "id": "users_romanimanberdiyev_library_cloudstorage_googledrive_rlufte_gmail_com_\u043c\u043e\u0439_\u0434\u0438\u0441\u043a_application_sysadmin_notes_docs_notes_network_wireguardsitetosite_\u0448\u0430\u0433\u0438_\u043d\u0430_\u0441\u0442\u043e\u0440\u043e\u043d\u0435_a",
-      "community": 39,
+      "community": 9,
       "norm_label": "\u0448\u0430\u0433\u0438 \u043d\u0430 \u0441\u0442\u043e\u0440\u043e\u043d\u0435 a"
     },
     {
@@ -3142,7 +3312,7 @@
       "source_location": "L134",
       "_origin": "ast",
       "id": "users_romanimanberdiyev_library_cloudstorage_googledrive_rlufte_gmail_com_\u043c\u043e\u0439_\u0434\u0438\u0441\u043a_application_sysadmin_notes_docs_notes_network_wireguardsitetosite_\u0448\u0430\u0433\u0438_\u043d\u0430_\u0441\u0442\u043e\u0440\u043e\u043d\u0435_b_\u0437\u0435\u0440\u043a\u0430\u043b\u044c\u043d\u043e",
-      "community": 39,
+      "community": 9,
       "norm_label": "\u0448\u0430\u0433\u0438 \u043d\u0430 \u0441\u0442\u043e\u0440\u043e\u043d\u0435 b (\u0437\u0435\u0440\u043a\u0430\u043b\u044c\u043d\u043e)"
     },
     {
@@ -3152,7 +3322,7 @@
       "source_location": "L191",
       "_origin": "ast",
       "id": "users_romanimanberdiyev_library_cloudstorage_googledrive_rlufte_gmail_com_\u043c\u043e\u0439_\u0434\u0438\u0441\u043a_application_sysadmin_notes_docs_notes_network_wireguardsitetosite_\u0447\u0430\u0441\u0442\u044b\u0435_\u043e\u0448\u0438\u0431\u043a\u0438",
-      "community": 39,
+      "community": 9,
       "norm_label": "\u0447\u0430\u0441\u0442\u044b\u0435 \u043e\u0448\u0438\u0431\u043a\u0438"
     },
     {
@@ -3162,7 +3332,7 @@
       "source_location": "L199",
       "_origin": "ast",
       "id": "users_romanimanberdiyev_library_cloudstorage_googledrive_rlufte_gmail_com_\u043c\u043e\u0439_\u0434\u0438\u0441\u043a_application_sysadmin_notes_docs_notes_network_wireguardsitetosite_\u043f\u0440\u043e\u0432\u0435\u0440\u043e\u0447\u043d\u044b\u0439_\u0447\u0435\u043a_\u043b\u0438\u0441\u0442_\u043f\u0435\u0440\u0435\u0434_\u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435\u043c_ipsec",
-      "community": 39,
+      "community": 9,
       "norm_label": "\u043f\u0440\u043e\u0432\u0435\u0440\u043e\u0447\u043d\u044b\u0438 \u0447\u0435\u043a-\u043b\u0438\u0441\u0442 \u043f\u0435\u0440\u0435\u0434 \u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435\u043c ipsec"
     },
     {
@@ -3172,7 +3342,7 @@
       "source_location": "L213",
       "_origin": "ast",
       "id": "users_romanimanberdiyev_library_cloudstorage_googledrive_rlufte_gmail_com_\u043c\u043e\u0439_\u0434\u0438\u0441\u043a_application_sysadmin_notes_docs_notes_network_wireguardsitetosite_\u0441\u043c\u0435\u0436\u043d\u044b\u0435_\u0437\u0430\u043c\u0435\u0442\u043a\u0438",
-      "community": 39,
+      "community": 9,
       "norm_label": "\u0441\u043c\u0435\u0436\u043d\u044b\u0435 \u0437\u0430\u043c\u0435\u0442\u043a\u0438"
     },
     {
@@ -5143,6 +5313,26 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/notes/files/index.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "docs_notes_files_index",
+      "target": "docs_notes_files_restoredbmovetonewdisk",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/notes/files/index.md",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "docs_notes_files_index",
+      "target": "docs_notes_files_shrinkprogress",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/notes/files/index.md",
@@ -5260,6 +5450,96 @@
       "weight": 1.0,
       "source": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredbfrombak_\u043f\u0440\u0438\u043d\u0446\u0438\u043f_\u0440\u0430\u0431\u043e\u0442\u044b",
       "target": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredbfrombak_6_\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430_\u0441\u0432\u043e\u0431\u043e\u0434\u043d\u043e\u0433\u043e_\u043c\u0435\u0441\u0442\u0430",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/notes/files/restoreDbMoveToNewDisk.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "docs_notes_files_restoredbmovetonewdisk",
+      "target": "docs_notes_files_restoredbmovetonewdisk_\u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435_\u0431\u0430\u0437_sql_server_\u0438\u0437_bak_\u0441_\u043f\u0435\u0440\u0435\u043d\u043e\u0441\u043e\u043c_\u0444\u0430\u0439\u043b\u043e\u0432_\u043d\u0430_\u0434\u0440\u0443\u0433\u043e\u0439_\u0434\u0438\u0441\u043a",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/notes/files/restoreDbMoveToNewDisk.md",
+      "source_location": "L126",
+      "weight": 1.0,
+      "source": "docs_notes_files_restoredbmovetonewdisk",
+      "target": "docs_notes_files_shrinkprogress",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/notes/files/restoreDbMoveToNewDisk.md",
+      "source_location": "L121",
+      "weight": 1.0,
+      "source": "docs_notes_files_restoredbmovetonewdisk_\u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435_\u0431\u0430\u0437_sql_server_\u0438\u0437_bak_\u0441_\u043f\u0435\u0440\u0435\u043d\u043e\u0441\u043e\u043c_\u0444\u0430\u0439\u043b\u043e\u0432_\u043d\u0430_\u0434\u0440\u0443\u0433\u043e\u0439_\u0434\u0438\u0441\u043a",
+      "target": "docs_notes_files_restoredbmovetonewdisk_\u043d\u0435\u0445\u0432\u0430\u0442\u043a\u0430_\u043c\u0435\u0441\u0442\u0430_\u0438_\u043f\u043e\u0432\u0442\u043e\u0440\u043d\u044b\u0439_\u0437\u0430\u043f\u0443\u0441\u043a",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/notes/files/restoreDbMoveToNewDisk.md",
+      "source_location": "L61",
+      "weight": 1.0,
+      "source": "docs_notes_files_restoredbmovetonewdisk_\u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435_\u0431\u0430\u0437_sql_server_\u0438\u0437_bak_\u0441_\u043f\u0435\u0440\u0435\u043d\u043e\u0441\u043e\u043c_\u0444\u0430\u0439\u043b\u043e\u0432_\u043d\u0430_\u0434\u0440\u0443\u0433\u043e\u0439_\u0434\u0438\u0441\u043a",
+      "target": "docs_notes_files_restoredbmovetonewdisk_\u043f\u043e\u0434\u0433\u043e\u0442\u043e\u0432\u043a\u0430",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/notes/files/restoreDbMoveToNewDisk.md",
+      "source_location": "L182",
+      "weight": 1.0,
+      "source": "docs_notes_files_restoredbmovetonewdisk_\u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435_\u0431\u0430\u0437_sql_server_\u0438\u0437_bak_\u0441_\u043f\u0435\u0440\u0435\u043d\u043e\u0441\u043e\u043c_\u0444\u0430\u0439\u043b\u043e\u0432_\u043d\u0430_\u0434\u0440\u0443\u0433\u043e\u0439_\u0434\u0438\u0441\u043a",
+      "target": "docs_notes_files_restoredbmovetonewdisk_\u043f\u043e\u043b\u043d\u044b\u0439_\u0442\u0435\u043a\u0441\u0442_\u0441\u043a\u0440\u0438\u043f\u0442\u0430",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/notes/files/restoreDbMoveToNewDisk.md",
+      "source_location": "L150",
+      "weight": 1.0,
+      "source": "docs_notes_files_restoredbmovetonewdisk_\u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435_\u0431\u0430\u0437_sql_server_\u0438\u0437_bak_\u0441_\u043f\u0435\u0440\u0435\u043d\u043e\u0441\u043e\u043c_\u0444\u0430\u0439\u043b\u043e\u0432_\u043d\u0430_\u0434\u0440\u0443\u0433\u043e\u0439_\u0434\u0438\u0441\u043a",
+      "target": "docs_notes_files_restoredbmovetonewdisk_\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430_\u043f\u043e\u0441\u043b\u0435_\u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u044f",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/notes/files/restoreDbMoveToNewDisk.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "docs_notes_files_restoredbmovetonewdisk_\u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435_\u0431\u0430\u0437_sql_server_\u0438\u0437_bak_\u0441_\u043f\u0435\u0440\u0435\u043d\u043e\u0441\u043e\u043c_\u0444\u0430\u0439\u043b\u043e\u0432_\u043d\u0430_\u0434\u0440\u0443\u0433\u043e\u0439_\u0434\u0438\u0441\u043a",
+      "target": "docs_notes_files_restoredbmovetonewdisk_\u0447\u0442\u043e_\u0434\u0435\u043b\u0430\u0435\u0442_\u0441\u043a\u0440\u0438\u043f\u0442",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/notes/files/restoreDbMoveToNewDisk.md",
+      "source_location": "L84",
+      "weight": 1.0,
+      "source": "docs_notes_files_restoredbmovetonewdisk_\u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435_\u0431\u0430\u0437_sql_server_\u0438\u0437_bak_\u0441_\u043f\u0435\u0440\u0435\u043d\u043e\u0441\u043e\u043c_\u0444\u0430\u0439\u043b\u043e\u0432_\u043d\u0430_\u0434\u0440\u0443\u0433\u043e\u0439_\u0434\u0438\u0441\u043a",
+      "target": "docs_notes_files_restoredbmovetonewdisk_\u0448\u0430\u0433_1_\u043f\u0440\u043e\u0431\u043d\u044b\u0439_\u0437\u0430\u043f\u0443\u0441\u043a",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/notes/files/restoreDbMoveToNewDisk.md",
+      "source_location": "L102",
+      "weight": 1.0,
+      "source": "docs_notes_files_restoredbmovetonewdisk_\u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435_\u0431\u0430\u0437_sql_server_\u0438\u0437_bak_\u0441_\u043f\u0435\u0440\u0435\u043d\u043e\u0441\u043e\u043c_\u0444\u0430\u0439\u043b\u043e\u0432_\u043d\u0430_\u0434\u0440\u0443\u0433\u043e\u0439_\u0434\u0438\u0441\u043a",
+      "target": "docs_notes_files_restoredbmovetonewdisk_\u0448\u0430\u0433_2_\u0431\u043e\u0435\u0432\u043e\u0439_\u0437\u0430\u043f\u0443\u0441\u043a",
       "confidence_score": 1.0
     },
     {
@@ -5430,6 +5710,76 @@
       "weight": 1.0,
       "source": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredboverwritefrombak_\u043f\u0440\u0438\u043d\u0446\u0438\u043f_\u0440\u0430\u0431\u043e\u0442\u044b",
       "target": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_files_restoredboverwritefrombak_9_\u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u0438\u0435",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/notes/files/shrinkProgress.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "docs_notes_files_shrinkprogress",
+      "target": "docs_notes_files_shrinkprogress_\u043a\u043e\u043d\u0442\u0440\u043e\u043b\u044c_\u0445\u043e\u0434\u0430_dbcc_shrinkfile_shrinkdatabase_\u0432_ms_sql_server",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/notes/files/shrinkProgress.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "docs_notes_files_shrinkprogress_\u043a\u043e\u043d\u0442\u0440\u043e\u043b\u044c_\u0445\u043e\u0434\u0430_dbcc_shrinkfile_shrinkdatabase_\u0432_ms_sql_server",
+      "target": "docs_notes_files_shrinkprogress_\u043a\u0430\u043a_\u0447\u0438\u0442\u0430\u0442\u044c_\u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/notes/files/shrinkProgress.md",
+      "source_location": "L152",
+      "weight": 1.0,
+      "source": "docs_notes_files_shrinkprogress_\u043a\u043e\u043d\u0442\u0440\u043e\u043b\u044c_\u0445\u043e\u0434\u0430_dbcc_shrinkfile_shrinkdatabase_\u0432_ms_sql_server",
+      "target": "docs_notes_files_shrinkprogress_\u043f\u043e\u0441\u043b\u0435_\u0448\u0440\u0438\u043d\u043a\u0430",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/notes/files/shrinkProgress.md",
+      "source_location": "L144",
+      "weight": 1.0,
+      "source": "docs_notes_files_shrinkprogress_\u043a\u043e\u043d\u0442\u0440\u043e\u043b\u044c_\u0445\u043e\u0434\u0430_dbcc_shrinkfile_shrinkdatabase_\u0432_ms_sql_server",
+      "target": "docs_notes_files_shrinkprogress_\u043f\u0440\u0435\u0440\u044b\u0432\u0430\u043d\u0438\u0435_\u0448\u0440\u0438\u043d\u043a\u0430",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/notes/files/shrinkProgress.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "docs_notes_files_shrinkprogress_\u043a\u043e\u043d\u0442\u0440\u043e\u043b\u044c_\u0445\u043e\u0434\u0430_dbcc_shrinkfile_shrinkdatabase_\u0432_ms_sql_server",
+      "target": "docs_notes_files_shrinkprogress_\u043f\u0440\u043e\u0433\u0440\u0435\u0441\u0441_\u0448\u0440\u0438\u043d\u043a\u0430",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/notes/files/shrinkProgress.md",
+      "source_location": "L66",
+      "weight": 1.0,
+      "source": "docs_notes_files_shrinkprogress_\u043a\u043e\u043d\u0442\u0440\u043e\u043b\u044c_\u0445\u043e\u0434\u0430_dbcc_shrinkfile_shrinkdatabase_\u0432_ms_sql_server",
+      "target": "docs_notes_files_shrinkprogress_\u0441\u043a\u043e\u043b\u044c\u043a\u043e_\u043c\u0435\u0441\u0442\u0430_\u0440\u0435\u0430\u043b\u044c\u043d\u043e_\u043c\u043e\u0436\u043d\u043e_\u043e\u0442\u0434\u0430\u0442\u044c",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/notes/files/shrinkProgress.md",
+      "source_location": "L88",
+      "weight": 1.0,
+      "source": "docs_notes_files_shrinkprogress_\u043a\u043e\u043d\u0442\u0440\u043e\u043b\u044c_\u0445\u043e\u0434\u0430_dbcc_shrinkfile_shrinkdatabase_\u0432_ms_sql_server",
+      "target": "docs_notes_files_shrinkprogress_\u0448\u0440\u0438\u043d\u043a_\u043f\u043e\u0440\u0446\u0438\u044f\u043c\u0438",
       "confidence_score": 1.0
     },
     {
@@ -8874,5 +9224,5 @@
       "source_file": "mkdocs.yml"
     }
   ],
-  "built_at_commit": "f6fb7bd4daf94772000e58124621fb6d810de8f3"
+  "built_at_commit": "275a162f3263c52d735be62c0483ab96950a6cf5"
 }
