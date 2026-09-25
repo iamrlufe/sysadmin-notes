@@ -1,0 +1,6 @@
+# Редиректы Cloudflare Pages. Файл копируется MkDocs из docs/ в site/.
+# Статьи про восстановление из .bak объединены в одну.
+/notes/files/restoreDbOverwriteFromBak/  /notes/files/restoreDbFromBak/  301
+/notes/files/restoreDbOverwriteFromBak   /notes/files/restoreDbFromBak/  301
+/notes/files/restoreDbMoveToNewDisk/     /notes/files/restoreDbFromBak/  301
+/notes/files/restoreDbMoveToNewDisk      /notes/files/restoreDbFromBak/  301

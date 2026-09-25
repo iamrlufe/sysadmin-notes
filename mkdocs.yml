@@ -89,8 +89,6 @@ nav:
   - Файлы и утилиты:
       - notes/files/index.md
       - notes/files/restoreDbFromBak.md
-      - notes/files/restoreDbOverwriteFromBak.md
-      - notes/files/restoreDbMoveToNewDisk.md
       - notes/files/uploadBackupsToFtp.md
       - notes/files/sqlReindexStats.md
       - notes/files/shrinkProgress.md
