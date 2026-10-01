@@ -2652,7 +2652,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "users_romanimanberdiyev_library_cloudstorage_googledrive_rlufte_gmail_com_\u043c\u043e\u0439_\u0434\u0438\u0441\u043a_application_sysadmin_notes_docs_notes_network_mikrotikipsecnatnetmap_md",
-      "community": 14,
+      "community": 9,
       "norm_label": "mikrotikipsecnatnetmap.md"
     },
     {
@@ -3082,7 +3082,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "users_romanimanberdiyev_library_cloudstorage_googledrive_rlufte_gmail_com_\u043c\u043e\u0439_\u0434\u0438\u0441\u043a_application_sysadmin_notes_docs_notes_network_wireguardsitetosite_md",
-      "community": 14,
+      "community": 9,
       "norm_label": "wireguardsitetosite.md"
     },
     {
@@ -3092,7 +3092,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "users_romanimanberdiyev_library_cloudstorage_googledrive_rlufte_gmail_com_\u043c\u043e\u0439_\u0434\u0438\u0441\u043a_application_sysadmin_notes_docs_notes_network_wireguardsitetosite_site_to_site_\u0442\u0443\u043d\u043d\u0435\u043b\u044c_wireguard_\u043d\u0430_routeros_mikrotik",
-      "community": 14,
+      "community": 9,
       "norm_label": "site-to-site \u0442\u0443\u043d\u043d\u0435\u043b\u044c wireguard \u043d\u0430 routeros (mikrotik)"
     },
     {
@@ -3102,7 +3102,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "users_romanimanberdiyev_library_cloudstorage_googledrive_rlufte_gmail_com_\u043c\u043e\u0439_\u0434\u0438\u0441\u043a_application_sysadmin_notes_docs_notes_network_wireguardsitetosite_\u0438\u0434\u0435\u044f_\u043c\u0438\u0433\u0440\u0430\u0446\u0438\u0438",
-      "community": 14,
+      "community": 9,
       "norm_label": "\u0438\u0434\u0435\u044f \u043c\u0438\u0433\u0440\u0430\u0446\u0438\u0438"
     },
     {
@@ -3112,7 +3112,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "users_romanimanberdiyev_library_cloudstorage_googledrive_rlufte_gmail_com_\u043c\u043e\u0439_\u0434\u0438\u0441\u043a_application_sysadmin_notes_docs_notes_network_wireguardsitetosite_\u043f\u043e\u0434\u0433\u043e\u0442\u043e\u0432\u043a\u0430_\u0441\u0434\u0435\u043b\u0430\u0442\u044c_\u043d\u0430_\u043e\u0431\u0435\u0438\u0445_\u0441\u0442\u043e\u0440\u043e\u043d\u0430\u0445_\u0437\u0430\u0440\u0430\u043d\u0435\u0435",
-      "community": 14,
+      "community": 9,
       "norm_label": "\u043f\u043e\u0434\u0433\u043e\u0442\u043e\u0432\u043a\u0430 (\u0441\u0434\u0435\u043b\u0430\u0442\u044c \u043d\u0430 \u043e\u0431\u0435\u0438\u0445 \u0441\u0442\u043e\u0440\u043e\u043d\u0430\u0445 \u0437\u0430\u0440\u0430\u043d\u0435\u0435)"
     },
     {
@@ -3122,7 +3122,7 @@
       "source_location": "L43",
       "_origin": "ast",
       "id": "users_romanimanberdiyev_library_cloudstorage_googledrive_rlufte_gmail_com_\u043c\u043e\u0439_\u0434\u0438\u0441\u043a_application_sysadmin_notes_docs_notes_network_wireguardsitetosite_\u0448\u0430\u0433\u0438_\u043d\u0430_\u0441\u0442\u043e\u0440\u043e\u043d\u0435_a",
-      "community": 14,
+      "community": 9,
       "norm_label": "\u0448\u0430\u0433\u0438 \u043d\u0430 \u0441\u0442\u043e\u0440\u043e\u043d\u0435 a"
     },
     {
@@ -3132,7 +3132,7 @@
       "source_location": "L134",
       "_origin": "ast",
       "id": "users_romanimanberdiyev_library_cloudstorage_googledrive_rlufte_gmail_com_\u043c\u043e\u0439_\u0434\u0438\u0441\u043a_application_sysadmin_notes_docs_notes_network_wireguardsitetosite_\u0448\u0430\u0433\u0438_\u043d\u0430_\u0441\u0442\u043e\u0440\u043e\u043d\u0435_b_\u0437\u0435\u0440\u043a\u0430\u043b\u044c\u043d\u043e",
-      "community": 14,
+      "community": 9,
       "norm_label": "\u0448\u0430\u0433\u0438 \u043d\u0430 \u0441\u0442\u043e\u0440\u043e\u043d\u0435 b (\u0437\u0435\u0440\u043a\u0430\u043b\u044c\u043d\u043e)"
     },
     {
@@ -3142,7 +3142,7 @@
       "source_location": "L191",
       "_origin": "ast",
       "id": "users_romanimanberdiyev_library_cloudstorage_googledrive_rlufte_gmail_com_\u043c\u043e\u0439_\u0434\u0438\u0441\u043a_application_sysadmin_notes_docs_notes_network_wireguardsitetosite_\u0447\u0430\u0441\u0442\u044b\u0435_\u043e\u0448\u0438\u0431\u043a\u0438",
-      "community": 14,
+      "community": 9,
       "norm_label": "\u0447\u0430\u0441\u0442\u044b\u0435 \u043e\u0448\u0438\u0431\u043a\u0438"
     },
     {
@@ -3152,7 +3152,7 @@
       "source_location": "L199",
       "_origin": "ast",
       "id": "users_romanimanberdiyev_library_cloudstorage_googledrive_rlufte_gmail_com_\u043c\u043e\u0439_\u0434\u0438\u0441\u043a_application_sysadmin_notes_docs_notes_network_wireguardsitetosite_\u043f\u0440\u043e\u0432\u0435\u0440\u043e\u0447\u043d\u044b\u0439_\u0447\u0435\u043a_\u043b\u0438\u0441\u0442_\u043f\u0435\u0440\u0435\u0434_\u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435\u043c_ipsec",
-      "community": 14,
+      "community": 9,
       "norm_label": "\u043f\u0440\u043e\u0432\u0435\u0440\u043e\u0447\u043d\u044b\u0438 \u0447\u0435\u043a-\u043b\u0438\u0441\u0442 \u043f\u0435\u0440\u0435\u0434 \u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435\u043c ipsec"
     },
     {
@@ -3162,7 +3162,7 @@
       "source_location": "L213",
       "_origin": "ast",
       "id": "users_romanimanberdiyev_library_cloudstorage_googledrive_rlufte_gmail_com_\u043c\u043e\u0439_\u0434\u0438\u0441\u043a_application_sysadmin_notes_docs_notes_network_wireguardsitetosite_\u0441\u043c\u0435\u0436\u043d\u044b\u0435_\u0437\u0430\u043c\u0435\u0442\u043a\u0438",
-      "community": 14,
+      "community": 9,
       "norm_label": "\u0441\u043c\u0435\u0436\u043d\u044b\u0435 \u0437\u0430\u043c\u0435\u0442\u043a\u0438"
     },
     {
@@ -3384,6 +3384,136 @@
       "id": "users_romanimanberdiyev_documents_sysadmin_notes_docs_notes_windows_autostartwindowsserver_\u043e\u0441\u043e\u0431\u0435\u043d\u043d\u043e\u0441\u0442\u0438_\u0438_\u043f\u043e\u0434\u0432\u043e\u0434\u043d\u044b\u0435_\u043a\u0430\u043c\u043d\u0438",
       "community": 32,
       "norm_label": "\u043e\u0441\u043e\u0431\u0435\u043d\u043d\u043e\u0441\u0442\u0438 \u0438 \u043f\u043e\u0434\u0432\u043e\u0434\u043d\u044b\u0435 \u043a\u0430\u043c\u043d\u0438"
+    },
+    {
+      "label": "iis1cRequestLimit.md",
+      "file_type": "document",
+      "source_file": "docs/notes/windows/iis1cRequestLimit.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_notes_windows_iis1crequestlimit",
+      "community": 45,
+      "norm_label": "iis1crequestlimit.md"
+    },
+    {
+      "label": "\u041e\u0448\u0438\u0431\u043a\u0430 413 \u043d\u0430 \u043f\u0443\u0431\u043b\u0438\u043a\u0430\u0446\u0438\u0438 1\u0421 \u0432 IIS \u2014 \u0443\u0432\u0435\u043b\u0438\u0447\u0435\u043d\u0438\u0435 \u043b\u0438\u043c\u0438\u0442\u0430 \u0440\u0430\u0437\u043c\u0435\u0440\u0430 \u0437\u0430\u043f\u0440\u043e\u0441\u0430",
+      "file_type": "document",
+      "source_file": "docs/notes/windows/iis1cRequestLimit.md",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "docs_notes_windows_iis1crequestlimit_\u043e\u0448\u0438\u0431\u043a\u0430_413_\u043d\u0430_\u043f\u0443\u0431\u043b\u0438\u043a\u0430\u0446\u0438\u0438_1\u0441_\u0432_iis_\u0443\u0432\u0435\u043b\u0438\u0447\u0435\u043d\u0438\u0435_\u043b\u0438\u043c\u0438\u0442\u0430_\u0440\u0430\u0437\u043c\u0435\u0440\u0430_\u0437\u0430\u043f\u0440\u043e\u0441\u0430",
+      "community": 45,
+      "norm_label": "\u043e\u0448\u0438\u0431\u043a\u0430 413 \u043d\u0430 \u043f\u0443\u0431\u043b\u0438\u043a\u0430\u0446\u0438\u0438 1\u0441 \u0432 iis \u2014 \u0443\u0432\u0435\u043b\u0438\u0447\u0435\u043d\u0438\u0435 \u043b\u0438\u043c\u0438\u0442\u0430 \u0440\u0430\u0437\u043c\u0435\u0440\u0430 \u0437\u0430\u043f\u0440\u043e\u0441\u0430"
+    },
+    {
+      "label": "\u0421\u0438\u043c\u043f\u0442\u043e\u043c\u044b",
+      "file_type": "document",
+      "source_file": "docs/notes/windows/iis1cRequestLimit.md",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "docs_notes_windows_iis1crequestlimit_\u0441\u0438\u043c\u043f\u0442\u043e\u043c\u044b",
+      "community": 45,
+      "norm_label": "\u0441\u0438\u043c\u043f\u0442\u043e\u043c\u044b"
+    },
+    {
+      "label": "\u041f\u0440\u0438\u0447\u0438\u043d\u0430",
+      "file_type": "document",
+      "source_file": "docs/notes/windows/iis1cRequestLimit.md",
+      "source_location": "L29",
+      "_origin": "ast",
+      "id": "docs_notes_windows_iis1crequestlimit_\u043f\u0440\u0438\u0447\u0438\u043d\u0430",
+      "community": 45,
+      "norm_label": "\u043f\u0440\u0438\u0447\u0438\u043d\u0430"
+    },
+    {
+      "label": "\u0414\u0438\u0430\u0433\u043d\u043e\u0441\u0442\u0438\u043a\u0430",
+      "file_type": "document",
+      "source_file": "docs/notes/windows/iis1cRequestLimit.md",
+      "source_location": "L48",
+      "_origin": "ast",
+      "id": "docs_notes_windows_iis1crequestlimit_\u0434\u0438\u0430\u0433\u043d\u043e\u0441\u0442\u0438\u043a\u0430",
+      "community": 45,
+      "norm_label": "\u0434\u0438\u0430\u0433\u043d\u043e\u0441\u0442\u0438\u043a\u0430"
+    },
+    {
+      "label": "\u0423\u0432\u0435\u043b\u0438\u0447\u0435\u043d\u0438\u0435 \u043b\u0438\u043c\u0438\u0442\u0430",
+      "file_type": "document",
+      "source_file": "docs/notes/windows/iis1cRequestLimit.md",
+      "source_location": "L94",
+      "_origin": "ast",
+      "id": "docs_notes_windows_iis1crequestlimit_\u0443\u0432\u0435\u043b\u0438\u0447\u0435\u043d\u0438\u0435_\u043b\u0438\u043c\u0438\u0442\u0430",
+      "community": 45,
+      "norm_label": "\u0443\u0432\u0435\u043b\u0438\u0447\u0435\u043d\u0438\u0435 \u043b\u0438\u043c\u0438\u0442\u0430"
+    },
+    {
+      "label": "\u0421\u043f\u043e\u0441\u043e\u0431 1. appcmd (\u0440\u0435\u043a\u043e\u043c\u0435\u043d\u0434\u0443\u0435\u0442\u0441\u044f)",
+      "file_type": "document",
+      "source_file": "docs/notes/windows/iis1cRequestLimit.md",
+      "source_location": "L102",
+      "_origin": "ast",
+      "id": "docs_notes_windows_iis1crequestlimit_\u0441\u043f\u043e\u0441\u043e\u0431_1_appcmd_\u0440\u0435\u043a\u043e\u043c\u0435\u043d\u0434\u0443\u0435\u0442\u0441\u044f",
+      "community": 45,
+      "norm_label": "\u0441\u043f\u043e\u0441\u043e\u0431 1. appcmd (\u0440\u0435\u043a\u043e\u043c\u0435\u043d\u0434\u0443\u0435\u0442\u0441\u044f)"
+    },
+    {
+      "label": "\u0421\u043f\u043e\u0441\u043e\u0431 2. \u0414\u0438\u0441\u043f\u0435\u0442\u0447\u0435\u0440 IIS",
+      "file_type": "document",
+      "source_file": "docs/notes/windows/iis1cRequestLimit.md",
+      "source_location": "L123",
+      "_origin": "ast",
+      "id": "docs_notes_windows_iis1crequestlimit_\u0441\u043f\u043e\u0441\u043e\u0431_2_\u0434\u0438\u0441\u043f\u0435\u0442\u0447\u0435\u0440_iis",
+      "community": 45,
+      "norm_label": "\u0441\u043f\u043e\u0441\u043e\u0431 2. \u0434\u0438\u0441\u043f\u0435\u0442\u0447\u0435\u0440 iis"
+    },
+    {
+      "label": "\u0422\u0430\u0431\u043b\u0438\u0446\u0430 \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0439",
+      "file_type": "document",
+      "source_file": "docs/notes/windows/iis1cRequestLimit.md",
+      "source_location": "L137",
+      "_origin": "ast",
+      "id": "docs_notes_windows_iis1crequestlimit_\u0442\u0430\u0431\u043b\u0438\u0446\u0430_\u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0439",
+      "community": 45,
+      "norm_label": "\u0442\u0430\u0431\u043b\u0438\u0446\u0430 \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0438"
+    },
+    {
+      "label": "\u041f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 \u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442\u0430",
+      "file_type": "document",
+      "source_file": "docs/notes/windows/iis1cRequestLimit.md",
+      "source_location": "L151",
+      "_origin": "ast",
+      "id": "docs_notes_windows_iis1crequestlimit_\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430_\u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442\u0430",
+      "community": 45,
+      "norm_label": "\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 \u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442\u0430"
+    },
+    {
+      "label": "\u041e\u0442\u043a\u0430\u0442",
+      "file_type": "document",
+      "source_file": "docs/notes/windows/iis1cRequestLimit.md",
+      "source_location": "L188",
+      "_origin": "ast",
+      "id": "docs_notes_windows_iis1crequestlimit_\u043e\u0442\u043a\u0430\u0442",
+      "community": 45,
+      "norm_label": "\u043e\u0442\u043a\u0430\u0442"
+    },
+    {
+      "label": "\u0415\u0441\u043b\u0438 \u043d\u0435 \u043f\u043e\u043c\u043e\u0433\u043b\u043e { #esli-ne-pomoglo }",
+      "file_type": "document",
+      "source_file": "docs/notes/windows/iis1cRequestLimit.md",
+      "source_location": "L203",
+      "_origin": "ast",
+      "id": "docs_notes_windows_iis1crequestlimit_\u0435\u0441\u043b\u0438_\u043d\u0435_\u043f\u043e\u043c\u043e\u0433\u043b\u043e_esli_ne_pomoglo",
+      "community": 45,
+      "norm_label": "\u0435\u0441\u043b\u0438 \u043d\u0435 \u043f\u043e\u043c\u043e\u0433\u043b\u043e { #esli-ne-pomoglo }"
+    },
+    {
+      "label": "\u041f\u043e\u0434\u0432\u043e\u0434\u043d\u044b\u0435 \u043a\u0430\u043c\u043d\u0438",
+      "file_type": "document",
+      "source_file": "docs/notes/windows/iis1cRequestLimit.md",
+      "source_location": "L233",
+      "_origin": "ast",
+      "id": "docs_notes_windows_iis1crequestlimit_\u043f\u043e\u0434\u0432\u043e\u0434\u043d\u044b\u0435_\u043a\u0430\u043c\u043d\u0438",
+      "community": 45,
+      "norm_label": "\u043f\u043e\u0434\u0432\u043e\u0434\u043d\u044b\u0435 \u043a\u0430\u043c\u043d\u0438"
     },
     {
       "label": "index.md",
@@ -7875,6 +8005,136 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "docs/notes/windows/iis1cRequestLimit.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "docs_notes_windows_iis1crequestlimit",
+      "target": "docs_notes_windows_iis1crequestlimit_\u043e\u0448\u0438\u0431\u043a\u0430_413_\u043d\u0430_\u043f\u0443\u0431\u043b\u0438\u043a\u0430\u0446\u0438\u0438_1\u0441_\u0432_iis_\u0443\u0432\u0435\u043b\u0438\u0447\u0435\u043d\u0438\u0435_\u043b\u0438\u043c\u0438\u0442\u0430_\u0440\u0430\u0437\u043c\u0435\u0440\u0430_\u0437\u0430\u043f\u0440\u043e\u0441\u0430",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/notes/windows/index.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "docs_notes_windows_index",
+      "target": "docs_notes_windows_iis1crequestlimit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/notes/windows/iis1cRequestLimit.md",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "docs_notes_windows_iis1crequestlimit_\u043e\u0448\u0438\u0431\u043a\u0430_413_\u043d\u0430_\u043f\u0443\u0431\u043b\u0438\u043a\u0430\u0446\u0438\u0438_1\u0441_\u0432_iis_\u0443\u0432\u0435\u043b\u0438\u0447\u0435\u043d\u0438\u0435_\u043b\u0438\u043c\u0438\u0442\u0430_\u0440\u0430\u0437\u043c\u0435\u0440\u0430_\u0437\u0430\u043f\u0440\u043e\u0441\u0430",
+      "target": "docs_notes_windows_iis1crequestlimit_\u0434\u0438\u0430\u0433\u043d\u043e\u0441\u0442\u0438\u043a\u0430",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/notes/windows/iis1cRequestLimit.md",
+      "source_location": "L203",
+      "weight": 1.0,
+      "source": "docs_notes_windows_iis1crequestlimit_\u043e\u0448\u0438\u0431\u043a\u0430_413_\u043d\u0430_\u043f\u0443\u0431\u043b\u0438\u043a\u0430\u0446\u0438\u0438_1\u0441_\u0432_iis_\u0443\u0432\u0435\u043b\u0438\u0447\u0435\u043d\u0438\u0435_\u043b\u0438\u043c\u0438\u0442\u0430_\u0440\u0430\u0437\u043c\u0435\u0440\u0430_\u0437\u0430\u043f\u0440\u043e\u0441\u0430",
+      "target": "docs_notes_windows_iis1crequestlimit_\u0435\u0441\u043b\u0438_\u043d\u0435_\u043f\u043e\u043c\u043e\u0433\u043b\u043e_esli_ne_pomoglo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/notes/windows/iis1cRequestLimit.md",
+      "source_location": "L188",
+      "weight": 1.0,
+      "source": "docs_notes_windows_iis1crequestlimit_\u043e\u0448\u0438\u0431\u043a\u0430_413_\u043d\u0430_\u043f\u0443\u0431\u043b\u0438\u043a\u0430\u0446\u0438\u0438_1\u0441_\u0432_iis_\u0443\u0432\u0435\u043b\u0438\u0447\u0435\u043d\u0438\u0435_\u043b\u0438\u043c\u0438\u0442\u0430_\u0440\u0430\u0437\u043c\u0435\u0440\u0430_\u0437\u0430\u043f\u0440\u043e\u0441\u0430",
+      "target": "docs_notes_windows_iis1crequestlimit_\u043e\u0442\u043a\u0430\u0442",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/notes/windows/iis1cRequestLimit.md",
+      "source_location": "L233",
+      "weight": 1.0,
+      "source": "docs_notes_windows_iis1crequestlimit_\u043e\u0448\u0438\u0431\u043a\u0430_413_\u043d\u0430_\u043f\u0443\u0431\u043b\u0438\u043a\u0430\u0446\u0438\u0438_1\u0441_\u0432_iis_\u0443\u0432\u0435\u043b\u0438\u0447\u0435\u043d\u0438\u0435_\u043b\u0438\u043c\u0438\u0442\u0430_\u0440\u0430\u0437\u043c\u0435\u0440\u0430_\u0437\u0430\u043f\u0440\u043e\u0441\u0430",
+      "target": "docs_notes_windows_iis1crequestlimit_\u043f\u043e\u0434\u0432\u043e\u0434\u043d\u044b\u0435_\u043a\u0430\u043c\u043d\u0438",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/notes/windows/iis1cRequestLimit.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "docs_notes_windows_iis1crequestlimit_\u043e\u0448\u0438\u0431\u043a\u0430_413_\u043d\u0430_\u043f\u0443\u0431\u043b\u0438\u043a\u0430\u0446\u0438\u0438_1\u0441_\u0432_iis_\u0443\u0432\u0435\u043b\u0438\u0447\u0435\u043d\u0438\u0435_\u043b\u0438\u043c\u0438\u0442\u0430_\u0440\u0430\u0437\u043c\u0435\u0440\u0430_\u0437\u0430\u043f\u0440\u043e\u0441\u0430",
+      "target": "docs_notes_windows_iis1crequestlimit_\u043f\u0440\u0438\u0447\u0438\u043d\u0430",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/notes/windows/iis1cRequestLimit.md",
+      "source_location": "L151",
+      "weight": 1.0,
+      "source": "docs_notes_windows_iis1crequestlimit_\u043e\u0448\u0438\u0431\u043a\u0430_413_\u043d\u0430_\u043f\u0443\u0431\u043b\u0438\u043a\u0430\u0446\u0438\u0438_1\u0441_\u0432_iis_\u0443\u0432\u0435\u043b\u0438\u0447\u0435\u043d\u0438\u0435_\u043b\u0438\u043c\u0438\u0442\u0430_\u0440\u0430\u0437\u043c\u0435\u0440\u0430_\u0437\u0430\u043f\u0440\u043e\u0441\u0430",
+      "target": "docs_notes_windows_iis1crequestlimit_\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430_\u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442\u0430",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/notes/windows/iis1cRequestLimit.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "docs_notes_windows_iis1crequestlimit_\u043e\u0448\u0438\u0431\u043a\u0430_413_\u043d\u0430_\u043f\u0443\u0431\u043b\u0438\u043a\u0430\u0446\u0438\u0438_1\u0441_\u0432_iis_\u0443\u0432\u0435\u043b\u0438\u0447\u0435\u043d\u0438\u0435_\u043b\u0438\u043c\u0438\u0442\u0430_\u0440\u0430\u0437\u043c\u0435\u0440\u0430_\u0437\u0430\u043f\u0440\u043e\u0441\u0430",
+      "target": "docs_notes_windows_iis1crequestlimit_\u0441\u0438\u043c\u043f\u0442\u043e\u043c\u044b",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/notes/windows/iis1cRequestLimit.md",
+      "source_location": "L94",
+      "weight": 1.0,
+      "source": "docs_notes_windows_iis1crequestlimit_\u043e\u0448\u0438\u0431\u043a\u0430_413_\u043d\u0430_\u043f\u0443\u0431\u043b\u0438\u043a\u0430\u0446\u0438\u0438_1\u0441_\u0432_iis_\u0443\u0432\u0435\u043b\u0438\u0447\u0435\u043d\u0438\u0435_\u043b\u0438\u043c\u0438\u0442\u0430_\u0440\u0430\u0437\u043c\u0435\u0440\u0430_\u0437\u0430\u043f\u0440\u043e\u0441\u0430",
+      "target": "docs_notes_windows_iis1crequestlimit_\u0443\u0432\u0435\u043b\u0438\u0447\u0435\u043d\u0438\u0435_\u043b\u0438\u043c\u0438\u0442\u0430",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/notes/windows/iis1cRequestLimit.md",
+      "source_location": "L102",
+      "weight": 1.0,
+      "source": "docs_notes_windows_iis1crequestlimit_\u0443\u0432\u0435\u043b\u0438\u0447\u0435\u043d\u0438\u0435_\u043b\u0438\u043c\u0438\u0442\u0430",
+      "target": "docs_notes_windows_iis1crequestlimit_\u0441\u043f\u043e\u0441\u043e\u0431_1_appcmd_\u0440\u0435\u043a\u043e\u043c\u0435\u043d\u0434\u0443\u0435\u0442\u0441\u044f",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/notes/windows/iis1cRequestLimit.md",
+      "source_location": "L123",
+      "weight": 1.0,
+      "source": "docs_notes_windows_iis1crequestlimit_\u0443\u0432\u0435\u043b\u0438\u0447\u0435\u043d\u0438\u0435_\u043b\u0438\u043c\u0438\u0442\u0430",
+      "target": "docs_notes_windows_iis1crequestlimit_\u0441\u043f\u043e\u0441\u043e\u0431_2_\u0434\u0438\u0441\u043f\u0435\u0442\u0447\u0435\u0440_iis",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/notes/windows/iis1cRequestLimit.md",
+      "source_location": "L137",
+      "weight": 1.0,
+      "source": "docs_notes_windows_iis1crequestlimit_\u0443\u0432\u0435\u043b\u0438\u0447\u0435\u043d\u0438\u0435_\u043b\u0438\u043c\u0438\u0442\u0430",
+      "target": "docs_notes_windows_iis1crequestlimit_\u0442\u0430\u0431\u043b\u0438\u0446\u0430_\u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0439",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "docs/notes/windows/index.md",
       "source_location": "L7",
       "weight": 1.0,
@@ -8884,5 +9144,5 @@
       "source_file": "mkdocs.yml"
     }
   ],
-  "built_at_commit": "dfb800a530ba9261e279d9e0f0368f7289a0f828"
+  "built_at_commit": "5be6d67a23378aa76977bd47253e8b456ec315a0"
 }
